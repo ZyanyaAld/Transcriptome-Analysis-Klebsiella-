@@ -87,6 +87,3 @@ celerybeat.pid
 .DS_Store
 Thumbs.db
 *.~lock.*
-
-git update-index --no-assume-unchanged C:\Users\marin\Klebsiella\Transcriptome-Analysis-Klebsiella-\docs\articulo_principal.pdf
-
