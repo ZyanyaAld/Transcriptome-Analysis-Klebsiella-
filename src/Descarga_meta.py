@@ -12,7 +12,7 @@ results_dir = "results"
 os.makedirs(results_dir, exist_ok=True)
 
 # =============================================================================
-# FUNCIÓN PRINCIPAL MEJORADA PARA CUALQUIER BIOPROJECT
+# FUNCIÓN PRINCIPAL
 # =============================================================================
 
 def descargar_bioproject_completo(bioproject_id):
@@ -238,7 +238,7 @@ def descargar_bioproject_completo(bioproject_id):
         return None
 
 # =============================================================================
-# FUNCIONES AUXILIARES - CORREGIDAS
+# FUNCIONES AUXILIARES 
 # =============================================================================
 
 def descargar_secuencias_lotes(ids_list, output_dir, db_type):
@@ -395,7 +395,7 @@ def crear_resumen_bioproject(bioproject_dir, bioproject_id, counts):
     print(f"   Resumen creado: {resumen_file}")
 
 # =============================================================================
-# EJECUCIÓN PRINCIPAL CON MANEJO DE ERRORES MEJORADO
+# EJECUCIÓN PRINCIPAL CON MANEJO DE ERRORES 
 # =============================================================================
 
 if __name__ == "__main__":
