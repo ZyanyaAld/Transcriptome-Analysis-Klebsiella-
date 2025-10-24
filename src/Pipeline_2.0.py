@@ -8,7 +8,7 @@ import shutil
 # ===============================
 # CONFIGURATION
 # ===============================
-Entrez.email = "zyanyava@lcg.unam.mx"  # Replace with your email
+Entrez.email = "marinams@lcg.unam.mx"  # Replace with your email
 
 # SRA project ID for GSE160968
 srp_id = "SRP291413"
