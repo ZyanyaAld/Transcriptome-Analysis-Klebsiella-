@@ -38,8 +38,8 @@ strain_hint = "AQSCr"                      # Nombre de cepa (opcional pero útil
 bioproject_hint = "PRJNA341863"                     # Ejemplo: "PRJNA341863" (opcional) o NONE
 
 # Rutas del SRA Toolkit (editar según tu sistema)
-prefetch_path = "/usr/local/bin/prefetch"        # En Windows: r"C:\\Program Files\\sratoolkit\\bin\\prefetch.exe"
-fasterq_dump_path = "/usr/local/bin/fasterq-dump"
+prefetch_path = "prefetch"        # Usamos un ambiente conda /home/ismadlsh/.conda/envs/bio_informatics
+fasterq_dump_path = "fasterq-dump"
 
 # ============================================================================
 # CREAR ESTRUCTURA DE DIRECTORIOS
@@ -58,7 +58,7 @@ print(f" Directorios creados en: {output_dir}")
 # ============================================================================
 # 1. OBTENER LOS SRR IDs DEL PROYECTO SRA
 # ============================================================================
-print(f"\n📡 Obteniendo IDs SRR del proyecto SRA: {srp_id}")
+print(f"\n Obteniendo IDs SRR del proyecto SRA: {srp_id}")
 
 handle = Entrez.esearch(db="sra", term=srp_id)
 record = Entrez.read(handle)
