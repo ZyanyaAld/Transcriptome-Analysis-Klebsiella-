@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Descarga de genoma de referencia desde NCBI Assembly (estándar reproducible)
 
@@ -12,7 +13,7 @@ Uso típico desde otro script:
         out_dir="results/genome",
         prefer_refseq=True,
         also_download=("protein", "cds"),  # opcional
-        check_md5=True                       # opcional
+        check_md5=True                     # opcional
     )
 
 Requisitos:
@@ -31,73 +32,69 @@ from typing import Dict, List, Optional, Tuple
 import datetime
 import os
 import re
+import time
+import hashlib
 import urllib.request
-from ftplib import FTP
-from urllib.parse import urlparse
+from urllib.error import HTTPError, URLError
 
 from Bio import Entrez
 
 # ──────────────────────────────────────────────────────────────────────────────
 # CONFIGURACIÓN GLOBAL
 # ──────────────────────────────────────────────────────────────────────────────
-# Sustituye por un correo real para cumplir políticas de NCBI
-Entrez.email = os.environ.get("NCBI_EMAIL", "you@example.com")
+# Sustituye por un correo real para cumplir políticas de NCBI (o exporta NCBI_EMAIL)
+Entrez.email = os.environ.get("NCBI_EMAIL", "marinams@lcg.unam.mx")
+# Soporte opcional para mayor cuota de peticiones (exporta NCBI_API_KEY si la tienes)
+_api_key = os.environ.get("NCBI_API_KEY")
+if _api_key:
+    Entrez.api_key = _api_key
 
 # ──────────────────────────────────────────────────────────────────────────────
-# UTILIDADES DE DESCARGA
+# UTILIDADES: HTTP con reintentos, MD5, parseo de md5checksums.txt
 # ──────────────────────────────────────────────────────────────────────────────
 
-def _list_ftp_dir(ftp_url: str) -> List[str]:
-    """Lista los archivos en el directorio del ensamblaje usando FTP.
-
-    Acepta ftp:// o https://, internamente convierte a FTP.
-    """
-    parsed = urlparse(ftp_url.replace("https://", "ftp://"))
-    ftp_server, ftp_path = parsed.hostname, parsed.path
-    if not ftp_server or not ftp_path:
-        raise ValueError(f"URL FTP inválida: {ftp_url}")
-
-    ftp = FTP(ftp_server)
-    ftp.login()  # anónimo
-    try:
-        ftp.cwd(ftp_path)
-        files = ftp.nlst()
-    finally:
+def _http_get(url: str, timeout: int = 60, tries: int = 5, backoff: float = 0.7) -> bytes:
+    """GET con reintentos exponenciales (429/5xx/errores de red)."""
+    last_exc = None
+    for i in range(tries):
         try:
-            ftp.quit()
-        except Exception:
-            pass
-    return files
+            with urllib.request.urlopen(url, timeout=timeout) as r:
+                return r.read()
+        except (HTTPError, URLError, TimeoutError) as e:
+            last_exc = e
+            time.sleep(backoff * (2 ** i))
+    raise last_exc
 
-
-def _download_file(url: str, out_path: str) -> None:
+def _download_file(url: str, out_path: str, overwrite: bool = False) -> None:
+    """Descarga con reintentos; idempotente por defecto (no sobrescribe si existe con tamaño>0)."""
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
-    urllib.request.urlretrieve(url, out_path)
+    if (not overwrite) and os.path.exists(out_path) and os.path.getsize(out_path) > 0:
+        return
+    data = _http_get(url)
+    with open(out_path, "wb") as f:
+        f.write(data)
 
-
-def _parse_md5_file(lines: List[str]) -> Dict[str, str]:
-    """Parsea el formato habitual de md5checksums.txt (md5  filename)."""
+def _parse_md5_file_text(md5_text: str) -> Dict[str, str]:
+    """Parses md5checksums.txt (formato: <md5> <espacio> <ruta/archivo>)."""
     md5map: Dict[str, str] = {}
-    for line in lines:
-        line = line.strip()
-        if not line or line.startswith("#"):
+    for ln in md5_text.splitlines():
+        ln = ln.strip()
+        if not ln or ln.startswith("#"):
             continue
-        # Ejemplo: d41d8cd98f00b204e9800998ecf8427e  GCF_XXXX_genomic.fna.gz
-        m = re.match(r"^([0-9a-fA-F]{32})\s+\*?(.+)$", line)
-        if m:
-            md5, fname = m.group(1).lower(), m.group(2).strip()
-            md5map[fname] = md5
+        parts = ln.split()
+        if len(parts) >= 2:
+            md5 = parts[0].lower()
+            fname = parts[-1].split("/")[-1]  # tomar nombre, ignorar path
+            if len(md5) == 32 and fname:
+                md5map[fname] = md5
     return md5map
 
-
 def _md5sum(path: str) -> str:
-    import hashlib
     h = hashlib.md5()
     with open(path, "rb") as f:
-        for chunk in iter(lambda: f.read(8192), b""):
+        for chunk in iter(lambda: f.read(1 << 20), b""):
             h.update(chunk)
     return h.hexdigest()
-
 
 # ──────────────────────────────────────────────────────────────────────────────
 # SELECCIÓN DE ENSAMBLAJE EN NCBI ASSEMBLY
@@ -128,6 +125,19 @@ def _score_assembly(doc) -> Tuple[int, int, int, datetime.datetime]:
         dt = datetime.datetime(1900, 1, 1)
     return (ref_score, lvl_score, is_refseq, dt)
 
+def _entrez_read_with_retry(fn, max_tries: int = 5, base_sleep: float = 0.5):
+    """Wrapper de Entrez.read con reintentos/backoff."""
+    last_exc = None
+    for i in range(max_tries):
+        try:
+            h = fn()
+            rec = Entrez.read(h)
+            h.close()
+            return rec
+        except Exception as e:
+            last_exc = e
+            time.sleep(base_sleep * (2 ** i))
+    raise last_exc
 
 def find_best_assembly(
     organism_query: str,
@@ -148,25 +158,19 @@ def find_best_assembly(
         terms.append(f"{bioproject}[BioProject]")
     q = " AND ".join(terms)
 
-    # Buscar IDs
-    h = Entrez.esearch(db="assembly", term=q, retmax=max_hits)
-    es = Entrez.read(h)
-    h.close()
+    # Buscar IDs (con reintentos)
+    es = _entrez_read_with_retry(lambda: Entrez.esearch(db="assembly", term=q, retmax=max_hits))
     ids = es.get("IdList", [])
 
     if not ids:
         # reintentar más laxo
-        h = Entrez.esearch(db="assembly", term=organism_query, retmax=max_hits)
-        es = Entrez.read(h)
-        h.close()
+        es = _entrez_read_with_retry(lambda: Entrez.esearch(db="assembly", term=organism_query, retmax=max_hits))
         ids = es.get("IdList", [])
         if not ids:
             raise RuntimeError(f"No se encontraron ensamblajes para: {organism_query}")
 
     # Resumen completo
-    h = Entrez.esummary(db="assembly", id=",".join(ids), report="full")
-    recs = Entrez.read(h)
-    h.close()
+    recs = _entrez_read_with_retry(lambda: Entrez.esummary(db="assembly", id=",".join(ids), report="full"))
     docs = recs["DocumentSummarySet"]["DocumentSummary"]
 
     # Filtro opcional por strain
@@ -202,7 +206,7 @@ def find_best_assembly(
 
     return {
         "accession": acc,
-        "ftp": ftp.replace("ftp://", "https://"),  # permite descarga vía HTTPS
+        "ftp": ftp.replace("ftp://", "https://"),  # descarga por HTTPS
         "organism": best.get("Organism"),
         "assembly_name": best.get("AssemblyName"),
         "assembly_status": best.get("AssemblyStatus"),
@@ -211,87 +215,72 @@ def find_best_assembly(
         "bioproject": best.get("BioprojectAccn"),
     }
 
-
 # ──────────────────────────────────────────────────────────────────────────────
-# DESCARGA DE PAQUETE DE REFERENCIA
+# DESCARGA DE PAQUETE DE REFERENCIA (HTTPS + md5checksums + reintentos)
 # ──────────────────────────────────────────────────────────────────────────────
 
 def download_reference_genome(
     ftp_url: str,
     output_dir: str,
-    also_download: Tuple[str, ...] = (),  # e.g., ("protein", "cds")
-    check_md5: bool = False,
+    also_download: Tuple[str, ...] = (),  # e.g., ("protein", "cds", "gbff")
+    check_md5: bool = True,
 ) -> Dict[str, str]:
-    """Descarga archivos clave del ensamblaje (FASTA, GFF y opcionales) desde el FTP.
-
-    also_download: tupla con elementos de {"protein", "cds", "gbff"}
-    check_md5: si True, intenta verificar checksum con md5checksums.txt
-
-    Retorna un dict con rutas locales descargadas.
     """
-    files = _list_ftp_dir(ftp_url)
-
-    required = {
-        "fna": next((f for f in files if f.endswith("_genomic.fna.gz")), None),
-        "gff": next((f for f in files if f.endswith("_genomic.gff.gz")), None),
-    }
-    if not required["fna"]:
-        raise RuntimeError("No se encontró *_genomic.fna.gz en el directorio del ensamblaje.")
-    if not required["gff"]:
-        raise RuntimeError("No se encontró *_genomic.gff.gz en el directorio del ensamblaje.")
-
-    optional_map = {
-        "protein": next((f for f in files if f.endswith("_protein.faa.gz")), None),
-        "cds": next((f for f in files if f.endswith("_cds_from_genomic.fna.gz")), None),
-        "gbff": next((f for f in files if f.endswith("_genomic.gbff.gz")), None),
-        "md5": next((f for f in files if f.endswith("md5checksums.txt")), None),
-    }
-
+    Descarga *_genomic.fna.gz y *_genomic.gff.gz (y opcionales) usando md5checksums.txt por HTTPS.
+    Verifica MD5 si está disponible. Idempotente por defecto.
+    Retorna dict con rutas locales: {"fasta": ..., "gff": ..., "protein": ..., "cds": ..., "gbff": ...}
+    """
     os.makedirs(output_dir, exist_ok=True)
 
-    def build(url_base: str, fname: str) -> Tuple[str, str]:
-        return (f"{url_base.rstrip('/')}/{fname}", os.path.join(output_dir, fname))
+    # Asegurar HTTPS y preparar índice md5
+    base = ftp_url.replace("ftp://", "https://").rstrip("/")
+    md5_url = f"{base}/md5checksums.txt"
+
+    md5_text = _http_get(md5_url).decode("utf-8", "ignore")
+    md5map = _parse_md5_file_text(md5_text)
+
+    # Derivar nombres esperados a partir del prefijo del directorio
+    prefix = os.path.basename(base)  # p.ej., GCF_008452795.1_ASM845279v1
+    required_fna = f"{prefix}_genomic.fna.gz"
+    required_gff = f"{prefix}_genomic.gff.gz"
+
+    if required_fna not in md5map:
+        raise RuntimeError(f"No se encontró {required_fna} en md5checksums.txt")
+    if required_gff not in md5map:
+        raise RuntimeError(f"No se encontró {required_gff} en md5checksums.txt")
+
+    to_get: Dict[str, str] = {
+        "fasta": required_fna,
+        "gff":   required_gff,
+    }
+    optional_candidates = {
+        "protein": f"{prefix}_protein.faa.gz",
+        "cds":     f"{prefix}_cds_from_genomic.fna.gz",
+        "gbff":    f"{prefix}_genomic.gbff.gz",
+    }
+    for label, fname in optional_candidates.items():
+        if label in also_download and fname in md5map:
+            to_get[label] = fname  # solo si existe en este ensamblaje
 
     downloaded: Dict[str, str] = {}
-
-    # Descargas obligatorias
-    fna_url, fna_out = build(ftp_url, required["fna"]) ; _download_file(fna_url, fna_out)
-    gff_url, gff_out = build(ftp_url, required["gff"]) ; _download_file(gff_url, gff_out)
-    downloaded["fasta"] = fna_out
-    downloaded["gff"] = gff_out
-
-    # Descargas opcionales
-    if "protein" in also_download and optional_map["protein"]:
-        u, o = build(ftp_url, optional_map["protein"]) ; _download_file(u, o)
-        downloaded["protein"] = o
-    if "cds" in also_download and optional_map["cds"]:
-        u, o = build(ftp_url, optional_map["cds"]) ; _download_file(u, o)
-        downloaded["cds"] = o
-    if "gbff" in also_download and optional_map["gbff"]:
-        u, o = build(ftp_url, optional_map["gbff"]) ; _download_file(u, o)
-        downloaded["gbff"] = o
-
-    # Verificación de MD5 (opcional)
-    if check_md5 and optional_map["md5"]:
-        md5_url, md5_out = build(ftp_url, optional_map["md5"]) ; _download_file(md5_url, md5_out)
-        with open(md5_out, "r", encoding="utf-8", errors="ignore") as f:
-            md5map = _parse_md5_file(f.readlines())
-        for label, path in list(downloaded.items()):
-            fname = os.path.basename(path)
-            if fname in md5map:
-                calc = _md5sum(path)
-                if calc.lower() != md5map[fname].lower():
-                    raise RuntimeError(f"MD5 no coincide para {fname}: {calc} != {md5map[fname]}")
+    for label, fname in to_get.items():
+        url = f"{base}/{fname}"
+        out_path = os.path.join(output_dir, fname)
+        _download_file(url, out_path, overwrite=False)
+        if check_md5:
+            calc = _md5sum(out_path)
+            exp = md5map.get(fname, "").lower()
+            if exp and calc.lower() != exp:
+                raise RuntimeError(f"MD5 no coincide para {fname}: {calc} != {exp}")
+        downloaded[label] = out_path
 
     return downloaded
-
 
 def _write_provenance(meta: Dict[str, str], out_dir: str) -> None:
     os.makedirs(out_dir, exist_ok=True)
     with open(os.path.join(out_dir, "ASSEMBLY_PROVENANCE.txt"), "w", encoding="utf-8") as f:
         for k, v in meta.items():
             f.write(f"{k}: {v}\n")
-
 
 def fetch_reference_package(
     organism_query: str,
@@ -300,7 +289,7 @@ def fetch_reference_package(
     out_dir: str = "results/genome",
     prefer_refseq: bool = True,
     also_download: Tuple[str, ...] = (),
-    check_md5: bool = False,
+    check_md5: bool = True,
 ) -> Tuple[Dict[str, str], str, str]:
     """Descubre el mejor ensamblaje y descarga FASTA+GFF (y opcionales).
 
@@ -321,12 +310,10 @@ def fetch_reference_package(
     )
 
     _write_provenance(meta, out_dir)
-
     return meta, downloaded["fasta"], downloaded["gff"]
 
-
 # ──────────────────────────────────────────────────────────────────────────────
-# MODO STANDALONE
+# MODO STANDALONE (CLI)
 # ──────────────────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
     import argparse
