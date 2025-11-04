@@ -2,6 +2,10 @@ from Bio import SeqIO
 import os
 import glob
 
+# ===========================================================
+# FUNCIÓN: Identificar el genoma de referencia
+# ===========================================================
+
 def identificar_genoma_referencia(bioproject_dir):
     """
     Analiza las secuencias descargadas y identifica el genoma de referencia
@@ -150,6 +154,10 @@ def identificar_genoma_referencia(bioproject_dir):
     print(f"\n Genoma de referencia guardado en: {genoma_file}")
     
     return mejor_candidato['info']
+
+# ===========================================================
+# FUNCIÓN: Analizar estructura del genoma
+# ===========================================================
 
 def analizar_estructura_genoma(genoma_info):
     """
