@@ -1,32 +1,18 @@
-#!/bin/bash
-# Build Bowtie2 index from genome in data/genome/
-# Output: data/genome/bowtie2_idx/kleb.*.bt2
+#!/usr/bin/env bash
 
-mkdir -p data/genome/bowtie2_idx
+# Indexa el GENOMA (no el CDS) para Bowtie2.
+# Estructura esperada:
+#   data/genome/GCF_008452795.1_ASM845279v1_genomic.fna
 
-# 1) Search for uncompressed FASTA
-FASTA=""
-for f in data/genome/*_genomic.fna data/genome/*.fna data/genome/*.fa; do
-  if [ -f "$f" ]; then FASTA="$f"; break; fi
-done
+GENOME_FA="data/genome/GCF_008452795.1_ASM845279v1_genomic.fna"
+IDX_DIR="data/genome/bowtie2_idx"
+IDX_PREFIX="${IDX_DIR}/kleb"
 
-# 2) If there is no uncompressed file, then use a .gz (makes an uncompressed copy)
-if [ -z "$FASTA" ]; then
-  for g in data/genome/*_genomic.fna.gz data/genome/*.fna.gz data/genome/*.fa.gz; do
-    if [ -f "$g" ]; then
-      gunzip -c "$g" > data/genome/genome_temp.fna
-      FASTA="data/genome/genome_temp.fna"
-      break
-    fi
-  done
-fi
+mkdir -p "${IDX_DIR}"
 
-# 3) Exits if nothing is found
-if [ -z "$FASTA" ]; then
-  echo "No FASTA found in data/genome/"
-  exit 1
-fi
+echo "Indexando genoma con bowtie2-build..."
+bowtie2-build "${GENOME_FA}" "${IDX_PREFIX}"
 
-echo "Indexing genome: $FASTA"
-bowtie2-build "$FASTA" data/genome/bowtie2_idx/kleb
-echo "Done."
+echo "Checando encabezados del índice:"
+bowtie2-inspect -n "${IDX_PREFIX}" | head
+echo "Índice listo en ${IDX_DIR}"

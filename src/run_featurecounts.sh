@@ -1,19 +1,21 @@
-#!/bin/bash
-# Minimal featureCounts for paired-end bacterial RNA-seq
-# Input : data/alignments/*.sorted.bam
-# GFF   : data/genome/*.gff  (auto-picks the first)
-# Output: data/counts/counts.txt (+ summary)
+#!/usr/bin/env bash
 
-GFF=$(ls data/genome/*.gff | head -n1)
+# Cuantificacion con featureCounts a nivel de CDS por locus_tag.
+# Usa los BAM ya alineados y ordenados:
+#   data/alignments/*.sorted.bam
+
+GFF="data/genome/GCF_008452795.1_ASM845279v1_genomic.gff"
 OUTDIR="data/counts"
-mkdir -p "$OUTDIR"
+OUT="${OUTDIR}/counts_final.txt"
 
-# Count at gene level (common in prokaryotes: -t gene -g ID)
-# If your GFF lacks 'gene' features, switch to -t CDS -g Parent
-conda activate subread
+mkdir -p "${OUTDIR}"
+
+echo "Ejecutando featureCounts..."
 featureCounts -T 8 -p -B -C \
-  -t gene -g ID \
-  -a "$GFF" \
-  -o "$OUTDIR/counts.txt" data/alignments/*.sorted.bam
+  -t CDS -g locus_tag \
+  -a "${GFF}" \
+  -o "${OUT}" \
+  data/alignments/*.sorted.bam
 
-echo "Done. Matrix: $OUTDIR/counts.txt ; Summary: $OUTDIR/counts.txt.summary"
+echo "[OK] Conteos escritos en ${OUT}"
+head -n 10 "${OUT}"
