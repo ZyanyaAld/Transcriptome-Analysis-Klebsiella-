@@ -76,7 +76,8 @@ Shirley Alquicira; Verónica Jiménez; Leticia Vega
 #### Servidor y software
 
 **Servidor:** usuario@chaac.lcg.unam.mx, usuario@kauil.lcg.unam.mx
-**Usuario:** yeimicc, 
+
+**Usuario:** yeimicc, zyanyava, marinams
 **Software principal:** FastQC, MultiQC, Trimmomatic, Bowtie2, samtools, subread/featureCounts, NCBI SRA Toolkit (prefetch, fasterq-dump), Python 3 (pandas, numpy, matplotlib, seaborn), PyDESeq2, BioPython, EggNOG-mapper.
 
 ### Datos de entrada y trazabilidad 
