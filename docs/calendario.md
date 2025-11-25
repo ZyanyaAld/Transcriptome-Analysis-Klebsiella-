@@ -1,13 +1,12 @@
 ## Calendario de trabajo
 
-[Definir de manera general la actividades que se requerirán para el proyecto. Por ejemplo:]
 
-| Actividad | Fecha   | Responsable  | Entregable |
-|----------|----------|----------|----------|
-| Descripción de proyecto    | 3-10 marzo  | Juan López, Daniela Estrada   | Documento markdown |
-| Especificación de requisitos    | septiembre   | Juan López   | Documento markdown   |
-| Análisis y diseño   | septiembre  |  Daniela Estrada   | Documento markdown |
-| Construcción   | octubre, noviembre  |  Daniela Estrada, Juan López   | Scripts |
-| Pruebas   | noviembre  |  Daniela Estrada, Juan López   | Documento markdown |
-| Reporte de resultados  | noviembre  |  Daniela Estrada, Juan López   | Documentos markdown |
-| Presentación del proyecto   | diciembre  |  Daniela Estrada, Juan López   | repositorio GitHub (release)|
+| Actividad                             | Fecha estimada | Responsable | Entregable                            |
+| ------------------------------------- | -------------- | ----------- | ------------------------------------- |
+| Preparación y descarga de datos       | Semana 1       | Marina      | data/raw_sra, data/genome             |
+| QC y trimming                         | Semana 2       | Zyanya      | data/qc, data/trimmed                 |
+| Alineamiento y métricas               | Semana 3       | Yeimi       | data/alignments, flagstat             |
+| Conteos y preparación DEA             | Semana 4       | Marina      | counts_for_DEA.csv, design_matrix.csv |
+| DEA y figuras iniciales               | Semana 5       | Zyanya      | deseq2_results.csv, volcano, heatmap  |
+| Anotación funcional y enriquecimiento | Semana 6       | Yeimi       | functional_annotation_summary.csv     |
+| Integración y reporte final           | Semana 7       | Equipo      | Reporte final (markdown/PDF), figuras |
