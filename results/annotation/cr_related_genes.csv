@@ -1,0 +1,177 @@
+gene_id,log2FoldChange,padj,product,keyword_found,regulation
+BHE81_RS26235,2.369513940616809,5.523600548130027e-05,Fe(3+) dicitrate ABC transporter substrate-binding protein FecB,transporter,UP
+BHE81_RS26240,4.476027160548608,6.672164473276037e-05,iron-dicitrate ABC transporter permease FecC,transporter,UP
+BHE81_RS26245,2.1121446471018155,0.013541739686082,Fe(3+) dicitrate ABC transporter permease subunit FecD,transporter,UP
+BHE81_RS26250,3.736277254306864,0.0244081571942792,Fe(3+) dicitrate ABC transporter ATP-binding protein FecE,transporter,UP
+BHE81_RS27570,-2.5941195465427778,4.311987126312057e-13,chlorite dismutase family protein,dismutase,DOWN
+BHE81_RS00020,-3.3748325707804048,0.0001031068104236,ABC transporter permease,transporter,DOWN
+BHE81_RS00025,-3.2718865118623754,1.1661846413168005e-07,ribosome-associated ATPase/putative transporter RbbA,transporter,DOWN
+BHE81_RS00060,-2.162495600450047,0.0447027551996113,NAD(P)H-dependent oxidoreductase,reductase,DOWN
+BHE81_RS00115,-5.063685031393205,2.695916567698959e-11,double-cubane-cluster-containing anaerobic reductase,reductase,DOWN
+BHE81_RS00330,-3.831255148484223,0.00345453522115,PTS mannose/fructose/sorbose/N-acetylgalactosamine transporter subunit IIC,transporter,DOWN
+BHE81_RS00335,-3.2038448379810003,0.0021577317544778,PTS system mannose/fructose/sorbose family transporter subunit IID,transporter,DOWN
+BHE81_RS00410,-2.451923765515093,3.890441657847502e-05,PTS cellobiose transporter subunit IIC,transporter,DOWN
+BHE81_RS00645,-1.947072749652026,0.0168074604952692,acetate uptake transporter,transporter,DOWN
+BHE81_RS00810,2.19860474750218,0.0431834817110034,glutathione-regulated potassium-efflux system oxidoreductase KefF,efflux,UP
+BHE81_RS01295,-1.4433551621591698,0.0092836699320862,PTS sugar transporter subunit IIA,transporter,DOWN
+BHE81_RS01755,1.3994482476157453,0.0299679200742816,NADPH-dependent aldehyde reductase Ahr,reductase,UP
+BHE81_RS01760,4.5193850334295815,4.5063478257249347e-11,SulP family inorganic anion transporter,transporter,UP
+BHE81_RS01945,-1.8751426010747485,0.0006360689687255,efflux RND transporter periplasmic adaptor subunit,transporter,DOWN
+BHE81_RS02085,-1.2469258690345018,0.0132049118824117,NADH:ubiquinone reductase (Na(+)-transporting) subunit B,reductase,DOWN
+BHE81_RS02090,-1.2753150643987048,0.0078247176674005,Na(+)-translocating NADH-quinone reductase subunit C,reductase,DOWN
+BHE81_RS02095,-1.1497498657872798,0.0216097759327323,NADH:ubiquinone reductase (Na(+)-transporting) subunit D,reductase,DOWN
+BHE81_RS02100,-1.3994174429737964,0.0121533590831682,NADH:ubiquinone reductase (Na(+)-transporting) subunit E,reductase,DOWN
+BHE81_RS02105,-1.5996487893373188,0.0019720870248977,NADH:ubiquinone reductase (Na(+)-transporting) subunit F,reductase,DOWN
+BHE81_RS02645,2.910578902299567,0.0210193366616065,ABC transporter ATP-binding protein,transporter,UP
+BHE81_RS02695,3.468907081718191,5.661672710974576e-08,taurine ABC transporter substrate-binding protein,transporter,UP
+BHE81_RS02700,2.862101155288041,0.0025019448347043,taurine ABC transporter ATP-binding subunit,transporter,UP
+BHE81_RS02740,2.398205805193683,9.316508793867696e-05,peptide antibiotic transporter SbmA,transporter,UP
+BHE81_RS02770,-2.430470558461627,0.0025019448347043,multidrug efflux MFS transporter,transporter,DOWN
+BHE81_RS03290,-1.9884818651102223,0.0297707384306173,ABC transporter ATP-binding protein,transporter,DOWN
+BHE81_RS03295,-1.942342027923488,0.0001382175956439,maltodextrin ABC transporter substrate-binding protein,transporter,DOWN
+BHE81_RS03380,1.0131701837717604,0.0331428760114256,multidrug efflux RND transporter periplasmic adaptor subunit AcrA,transporter,UP
+BHE81_RS03530,1.2768223292799088,0.0431834817110034,putative ABC transporter ATP-binding protein YbbA,transporter,UP
+BHE81_RS03535,1.2691766883530349,0.0058128757490728,putative ABC transporter permease subunit YbbP,transporter,UP
+BHE81_RS03725,3.977511939619625,0.0409687259311705,sugar ABC transporter substrate-binding protein,transporter,UP
+BHE81_RS03730,3.435050428419602,1.872942421446488e-07,sugar ABC transporter ATP-binding protein,transporter,UP
+BHE81_RS03735,3.8117055653764,9.607814023475403e-10,ABC transporter permease,transporter,UP
+BHE81_RS03795,1.9714370593872528,0.0193448876070991,ABC transporter substrate-binding protein,transporter,UP
+BHE81_RS03985,-1.8460416707142864,0.0002420260062684,L-cystine transporter,transporter,DOWN
+BHE81_RS04580,5.520266989566724,0.0357399485513732,MetQ/NlpA family ABC transporter substrate-binding protein,transporter,UP
+BHE81_RS04585,3.0263410473539,0.0071518372441782,methionine ABC transporter ATP-binding protein,transporter,UP
+BHE81_RS04635,-3.734350801628288,3.608887639283444e-11,universal stress protein UspF,stress,DOWN
+BHE81_RS05155,-1.6343346470965057,0.0048463425252366,universal stress protein UspE,stress,DOWN
+BHE81_RS05400,-3.791277102717985,0.0008074530053801,DMSO/selenate family reductase complex B subunit,reductase,DOWN
+BHE81_RS05405,-2.248895237765994,0.0014616736083475,selenate/tellurate reductase subunit YnfE,reductase,DOWN
+BHE81_RS05835,6.684734336431295,0.0053349135484982,methionine ABC transporter ATP-binding protein,transporter,UP
+BHE81_RS05840,4.793476584705702,0.00066303802949,MetQ/NlpA family ABC transporter substrate-binding protein,transporter,UP
+BHE81_RS05990,1.0554466008521073,0.0261948412488249,sugar porter family MFS transporter,transporter,UP
+BHE81_RS06175,-2.235056415741457,0.0416140276461587,aldo/keto reductase,reductase,DOWN
+BHE81_RS06760,-2.852367121367488,2.3933417980603555e-10,catalase/peroxidase HPI,oxidase,DOWN
+BHE81_RS06945,3.178933836050611,1.1720909841627005e-05,TIGR04028 family ABC transporter substrate-binding protein,transporter,UP
+BHE81_RS06950,4.716730325922702,0.00066303802949,ABC transporter permease,transporter,UP
+BHE81_RS06955,3.907977057604105,0.0001883305729173,ABC transporter permease,transporter,UP
+BHE81_RS06960,6.020889189930385,1.1738707104658524e-06,dipeptide ABC transporter ATP-binding protein,transporter,UP
+BHE81_RS06970,3.9086349287085977,4.983084990638896e-09,alkylhydroperoxidase domain protein,oxidase,UP
+BHE81_RS06975,1.3983880488652607,0.0416140276461587,MFS transporter AraJ,transporter,UP
+BHE81_RS07160,7.141681017980544,0.0021595650003577,transporter substrate-binding domain-containing protein,transporter,UP
+BHE81_RS07165,6.797756315681043,0.0039946880461608,amino acid ABC transporter ATP-binding protein,transporter,UP
+BHE81_RS07170,6.773203605683686,0.0042266250998957,amino acid ABC transporter permease,transporter,UP
+BHE81_RS07195,4.638689210607786,1.6473403136906418e-06,MsnO8 family LLM class oxidoreductase,reductase,UP
+BHE81_RS07585,2.593190187692233,0.0001192256901593,pyridoxamine 5'-phosphate oxidase,oxidase,UP
+BHE81_RS07680,-3.043884676001792,1.323333567078847e-12,superoxide dismutase [Fe],superoxide,DOWN
+BHE81_RS07830,1.59519596476875,0.0025948784735983,ABC transporter substrate-binding protein,transporter,UP
+BHE81_RS08205,-3.4207613101653065,0.0306726268646018,multidrug efflux MFS transporter MdtM,transporter,DOWN
+BHE81_RS08275,3.529031680772789,0.0426081286034272,ABC transporter substrate-binding protein,transporter,UP
+BHE81_RS08290,2.7708591554148057,0.0029343604249357,LLM class flavin-dependent oxidoreductase,reductase,UP
+BHE81_RS08355,3.9399545087978938,0.0004588337838514,ABC transporter substrate-binding protein,transporter,UP
+BHE81_RS08360,2.419553302968737,0.0035442217672899,FecCD family ABC transporter permease,transporter,UP
+BHE81_RS08490,2.573684137694079,0.000918591502833,ABC transporter substrate-binding protein,transporter,UP
+BHE81_RS08495,3.3115105388499337,0.0044493445720516,FecCD family ABC transporter permease,transporter,UP
+BHE81_RS08530,2.098625997027208,0.0090484637228755,GlsB/YeaQ/YmgE family stress response membrane protein,stress,UP
+BHE81_RS08825,-4.88799832423817,0.0053726906246098,DMT family transporter,transporter,DOWN
+BHE81_RS08830,-8.888523589004604,4.1399301597938333e-23,respiratory nitrate reductase subunit gamma,reductase,DOWN
+BHE81_RS08835,-7.761838045586218,1.0197895260069072e-26,nitrate reductase molybdenum cofactor assembly chaperone,reductase,DOWN
+BHE81_RS08840,-7.71620431715136,1.811037621758789e-34,nitrate reductase subunit beta,reductase,DOWN
+BHE81_RS08845,-8.090212998730815,3.0414129421314813e-71,nitrate reductase subunit alpha,reductase,DOWN
+BHE81_RS08850,-7.632160432194348,4.248413523941628e-38,NarK family nitrate/nitrite MFS transporter,transporter,DOWN
+BHE81_RS08980,-3.420796846888265,1.1348361109636525e-13,stress-induced protein YchH,stress,DOWN
+BHE81_RS09000,2.1647879433899075,0.0003170571900777,sugar ABC transporter substrate-binding protein,transporter,UP
+BHE81_RS09735,2.4148331323207364,0.015993303266816,L-arabinose ABC transporter permease AraH,transporter,UP
+BHE81_RS10905,1.3715104186991174,0.0025409510201455,ABC transporter substrate-binding protein,transporter,UP
+BHE81_RS11130,-1.4597004940249692,0.0014814703741409,microcin C ABC transporter ATP-binding protein YejF,transporter,DOWN
+BHE81_RS11330,-4.007874187918826,2.0765598729582345e-17,glycerol-3-phosphate transporter,transporter,DOWN
+BHE81_RS11730,1.8498571271275672,1.1720909841627005e-05,long-chain fatty acid transporter FadL,transporter,UP
+BHE81_RS11815,-1.9492065074797271,0.0004413062345036,aldo/keto reductase,reductase,DOWN
+BHE81_RS11825,2.7049932220687807,1.791243283026962e-07,Nramp family divalent metal transporter,transporter,UP
+BHE81_RS11895,2.483170081917613,0.0183727399245265,sulfate transporter CysZ,transporter,UP
+BHE81_RS11970,-1.0029814094086495,0.0490577227870299,Dyp-type peroxidase,oxidase,DOWN
+BHE81_RS13255,3.732153586107697,5.168432376927434e-10,class 1b ribonucleoside-diphosphate reductase subunit alpha,reductase,UP
+BHE81_RS13260,2.6851138942990795,0.0030078162543571,class 1b ribonucleoside-diphosphate reductase subunit beta,reductase,UP
+BHE81_RS13265,1.991660608211828,0.0426960439728895,glycine betaine/L-proline ABC transporter ATP-binding protein ProV,transporter,UP
+BHE81_RS13405,-2.5356927259660043,0.0244437106213359,PTS glucitol/sorbitol transporter subunit IIC,transporter,DOWN
+BHE81_RS13410,-2.7782403456434888,1.7211131840881517e-06,PTS glucitol/sorbitol transporter subunit IIB,transporter,DOWN
+BHE81_RS13440,-1.1047376766609582,0.0415775820285388,nitric oxide reductase transcriptional regulator NorR,reductase,DOWN
+BHE81_RS13625,3.909521301450063,1.808483193869449e-19,metal ABC transporter substrate-binding protein,transporter,UP
+BHE81_RS13630,4.551376151636683,4.572525588577699e-13,manganese/iron ABC transporter ATP-binding protein,transporter,UP
+BHE81_RS13635,7.517500894247882,0.0010257203082537,iron/manganese ABC transporter permease subunit SitC,transporter,UP
+BHE81_RS13640,3.862570125050952,3.6736701920814415e-08,metal ABC transporter permease,transporter,UP
+BHE81_RS13680,4.178309288416688,0.0003987001914295,heme/hemin ABC transporter substrate-binding protein,transporter,UP
+BHE81_RS13685,3.843678297953407,7.888869771741357e-05,FecCD family ABC transporter permease,transporter,UP
+BHE81_RS13690,4.397134015584138,0.0025948784735983,heme ABC transporter ATP-binding protein,transporter,UP
+BHE81_RS13855,2.264054202824456,0.0158576799865963,SDR family oxidoreductase,reductase,UP
+BHE81_RS13955,-1.1838231636619827,0.0350950562771954,aliphatic sulfonate ABC transporter substrate-binding protein,transporter,DOWN
+BHE81_RS13990,2.446229706344734,0.0376782855814626,LLM class flavin-dependent oxidoreductase,reductase,UP
+BHE81_RS14015,-2.142192502471287,0.0009827605274545,lactaldehyde reductase,reductase,DOWN
+BHE81_RS14115,-3.454234252598724,0.0049860385394005,energy-coupling factor ABC transporter transmembrane protein,transporter,DOWN
+BHE81_RS14125,-4.0095275728417406,3.603772135120001e-06,cobalt ECF transporter S component CbiM,transporter,DOWN
+BHE81_RS14140,-4.19974379995193,9.270179185916682e-06,cobalt-precorrin-6A reductase,reductase,DOWN
+BHE81_RS15955,-1.4092817318724915,0.0034690279746967,serine/threonine transporter SstT,transporter,DOWN
+BHE81_RS15975,-2.4249162795214905,0.0008184732976945,MFS transporter,transporter,DOWN
+BHE81_RS16070,-2.747989204477764,0.0231755391908881,MFS transporter,transporter,DOWN
+BHE81_RS16575,2.7881918324686024,0.0112025515492494,peroxide/acid stress response protein YhcN,stress,UP
+BHE81_RS16580,2.6132751493595885,0.0003201628856465,DUF1471 family stress response protein YhcN-B,stress,UP
+BHE81_RS16660,2.007261699264069,0.011627772947632,protein-methionine-sulfoxide reductase heme-binding subunit MsrQ,reductase,UP
+BHE81_RS17130,-6.520099616031177,2.965180917514753e-17,nitrite reductase large subunit NirB,reductase,DOWN
+BHE81_RS17135,-4.166339097729213,0.0106197815590942,nitrite reductase small subunit NirD,reductase,DOWN
+BHE81_RS17265,-2.063686806958141,1.6473403136906418e-06,Fe(2+) transporter permease subunit FeoB,transporter,DOWN
+BHE81_RS17635,-2.972825587175485,0.0013989509470757,nickel ABC transporter substrate-binding protein,transporter,DOWN
+BHE81_RS17640,-2.08866971669698,0.0436708418894627,nickel ABC transporter permease subunit NikB,transporter,DOWN
+BHE81_RS17645,-3.2956154406979143,0.0108924346696951,ABC transporter permease subunit,transporter,DOWN
+BHE81_RS17650,-5.386843473420292,0.014075638087322,ABC transporter permease subunit,transporter,DOWN
+BHE81_RS17690,-1.5108548613179786,0.0001561419326963,universal stress protein UspA,stress,DOWN
+BHE81_RS18625,1.8249393488071215,0.0301772142121871,MDR family MFS transporter,transporter,UP
+BHE81_RS18835,-1.5447201484873725,0.0082882525561494,ABC transporter permease,transporter,DOWN
+BHE81_RS18965,4.459325827827775,2.0696974255752156e-05,iron-enterobactin ABC transporter ATP-binding protein,transporter,UP
+BHE81_RS18980,4.65112138801532,1.1793291400752e-06,enterobactin transporter EntS,transporter,UP
+BHE81_RS19185,3.38730963243067,0.0036742005246345,sugar ABC transporter ATP-binding protein,transporter,UP
+BHE81_RS19190,4.021187027044035,0.009882209149738,sugar ABC transporter substrate-binding protein,transporter,UP
+BHE81_RS19245,-1.7941972460911468,0.0007197341383899,universal stress protein UspG,stress,DOWN
+BHE81_RS19260,-3.063656983706118,6.008857925890281e-06,anaerobic C4-dicarboxylate transporter DcuC,transporter,DOWN
+BHE81_RS19395,2.124030442932207,0.0001305445880211,amino acid ABC transporter substrate-binding protein,transporter,UP
+BHE81_RS19475,-1.3530248556289617,0.0005982476066424,PTS N-acetyl glucosamine transporter subunit IIABC,transporter,DOWN
+BHE81_RS19675,-2.6544460681824646,6.990808448430971e-11,cytochrome ubiquinol oxidase subunit I,oxidase,DOWN
+BHE81_RS19680,-2.699160364068447,7.593741634129216e-16,cytochrome d ubiquinol oxidase subunit II,oxidase,DOWN
+BHE81_RS19685,-2.534807990203129,0.0230120091212827,cytochrome bd-I oxidase subunit CydX,oxidase,DOWN
+BHE81_RS19810,1.6202019550363111,0.0053349135484982,molybdate ABC transporter substrate-binding protein,transporter,UP
+BHE81_RS19815,1.980369257426924,4.167998291601232e-05,molybdate ABC transporter permease subunit,transporter,UP
+BHE81_RS20175,2.0222276604649285,0.0433696772208486,glutamine ABC transporter permease GlnP,transporter,UP
+BHE81_RS20180,1.245784563441836,0.0020689908509939,glutamine ABC transporter substrate-binding protein GlnH,transporter,UP
+BHE81_RS20530,-1.911020954284854,0.0270244543303509,hydroxylamine reductase,reductase,DOWN
+BHE81_RS20625,-4.591089284931807,5.272371057224418e-14,dimethylsulfoxide reductase subunit A,reductase,DOWN
+BHE81_RS20630,-3.137121222722393,0.0021873081826167,DMSO/selenate family reductase complex B subunit,reductase,DOWN
+BHE81_RS20635,-2.944093814900953,0.0021850387193798,dimethyl sulfoxide reductase anchor subunit family protein,reductase,DOWN
+BHE81_RS20825,3.727535038556078,5.484184869245389e-15,aliphatic sulfonates ABC transporter ATP-binding protein,transporter,UP
+BHE81_RS20830,3.660649642469632,1.4461126182193055e-09,aliphatic sulfonate ABC transporter permease SsuC,transporter,UP
+BHE81_RS20840,5.190979066927426,0.025891468242748,sulfonate ABC transporter substrate-binding protein,transporter,UP
+BHE81_RS20845,4.141663867647974,1.61960264252983e-06,NADPH-dependent FMN reductase,reductase,UP
+BHE81_RS21105,-1.624135385867716,0.0001335641196732,NAD(P)H:quinone oxidoreductase,reductase,DOWN
+BHE81_RS21110,4.403228133080969,3.0717089271368503e-10,general stress protein,stress,UP
+BHE81_RS21315,-1.2144252921043748,0.0132049118824117,N-methyl-L-tryptophan oxidase,oxidase,DOWN
+BHE81_RS21540,-1.3279804403344844,0.0346698837271665,lipoprotein-releasing ABC transporter permease subunit LolE,transporter,DOWN
+BHE81_RS22015,2.099664083180166,0.0205928576827098,general stress protein,stress,UP
+BHE81_RS22095,2.7390693371080395,0.0280521287278921,leucine efflux protein LeuE,efflux,UP
+BHE81_RS22560,3.0833766156433238,0.0109251455327333,D-serine transporter DsdX,transporter,UP
+BHE81_RS22600,-2.314814881166261,0.0003196620999237,putative transporter,transporter,DOWN
+BHE81_RS22795,2.921435474785263,5.4996659539542824e-11,phosphate ABC transporter substrate-binding protein PstS,transporter,UP
+BHE81_RS22930,-1.5368904329856117,0.0230570949238409,multidrug transporter subunit MdtD,transporter,DOWN
+BHE81_RS23130,-2.8908746576301843,0.0009870166779698,MFS transporter,transporter,DOWN
+BHE81_RS23155,-1.5529995076957968,0.0284593396079559,sugar ABC transporter ATP-binding protein,transporter,DOWN
+BHE81_RS23200,1.7847395646362438,0.0001406436716524,superoxide dismutase [Mn],superoxide,UP
+BHE81_RS23210,1.1106896253199638,0.0373422316015938,envelope stress sensor histidine kinase CpxA,stress,UP
+BHE81_RS23215,1.3215383886252687,0.0004109424557693,envelope stress response regulator transcription factor CpxR,stress,UP
+BHE81_RS23220,2.053832928188572,7.878592570759196e-05,cell-envelope stress modulator CpxP,stress,UP
+BHE81_RS23310,-1.6189739521431563,0.0479709151726272,methylenetetrahydrofolate reductase,reductase,DOWN
+BHE81_RS23910,-5.172781679180046,3.517459427738512e-13,anaerobic C4-dicarboxylate transporter DcuB,transporter,DOWN
+BHE81_RS23915,-2.107962557291638,1.2988541490965308e-06,PTS lactose/cellobiose transporter subunit IIA,transporter,DOWN
+BHE81_RS23920,-1.8269114229687264,0.0006098571265617,PTS sugar transporter subunit IIB,transporter,DOWN
+BHE81_RS24690,-1.693261446900736,0.0069134005944892,anaerobic C4-dicarboxylate transporter,transporter,DOWN
+BHE81_RS24805,-4.000863643584473,2.1315482658059292e-08,fumarate reductase subunit FrdD,reductase,DOWN
+BHE81_RS24810,-4.330618217137657,2.0633637602110004e-08,fumarate reductase subunit FrdC,reductase,DOWN
+BHE81_RS24815,-4.149052074632291,7.457033058162134e-13,fumarate reductase iron-sulfur protein,reductase,DOWN
+BHE81_RS24820,-4.4125311757232994,1.3283617915524483e-25,fumarate reductase (quinol) flavoprotein subunit,reductase,DOWN
+BHE81_RS24830,-2.6118971958828454,0.014075638087322,glutamate/gamma-aminobutyrate family transporter YjeM,transporter,DOWN
+BHE81_RS24865,-1.2864777690647664,0.0015652408632727,tRNA epoxyqueuosine(34) reductase QueG,reductase,DOWN
+BHE81_RS25045,1.97953967260702,0.0015407892847879,D-serine/D-alanine/glycine transporter,transporter,UP
+BHE81_RS25265,-4.806842548351968,1.1079612374729257e-07,anaerobic ribonucleoside-triphosphate reductase-activating protein,reductase,DOWN
+BHE81_RS25270,-4.832748366012162,1.4119498346037716e-35,anaerobic ribonucleoside-triphosphate reductase,reductase,DOWN

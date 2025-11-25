@@ -1,0 +1,17 @@
+REPORTE DE ANOTACIÓN FUNCIONAL
+==================================================
+Total DEGs: 1356
+DEGs con anotación: 1356
+Genes sobre-regulados: 685
+Genes sub-regulados: 671
+
+TOP 10 FUNCIONES MÁS COMUNES:
+  hypothetical protein: 17 genes
+  ABC transporter substrate-binding protein: 6 genes
+  ABC transporter permease: 5 genes
+  LysR family transcriptional regulator: 4 genes
+  sugar ABC transporter substrate-binding protein: 3 genes
+  sugar ABC transporter ATP-binding protein: 3 genes
+  cupin domain-containing protein: 3 genes
+  FecCD family ABC transporter permease: 3 genes
+  YgdI/YgdR family lipoprotein: 3 genes

@@ -1,0 +1,684 @@
+gene_id,product,log2FoldChange,padj,functional_category,COG_category,COG_description
+BHE81_RS27925,TonB-dependent copper receptor,1.5603231414577663,0.0065126606350152,Unknown,S,Function unknown
+BHE81_RS25440,conjugal transfer complement resistance protein TraT,-1.6173781325529266,0.0234339309391595,Unknown,S,Function unknown
+BHE81_RS25745,type I toxin-antitoxin system Hok family toxin,-1.567361336475284,0.0111130314104064,Unknown,S,Function unknown
+BHE81_RS26050,single-stranded DNA-binding protein,2.2412493975102974,0.0081915594799707,Unknown,S,Function unknown
+BHE81_RS26220,RNA polymerase sigma factor FecI,2.933596455848682,0.0001354122046023,Transcription,K,Transcription
+BHE81_RS26230,TonB-dependent Fe(3+) dicitrate receptor FecA,2.538400963269346,1.991511546491129e-05,Unknown,S,Function unknown
+BHE81_RS26235,Fe(3+) dicitrate ABC transporter substrate-binding protein FecB,2.369513940616809,5.523600548130027e-05,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS26240,iron-dicitrate ABC transporter permease FecC,4.476027160548608,6.672164473276037e-05,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS26245,Fe(3+) dicitrate ABC transporter permease subunit FecD,2.1121446471018155,0.013541739686082,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS26250,Fe(3+) dicitrate ABC transporter ATP-binding protein FecE,3.736277254306864,0.0244081571942792,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS26290,beta-galactosidase,-1.7177060572250389,0.0001721342166069,Unknown,S,Function unknown
+BHE81_RS26335,hypothetical protein,2.251589034881595,0.007867860162905,Unknown,S,Function unknown
+BHE81_RS26590,Y-family DNA polymerase,2.585773899810076,0.0139324851334926,Unknown,S,Function unknown
+BHE81_RS26665,hypothetical protein,-1.570164314203731,4.4490082865159344e-05,Unknown,S,Function unknown
+BHE81_RS26685,hypothetical protein,2.0991059839574806,0.0096371357019351,Unknown,S,Function unknown
+BHE81_RS26815,tetracycline resistance transcriptional repressor TetR(D),2.224207063807908,0.0097405645455465,Transcription,K,Transcription
+BHE81_RS26880,hypothetical protein,-4.27886664399761,0.0282601053454399,Unknown,S,Function unknown
+BHE81_RS26885,IS66 family transposase,-1.1328963501930551,0.0228366078447365,Unknown,S,Function unknown
+BHE81_RS27330,OsmC family protein,2.5771463813186526,0.0006867080004151,Unknown,S,Function unknown
+BHE81_RS27400,MbeB family mobilization protein,1.452080223830751,0.0045039799352295,Unknown,S,Function unknown
+BHE81_RS27425,IS4-like element ISApu1 family transposase,-2.4977439965575434,5.42066659556702e-05,Unknown,S,Function unknown
+BHE81_RS27530,AraC family transcriptional regulator,-1.0184729328210596,0.0235042910269635,Transcription,K,Transcription
+BHE81_RS27565,IS66 family transposase,-2.5576791254612465,2.475691757810974e-09,Unknown,S,Function unknown
+BHE81_RS27570,chlorite dismutase family protein,-2.5941195465427778,4.311987126312057e-13,Unknown,S,Function unknown
+BHE81_RS27575,cupin domain-containing protein,-1.7397948377145744,0.0120326714528779,Unknown,S,Function unknown
+BHE81_RS27690,type-F conjugative transfer system pilin acetylase TraX,-2.134903750647442,0.0003615533719373,Unknown,S,Function unknown
+BHE81_RS00020,ABC transporter permease,-3.3748325707804048,0.0001031068104236,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS00025,ribosome-associated ATPase/putative transporter RbbA,-3.2718865118623754,1.1661846413168005e-07,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS00030,HlyD family secretion protein,-3.721724974621528,8.833988730859946e-11,Unknown,S,Function unknown
+BHE81_RS00060,NAD(P)H-dependent oxidoreductase,-2.162495600450047,0.0447027551996113,Energy,C,Energy production and conversion
+BHE81_RS00065,LysR family transcriptional regulator,-1.701120662424417,0.0327623101963492,Transcription,K,Transcription
+BHE81_RS00110,putative 2-hydroxyacyl-CoA dehydratase activator YjiL,-3.993406387225694,6.598558544161069e-05,Unknown,S,Function unknown
+BHE81_RS00115,double-cubane-cluster-containing anaerobic reductase,-5.063685031393205,2.695916567698959e-11,Energy,C,Energy production and conversion
+BHE81_RS00150,NAD-dependent succinate-semialdehyde dehydrogenase,1.936750422021972,0.000827882887257,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS00155,hypothetical protein,2.830893461409694,0.007343930422515,Unknown,S,Function unknown
+BHE81_RS00160,YfaZ family outer membrane protein,1.2138936083152605,0.0494610045163514,Membrane,M,Cell wall/membrane/envelope biogenesis
+BHE81_RS00330,PTS mannose/fructose/sorbose/N-acetylgalactosamine transporter subunit IIC,-3.831255148484223,0.00345453522115,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS00335,PTS system mannose/fructose/sorbose family transporter subunit IID,-3.2038448379810003,0.0021577317544778,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS00345,SIS domain-containing protein,-2.2880418081150524,0.0060057427804368,Unknown,S,Function unknown
+BHE81_RS00370,primosomal protein DnaT,-1.7824724460178685,0.0023147192574057,Unknown,S,Function unknown
+BHE81_RS00380,threonine/serine ThrE exporter family protein,-2.355949526734266,0.0339024922958417,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS00410,PTS cellobiose transporter subunit IIC,-2.451923765515093,3.890441657847502e-05,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS00460,molecular chaperone OsmY,2.550437751630637,2.828704788221088e-10,Unknown,S,Function unknown
+BHE81_RS00465,DUF1328 domain-containing protein,1.5484048436580056,0.0126576991318289,Unknown,S,Function unknown
+BHE81_RS00595,thr operon leader peptide,2.529030234153048,0.004245526113486,Unknown,S,Function unknown
+BHE81_RS00600,bifunctional aspartate kinase/homoserine dehydrogenase I,1.2079195428715812,0.0165612608306857,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS00625,alanine/glycine:cation symporter family protein,-1.4663156280884868,0.0261948412488249,Unknown,S,Function unknown
+BHE81_RS00645,acetate uptake transporter,-1.947072749652026,0.0168074604952692,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS00715,ribonucleoside hydrolase RihC,-1.0844109425652906,0.0426081286034272,Unknown,S,Function unknown
+BHE81_RS00805,YgdI/YgdR family lipoprotein,3.055097742322114,0.0025019448347043,Membrane,M,Cell wall/membrane/envelope biogenesis
+BHE81_RS00810,glutathione-regulated potassium-efflux system oxidoreductase KefF,2.19860474750218,0.0431834817110034,Energy,C,Energy production and conversion
+BHE81_RS00910,arabinose operon transcriptional regulator AraC,-1.884644368801808,4.700982279592994e-05,Transcription,K,Transcription
+BHE81_RS00935,HTH-type transcriptional regulator SgrR,-1.5138416625614943,0.0374361760851666,Transcription,K,Transcription
+BHE81_RS01025,catabolite repressor/activator,-1.440846183708088,0.0059124866415249,Transcription,K,Transcription
+BHE81_RS01030,division/cell wall cluster transcriptional repressor MraZ,1.519474163593389,0.0001031068104236,Transcription,K,Transcription
+BHE81_RS01035,16S rRNA (cytosine(1402)-N(4))-methyltransferase RsmH,1.3455612437732296,0.0048273935590125,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS01160,carboxylating nicotinate-nucleotide diphosphorylase,1.1483573901572606,0.0415334535486369,Unknown,S,Function unknown
+BHE81_RS01235,protein YacL,-2.3404613190036065,2.142006843826601e-11,Unknown,S,Function unknown
+BHE81_RS01295,PTS sugar transporter subunit IIA,-1.4433551621591698,0.0092836699320862,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS01300,polysaccharide deacetylase family protein,-1.3902026928383084,0.0189154236893002,Unknown,S,Function unknown
+BHE81_RS01440,ferrichrome porin FhuA,2.6003784405269688,1.1720909841627005e-05,Membrane,M,Cell wall/membrane/envelope biogenesis
+BHE81_RS01470,iron-sulfur cluster insertion protein ErpA,1.1452123413015205,0.0154650092420131,Unknown,S,Function unknown
+BHE81_RS01495,serine endoprotease DegP,3.4260265723876446,3.723562890800081e-34,Unknown,S,Function unknown
+BHE81_RS01555,(2E%2C6E)-farnesyl-diphosphate-specific ditrans%2Cpolycis-undecaprenyl-diphosphate synthase,1.1439013110776508,0.0294890891619435,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS01565,sigma E protease regulator RseP,1.370489170536426,1.7912704836875694e-05,Transcription,K,Transcription
+BHE81_RS01755,NADPH-dependent aldehyde reductase Ahr,1.3994482476157453,0.0299679200742816,Energy,C,Energy production and conversion
+BHE81_RS01760,SulP family inorganic anion transporter,4.5193850334295815,4.506347825724935e-11,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS01765,carbonic anhydrase,7.174633861233923,4.816681147141952e-06,Unknown,S,Function unknown
+BHE81_RS01810,IS66 family transposase,-1.281456195259472,0.0356849948628436,Unknown,S,Function unknown
+BHE81_RS01945,efflux RND transporter periplasmic adaptor subunit,-1.8751426010747485,0.0006360689687255,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS01980,cupin domain-containing protein,-4.738645587757775,1.1362218229028216e-15,Unknown,S,Function unknown
+BHE81_RS02060,acyl-CoA dehydrogenase FadE,2.706429547025644,2.9220162003982783e-06,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS02085,NADH:ubiquinone reductase (Na(+)-transporting) subunit B,-1.2469258690345018,0.0132049118824117,Energy,C,Energy production and conversion
+BHE81_RS02090,Na(+)-translocating NADH-quinone reductase subunit C,-1.2753150643987048,0.0078247176674005,Energy,C,Energy production and conversion
+BHE81_RS02095,NADH:ubiquinone reductase (Na(+)-transporting) subunit D,-1.1497498657872798,0.0216097759327323,Energy,C,Energy production and conversion
+BHE81_RS02100,NADH:ubiquinone reductase (Na(+)-transporting) subunit E,-1.3994174429737964,0.0121533590831682,Energy,C,Energy production and conversion
+BHE81_RS02105,NADH:ubiquinone reductase (Na(+)-transporting) subunit F,-1.5996487893373188,0.0019720870248977,Energy,C,Energy production and conversion
+BHE81_RS02140,esterase FrsA,-1.1177523384986308,0.007343930422515,Unknown,S,Function unknown
+BHE81_RS02180,YjhX family toxin,-2.631663601998888,0.0051468453954892,Unknown,S,Function unknown
+BHE81_RS02185,SAM-dependent methyltransferase,-1.713961918337788,0.0424603552716603,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS02210,FGGY-family carbohydrate kinase,2.302690112183445,0.0223480272736824,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS02230,zinc ribbon domain-containing protein,-3.969203286492375,0.0018676435707238,Unknown,S,Function unknown
+BHE81_RS02245,alpha-ketoacid dehydrogenase subunit beta,-1.2482127303361057,0.0466204936321197,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS02255,LuxR C-terminal-related transcriptional regulator,-1.3339067196718153,0.0250169327131675,Transcription,K,Transcription
+BHE81_RS02425,C40 family peptidase,2.0738483416189086,0.0038671840514803,Unknown,S,Function unknown
+BHE81_RS02455,arylsulfatase,2.607663779045428,0.0181632200603131,Unknown,S,Function unknown
+BHE81_RS02510,YncE family protein,5.783050838815717,0.0240225213331219,Unknown,S,Function unknown
+BHE81_RS02640,hypothetical protein,4.658350923126887,1.7388617547514438e-23,Unknown,S,Function unknown
+BHE81_RS02645,ABC transporter ATP-binding protein,2.910578902299567,0.0210193366616065,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS02695,taurine ABC transporter substrate-binding protein,3.468907081718191,5.661672710974576e-08,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS02700,taurine ABC transporter ATP-binding subunit,2.862101155288041,0.0025019448347043,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS02710,taurine dioxygenase,2.376271553038944,0.0003996784562599,Unknown,S,Function unknown
+BHE81_RS02740,peptide antibiotic transporter SbmA,2.398205805193683,9.316508793867696e-05,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS02745,DUF1615 domain-containing protein,1.580702119808702,0.0093030835538249,Unknown,S,Function unknown
+BHE81_RS02750,YaiY family protein,2.449749065756311,0.0350950562771954,Unknown,S,Function unknown
+BHE81_RS02770,multidrug efflux MFS transporter,-2.430470558461627,0.0025019448347043,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS02800,DUF2076 domain-containing protein,2.324635262816384,4.469153265513104e-12,Unknown,S,Function unknown
+BHE81_RS02845,phosphate response regulator transcription factor PhoB,2.433415106169765,0.0014996047907568,Transcription,K,Transcription
+BHE81_RS02850,phosphate regulon sensor histidine kinase PhoR,1.202975193602366,0.0223716632525999,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS02965,DUF3251 domain-containing protein,4.474093530065512,0.0235762921093429,Unknown,S,Function unknown
+BHE81_RS02985,transcription antitermination factor NusB,1.3328243766768917,0.0025620021560522,Transcription,K,Transcription
+BHE81_RS03145,trigger factor,1.038194922682513,0.0010295190763558,Unknown,S,Function unknown
+BHE81_RS03180,YbgC/FadM family acyl-CoA thioesterase,2.2546819743771005,0.0010176704017881,Unknown,S,Function unknown
+BHE81_RS03205,Lrp/AsnC family transcriptional regulator,2.5476965161608933,0.0231755391908881,Transcription,K,Transcription
+BHE81_RS03235,YbaY family lipoprotein,1.163238938256947,0.0203633155684235,Membrane,M,Cell wall/membrane/envelope biogenesis
+BHE81_RS03255,hypothetical protein,2.8851568418913884,0.0376109970706514,Unknown,S,Function unknown
+BHE81_RS03290,ABC transporter ATP-binding protein,-1.9884818651102223,0.0297707384306173,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS03295,maltodextrin ABC transporter substrate-binding protein,-1.942342027923488,0.0001382175956439,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS03380,multidrug efflux RND transporter periplasmic adaptor subunit AcrA,1.0131701837717604,0.0331428760114256,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS03425,YbaB/EbfC family nucleoid-associated protein,1.3781151653303367,0.0054327843271265,Unknown,S,Function unknown
+BHE81_RS03495,SPFH domain-containing protein,-1.202925163740105,0.0148746902677194,Unknown,S,Function unknown
+BHE81_RS03530,putative ABC transporter ATP-binding protein YbbA,1.2768223292799088,0.0431834817110034,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS03535,putative ABC transporter permease subunit YbbP,1.2691766883530349,0.0058128757490728,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS03575,cysteine--tRNA ligase,-1.2115590948169437,8.867140345972005e-05,Unknown,S,Function unknown
+BHE81_RS03615,citrate synthase,-4.208932216248803,6.048844630802691e-09,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS03660,DUF1471 domain-containing protein,1.0281043411456527,0.0241273492597802,Unknown,S,Function unknown
+BHE81_RS03690,lysine--tRNA ligase,-2.517183810581934,0.0001641142355111,Unknown,S,Function unknown
+BHE81_RS03725,sugar ABC transporter substrate-binding protein,3.977511939619625,0.0409687259311705,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS03730,sugar ABC transporter ATP-binding protein,3.435050428419602,1.872942421446488e-07,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS03735,ABC transporter permease,3.8117055653764,9.607814023475403e-10,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS03795,ABC transporter substrate-binding protein,1.9714370593872528,0.0193448876070991,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS03800,hypothetical protein,3.325849750985478,1.8410305265568828e-10,Unknown,S,Function unknown
+BHE81_RS03825,acid phosphatase PhoC,-1.92767086495507,7.612088813035662e-06,Unknown,S,Function unknown
+BHE81_RS03855,CDP-alcohol phosphatidyltransferase family protein,-2.7552632683498715,0.0009219488468128,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS03860,sulfurtransferase,-3.6674243859256217,1.7855569816543919e-10,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS03900,aspartate aminotransferase family protein,2.058405578668808,4.371454389846573e-06,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS03905,arginine N-succinyltransferase,1.692289222737183,0.0025019448347043,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS03910,succinylglutamate-semialdehyde dehydrogenase,1.496540612960515,0.0019720870248977,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS03915,N-succinylarginine dihydrolase,1.798768449710605,8.652228711128769e-05,Unknown,S,Function unknown
+BHE81_RS03920,succinylglutamate desuccinylase,1.94507894450144,0.00358871636749,Unknown,S,Function unknown
+BHE81_RS03925,ATP-independent periplasmic protein-refolding chaperone Spy,4.407152436073443,8.886486488096127e-30,Unknown,S,Function unknown
+BHE81_RS03930,excinuclease Cho,1.9212618610599792,0.0147997355437536,DNA_Repair,L,"Replication, recombination and repair"
+BHE81_RS03985,L-cystine transporter,-1.8460416707142864,0.0002420260062684,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS04035,outer membrane protein OmpW,-5.052688765185585,1.969192130688325e-24,Membrane,M,Cell wall/membrane/envelope biogenesis
+BHE81_RS04040,PKHD-type hydroxylase YbiX,-3.893416954935661,3.121575250930718e-07,Unknown,S,Function unknown
+BHE81_RS04155,YmiA family putative membrane protein,-2.650248222085257,0.032014096398943,Membrane,M,Cell wall/membrane/envelope biogenesis
+BHE81_RS04195,osmotically-inducible lipoprotein OsmB,3.5264311182209305,4.926822540487891e-05,Membrane,M,Cell wall/membrane/envelope biogenesis
+BHE81_RS04320,LysR substrate-binding domain-containing protein,-1.6564923679466892,0.0208492069480299,Unknown,S,Function unknown
+BHE81_RS04580,MetQ/NlpA family ABC transporter substrate-binding protein,5.520266989566724,0.0357399485513732,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS04585,methionine ABC transporter ATP-binding protein,3.0263410473539,0.0071518372441782,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS04635,universal stress protein UspF,-3.734350801628288,3.608887639283444e-11,Stress_Response,O,"Posttranslational modification, protein turnover, chaperones"
+BHE81_RS04900,aspartate aminotransferase family protein,3.3616292911747614,5.311919724087009e-07,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS04905,arginine N-succinyltransferase,3.2892824912925587,4.792160116196109e-10,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS04910,succinylglutamate-semialdehyde dehydrogenase,1.6651296901827235,0.0003710405837854,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS04915,N-succinylarginine dihydrolase,1.953212256098592,0.0010483606113993,Unknown,S,Function unknown
+BHE81_RS04920,succinylglutamate desuccinylase,2.340013968387532,4.481408508144199e-06,Unknown,S,Function unknown
+BHE81_RS04925,amino acid permease,1.8925389370168195,3.4708766281165217e-06,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS04965,selenium metabolism membrane protein YedE/FdhT,-2.879452530182897,5.932780522214165e-07,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS04980,putative selenium delivery protein YdfZ,-3.2119808206853406,0.0183727399245265,Unknown,S,Function unknown
+BHE81_RS05085,class II fumarate hydratase,1.5013140964278875,0.0125814111002246,Unknown,S,Function unknown
+BHE81_RS05140,Re/Si-specific NAD(P)(+) transhydrogenase subunit alpha,-2.186145390199349,1.020113390908081e-09,Unknown,S,Function unknown
+BHE81_RS05145,Re/Si-specific NAD(P)(+) transhydrogenase subunit beta,-1.7958140149767745,0.0005100322204725,Unknown,S,Function unknown
+BHE81_RS05155,universal stress protein UspE,-1.6343346470965057,0.0048463425252366,Stress_Response,O,"Posttranslational modification, protein turnover, chaperones"
+BHE81_RS05215,3-oxoadipyl-CoA thiolase,1.487478963945855,0.0024325921995374,Unknown,S,Function unknown
+BHE81_RS05275,N-acetylmuramic acid 6-phosphate etherase,-3.811205506392388,1.7876844641566624e-20,Unknown,S,Function unknown
+BHE81_RS05380,dethiobiotin synthase,-2.9938053703709406,9.860872708167704e-05,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS05385,voltage-gated ClC-type chloride channel ClcB,-2.254451720709262,0.0125366180278574,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS05395,DmsC/YnfH family molybdoenzyme membrane anchor subunit,-2.199102540339191,0.0019558348713982,Membrane,M,Cell wall/membrane/envelope biogenesis
+BHE81_RS05400,DMSO/selenate family reductase complex B subunit,-3.791277102717985,0.0008074530053801,Energy,C,Energy production and conversion
+BHE81_RS05405,selenate/tellurate reductase subunit YnfE,-2.248895237765994,0.0014616736083475,Energy,C,Energy production and conversion
+BHE81_RS05595,LacI family DNA-binding transcriptional regulator,-2.1912369717434625,0.012669411381478,Transcription,K,Transcription
+BHE81_RS05600,GNAT family N-acetyltransferase,1.6974087190641367,0.0309795215194773,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS05690,PhzF family phenazine biosynthesis protein,-1.269047013779922,0.002514785853121,Unknown,S,Function unknown
+BHE81_RS05705,dihydrodipicolinate synthase family protein,-2.233824173467284,0.0001948897147393,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS05710,iron-containing alcohol dehydrogenase,-2.2715152166170656,0.0069850291437368,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS05835,methionine ABC transporter ATP-binding protein,6.684734336431295,0.0053349135484982,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS05840,MetQ/NlpA family ABC transporter substrate-binding protein,4.793476584705702,0.00066303802949,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS05845,isopenicillin N synthase family dioxygenase,2.63378612669594,0.0025948784735983,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS05860,VOC family protein,2.713130789082932,0.000458727197373,Unknown,S,Function unknown
+BHE81_RS05865,AraC family transcriptional regulator,4.531899370561901,0.0011864510497744,Transcription,K,Transcription
+BHE81_RS05975,siderophore esterase IroE,2.2928113100283083,0.0442219554113786,Unknown,S,Function unknown
+BHE81_RS05990,sugar porter family MFS transporter,1.0554466008521073,0.0261948412488249,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS06175,aldo/keto reductase,-2.235056415741457,0.0416140276461587,Energy,C,Energy production and conversion
+BHE81_RS06380,TetR/AcrR family transcriptional regulator,-1.8917428602428727,0.0141259530006016,Transcription,K,Transcription
+BHE81_RS06385,iron-containing redox enzyme family protein,-2.119238204619881,0.0021185980931025,Unknown,S,Function unknown
+BHE81_RS06665,diaminobutyrate--2-oxoglutarate transaminase,1.541487955764541,0.0028536596271115,Unknown,S,Function unknown
+BHE81_RS06715,pyrroloquinoline-quinone synthase PqqC,3.887225525608753,0.0189653020433781,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS06735,glutamine amidotransferase,1.6714819108703407,0.0319178274112478,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS06760,catalase/peroxidase HPI,-2.852367121367488,2.3933417980603555e-10,Stress_Response,O,"Posttranslational modification, protein turnover, chaperones"
+BHE81_RS06905,stationary-phase-induced ribosome-associated protein,1.586389193992218,0.0396631038321683,Unknown,S,Function unknown
+BHE81_RS06945,TIGR04028 family ABC transporter substrate-binding protein,3.178933836050611,1.1720909841627005e-05,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS06950,ABC transporter permease,4.716730325922702,0.00066303802949,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS06955,ABC transporter permease,3.907977057604105,0.0001883305729173,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS06960,dipeptide ABC transporter ATP-binding protein,6.020889189930385,1.1738707104658524e-06,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS06965,putative FMN-dependent luciferase-like monooxygenase,7.034636772868892,0.0025757395979753,Unknown,S,Function unknown
+BHE81_RS06970,alkylhydroperoxidase domain protein,3.9086349287085977,4.983084990638896e-09,Stress_Response,O,"Posttranslational modification, protein turnover, chaperones"
+BHE81_RS06975,MFS transporter AraJ,1.3983880488652607,0.0416140276461587,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS06985,polyphosphate kinase 2,4.289529723340262,0.0036395951954329,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS07000,formate dehydrogenase-N subunit gamma,-8.36713777416077,0.0006247157610396,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS07005,formate dehydrogenase subunit beta,-7.534311762386423,8.111808883895392e-13,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS07010,formate dehydrogenase-N subunit alpha,-7.397890206401103,1.7496585316359468e-22,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS07160,transporter substrate-binding domain-containing protein,7.141681017980544,0.0021595650003577,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS07165,amino acid ABC transporter ATP-binding protein,6.797756315681043,0.0039946880461608,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS07170,amino acid ABC transporter permease,6.773203605683686,0.0042266250998957,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS07175,GNAT family N-acetyltransferase,6.119396602426919,0.0137720411273329,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS28645,NtaA/DmoA family FMN-dependent monooxygenase,5.379743130744387,8.296580993637069e-09,Unknown,S,Function unknown
+BHE81_RS07190,M20 peptidase aminoacylase family protein,7.605954686459964,0.0008357374890598,Unknown,S,Function unknown
+BHE81_RS07195,MsnO8 family LLM class oxidoreductase,4.638689210607786,1.6473403136906418e-06,Energy,C,Energy production and conversion
+BHE81_RS07215,YgdI/YgdR family lipoprotein,1.358478971434141,0.0376782855814626,Membrane,M,Cell wall/membrane/envelope biogenesis
+BHE81_RS07220,YncE family protein,3.662415249440246,1.522416953496116e-12,Unknown,S,Function unknown
+BHE81_RS07230,amidohydrolase,-3.2906902474036848,5.486685044946016e-06,Unknown,S,Function unknown
+BHE81_RS07235,DUF406 domain-containing protein,-1.872936833225047,0.0238348793796703,Unknown,S,Function unknown
+BHE81_RS07280,alpha/beta fold hydrolase,1.3656913630254623,0.0205663335432382,Unknown,S,Function unknown
+BHE81_RS07360,DUF2554 family protein,3.5106127948975603,0.0069134005944892,Unknown,S,Function unknown
+BHE81_RS07450,LysR substrate-binding domain-containing protein,3.376838918184825,0.0001519382113882,Unknown,S,Function unknown
+BHE81_RS07470,cytochrome b561,1.7214257211499555,0.0343706502279756,Energy,C,Energy production and conversion
+BHE81_RS07585,pyridoxamine 5'-phosphate oxidase,2.593190187692233,0.0001192256901593,Energy,C,Energy production and conversion
+BHE81_RS07590,C-type lysozyme inhibitor,2.9516437656939933,0.0017067870562987,Unknown,S,Function unknown
+BHE81_RS07605,GGDEF domain-containing protein,-4.582530797287888,0.0314107825576489,Unknown,S,Function unknown
+BHE81_RS07665,Grx4 family monothiol glutaredoxin,1.2192528578581825,0.0088385939139224,Unknown,S,Function unknown
+BHE81_RS07680,superoxide dismutase [Fe],-3.043884676001792,1.323333567078847e-12,Stress_Response,O,"Posttranslational modification, protein turnover, chaperones"
+BHE81_RS28125,hypothetical protein,4.476296766016222,3.362373937563765e-06,Unknown,S,Function unknown
+BHE81_RS07830,ABC transporter substrate-binding protein,1.59519596476875,0.0025948784735983,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS07855,anti-virulence regulator CigR family protein,3.044323928522965,2.5610930636271944e-12,Transcription,K,Transcription
+BHE81_RS07990,hypothetical protein,3.388555137751088,0.008857894518497,Unknown,S,Function unknown
+BHE81_RS08205,multidrug efflux MFS transporter MdtM,-3.4207613101653065,0.0306726268646018,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS08215,DUF1062 domain-containing protein,-6.706113603080806,2.4389891461350097e-07,Unknown,S,Function unknown
+BHE81_RS08275,ABC transporter substrate-binding protein,3.529031680772789,0.0426081286034272,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS08285,acyl-CoA dehydrogenase family protein,3.797980208449157,0.0009685553732818,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS08290,LLM class flavin-dependent oxidoreductase,2.7708591554148057,0.0029343604249357,Energy,C,Energy production and conversion
+BHE81_RS08305,rhodanese homology domain-containing protein,3.335770151455445,0.0004588337838514,Unknown,S,Function unknown
+BHE81_RS08355,ABC transporter substrate-binding protein,3.9399545087978938,0.0004588337838514,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS08360,FecCD family ABC transporter permease,2.419553302968737,0.0035442217672899,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS08410,major outer membrane lipoprotein,-1.105621059315038,0.0024532802334906,Membrane,M,Cell wall/membrane/envelope biogenesis
+BHE81_RS08425,cysteine desulfurase SufS,2.2471068444343207,2.648415643036299e-06,Unknown,S,Function unknown
+BHE81_RS08430,Fe-S cluster assembly protein SufD,2.0111060826561107,6.816070255082388e-05,Unknown,S,Function unknown
+BHE81_RS08440,Fe-S cluster assembly protein SufB,2.414467981021062,1.822523896831903e-07,Unknown,S,Function unknown
+BHE81_RS08490,ABC transporter substrate-binding protein,2.573684137694079,0.000918591502833,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS08495,FecCD family ABC transporter permease,3.3115105388499337,0.0044493445720516,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS08530,GlsB/YeaQ/YmgE family stress response membrane protein,2.098625997027208,0.0090484637228755,Stress_Response,O,"Posttranslational modification, protein turnover, chaperones"
+BHE81_RS08670,hypothetical protein,2.295128165578848,0.0033703628915734,Unknown,S,Function unknown
+BHE81_RS08690,fructosamine kinase family protein,-1.6516918674585528,1.2987842430329875e-08,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS08780,histone-like nucleoid-structuring protein H-NS,1.8890990160571155,9.866848400819352e-05,Unknown,S,Function unknown
+BHE81_RS08790,two-component system response regulator RssB,1.757259075138596,0.0153550488166126,Transcription,K,Transcription
+BHE81_RS08795,patatin-like phospholipase RssA,1.3745534214224695,0.0483887749351549,Unknown,S,Function unknown
+BHE81_RS08825,DMT family transporter,-4.88799832423817,0.0053726906246098,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS08830,respiratory nitrate reductase subunit gamma,-8.888523589004604,4.1399301597938333e-23,Energy,C,Energy production and conversion
+BHE81_RS08835,nitrate reductase molybdenum cofactor assembly chaperone,-7.761838045586218,1.0197895260069072e-26,Energy,C,Energy production and conversion
+BHE81_RS08840,nitrate reductase subunit beta,-7.71620431715136,1.811037621758789e-34,Energy,C,Energy production and conversion
+BHE81_RS08845,nitrate reductase subunit alpha,-8.090212998730815,3.0414129421314813e-71,Energy,C,Energy production and conversion
+BHE81_RS08850,NarK family nitrate/nitrite MFS transporter,-7.632160432194348,4.248413523941628e-38,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS08855,nitrate/nitrite two-component system sensor histidine kinase NarX,-2.2949605334433727,6.766910816276514e-06,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS08860,two-component system response regulator NarL,-2.4900214438817527,6.553489558046405e-09,Transcription,K,Transcription
+BHE81_RS08910,gamma-glutamylcyclotransferase,1.000064280250419,0.0406943089312471,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS08920,sodium-potassium/proton antiporter ChaA,1.9134399178117127,4.483762079002622e-05,Unknown,S,Function unknown
+BHE81_RS08980,stress-induced protein YchH,-3.420796846888265,1.1348361109636525e-13,Stress_Response,O,"Posttranslational modification, protein turnover, chaperones"
+BHE81_RS09000,sugar ABC transporter substrate-binding protein,2.1647879433899075,0.0003170571900777,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS09090,gamma-glutamylcyclotransferase family protein,2.8145516375775013,0.0332405610091749,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS09170,formate C-acetyltransferase,-2.477058281808977,0.0010189059942334,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS09210,fatty acid desaturase,5.893329733194439,0.0194947266248253,Unknown,S,Function unknown
+BHE81_RS09245,TonB-dependent siderophore receptor,2.31871801229003,4.641534390554596e-06,Unknown,S,Function unknown
+BHE81_RS09265,catabolic alanine racemase DadX,1.6113888063303496,0.000439733620225,Unknown,S,Function unknown
+BHE81_RS09270,D-amino acid dehydrogenase,2.0906518747728566,4.4088284607931705e-06,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS09470,protease HtpX,2.300525002611205,1.2945044720393692e-10,Unknown,S,Function unknown
+BHE81_RS09485,GAF domain-containing protein,1.2895718466724044,0.0364255044259045,Unknown,S,Function unknown
+BHE81_RS09560,oligopeptidase B,1.2222299771305336,0.0298403291661759,Unknown,S,Function unknown
+BHE81_RS09565,tellurite resistance TerB family protein,1.531131016315443,1.3728568981072588e-05,Unknown,S,Function unknown
+BHE81_RS09570,YebG family protein,-1.2676480034138415,0.0201926844168794,Unknown,S,Function unknown
+BHE81_RS09645,Holliday junction branch migration protein RuvA,1.2838209336127568,0.0046301130713024,Unknown,S,Function unknown
+BHE81_RS09730,trehalose-phosphatase,2.4146331084121604,9.121859434041477e-08,Unknown,S,Function unknown
+BHE81_RS09735,L-arabinose ABC transporter permease AraH,2.4148331323207364,0.015993303266816,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS09790,non-heme ferritin,-2.332227400140835,0.0138982513485352,Unknown,S,Function unknown
+BHE81_RS10105,excinuclease ABC subunit UvrC,-1.036251594754194,0.0343706502279756,DNA_Repair,L,"Replication, recombination and repair"
+BHE81_RS10210,porin OmpC,-2.0002964088134805,0.0046262428574765,Membrane,M,Cell wall/membrane/envelope biogenesis
+BHE81_RS10245,HTH-type transcriptional regulator Cbl,1.340370304731486,0.0137720411273329,Transcription,K,Transcription
+BHE81_RS10425,serine-type D-Ala-D-Ala carboxypeptidase DacD,1.9335896241871984,0.0139324851334926,Unknown,S,Function unknown
+BHE81_RS10685,uridine kinase,1.6434195445619109,0.0409768561435224,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS10835,adenine deaminase,-2.886132158521606,0.0001670099163628,Unknown,S,Function unknown
+BHE81_RS10850,RcnB family protein,3.697690462051664,0.0039195774722064,Unknown,S,Function unknown
+BHE81_RS10905,ABC transporter substrate-binding protein,1.3715104186991174,0.0025409510201455,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS10985,cytidine deaminase,1.8852461115094128,0.0282601053454399,Unknown,S,Function unknown
+BHE81_RS11030,catecholate siderophore receptor CirA,2.482984386022565,2.8529039841953627e-05,Unknown,S,Function unknown
+BHE81_RS11050,deoxyribonuclease IV,1.91628725153094,0.0075984688094469,DNA_Repair,L,"Replication, recombination and repair"
+BHE81_RS11130,microcin C ABC transporter ATP-binding protein YejF,-1.4597004940249692,0.0014814703741409,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS11135,YejG family protein,-1.1561423976669811,0.0448992544370024,Unknown,S,Function unknown
+BHE81_RS11215,malate dehydrogenase (quinone),1.2792560602704357,0.0011864510497744,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS11250,porin OmpC,-1.598781136485449,0.009882209149738,Membrane,M,Cell wall/membrane/envelope biogenesis
+BHE81_RS11325,glycerophosphodiester phosphodiesterase,-2.455642996708904,3.003708064193918e-06,Unknown,S,Function unknown
+BHE81_RS11330,glycerol-3-phosphate transporter,-4.007874187918826,2.0765598729582345e-17,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS11335,anaerobic glycerol-3-phosphate dehydrogenase subunit A,-7.000238295214063,1.4991315963362518e-22,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS11340,glycerol-3-phosphate dehydrogenase subunit GlpB,-6.488597837600832,2.8995616744683734e-22,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS11345,anaerobic glycerol-3-phosphate dehydrogenase subunit GlpC,-4.918721274848231,4.115403468406383e-09,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS11350,2-keto-3-deoxy-L-rhamnonate aldolase,-2.8883680691045512,6.269702549076873e-05,Unknown,S,Function unknown
+BHE81_RS11390,o-succinylbenzoate--CoA ligase,-1.835625621688092,0.0011218369674404,Unknown,S,Function unknown
+BHE81_RS11395,o-succinylbenzoate synthase,-2.550276801831823,9.46622695734123e-06,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS11400,1%2C4-dihydroxy-2-naphthoyl-CoA synthase,-3.6641925407602383,6.345490741821996e-10,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS11405,2-succinyl-6-hydroxy-2%2C4-cyclohexadiene-1-carboxylate synthase,-2.092044946427991,0.0030086703196441,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS11410,2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylic-acid synthase,-2.610047465327024,1.8290026415344289e-07,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS11415,isochorismate synthase MenF,-2.092020299820583,0.0001698329986258,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS11515,SLC13 family permease,-1.6475124177764002,0.0002420260062684,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS11520,sugar phosphatase,-1.439935649206412,0.0001031068104236,Unknown,S,Function unknown
+BHE81_RS11525,YfbU family protein,-1.1663288215173515,0.0430427792209826,Unknown,S,Function unknown
+BHE81_RS11540,phosphate acetyltransferase,-1.6050556363493498,2.1847943133330625e-06,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS28215,hypothetical protein,2.211310236088899,0.0349070282318584,Unknown,S,Function unknown
+BHE81_RS11665,beta-ketoacyl-ACP synthase I,-1.237985001384227,0.0027075305043793,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS11710,phosphohistidine phosphatase SixA,1.267128053000889,0.0069948692706545,Unknown,S,Function unknown
+BHE81_RS11730,long-chain fatty acid transporter FadL,1.8498571271275672,1.1720909841627005e-05,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS11800,glucokinase,-1.1552576090412567,0.0162218718668441,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS11815,aldo/keto reductase,-1.9492065074797271,0.0004413062345036,Energy,C,Energy production and conversion
+BHE81_RS11820,DUF2502 domain-containing protein,1.7393861082657676,0.0064638516283174,Unknown,S,Function unknown
+BHE81_RS11825,Nramp family divalent metal transporter,2.7049932220687807,1.791243283026962e-07,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS11850,MerR family transcriptional regulator,-3.1298233960232147,0.00066303802949,Transcription,K,Transcription
+BHE81_RS11895,sulfate transporter CysZ,2.483170081917613,0.0183727399245265,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS11900,cysteine synthase A,1.0994977693445127,0.0011864510497744,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS11925,pyridoxine/pyridoxal/pyridoxamine kinase,2.0008380837703177,0.0477910765088542,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS11970,Dyp-type peroxidase,-1.0029814094086495,0.0490577227870299,Stress_Response,O,"Posttranslational modification, protein turnover, chaperones"
+BHE81_RS11975,RpoE-regulated lipoprotein,1.3210512330266666,0.033534184538121,Membrane,M,Cell wall/membrane/envelope biogenesis
+BHE81_RS12090,transaldolase,1.8438767470732285,0.0132665369996048,Unknown,S,Function unknown
+BHE81_RS12095,transketolase,1.194822467105079,0.00257329204013,Unknown,S,Function unknown
+BHE81_RS12100,DUF1176 domain-containing protein,1.7848513757796196,0.005087482870461,Unknown,S,Function unknown
+BHE81_RS12110,formate-dependent uric acid utilization protein AegA,-3.6769241597294777,3.381789541055216e-13,Unknown,S,Function unknown
+BHE81_RS12210,uracil permease,-2.368860487481326,0.0079640420232633,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS12215,uracil phosphoribosyltransferase,-1.401981796487585,0.0036742005246345,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS12220,6-phospho-beta-glucosidase,-2.529462861037799,1.0724064167287294e-05,Unknown,S,Function unknown
+BHE81_RS12225,beta-glucoside kinase BglK,-2.11793454263056,0.0172762916145761,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS12530,hypothetical protein,-1.415523909800754,0.0219032212845672,Unknown,S,Function unknown
+BHE81_RS12535,enhanced serine sensitivity protein SseB,1.0874699104203436,0.0493390730200648,Unknown,S,Function unknown
+BHE81_RS12555,Fe-S protein assembly chaperone HscA,1.4107055220467002,3.437634542295177e-05,Unknown,S,Function unknown
+BHE81_RS12560,co-chaperone HscB,1.4849173122906096,0.023368847766262,Unknown,S,Function unknown
+BHE81_RS12565,iron-sulfur cluster assembly protein IscA,1.857217184259056,5.341573910359015e-06,Unknown,S,Function unknown
+BHE81_RS12570,Fe-S cluster assembly scaffold IscU,1.3123688760674557,0.0033821604707951,Unknown,S,Function unknown
+BHE81_RS12575,cysteine desulfurase,2.393979438326951,3.8489750712216815e-09,Unknown,S,Function unknown
+BHE81_RS12580,Fe-S cluster assembly transcriptional regulator IscR,1.7633336439447247,8.988741023295356e-08,Transcription,K,Transcription
+BHE81_RS12590,inositol-1-monophosphatase,2.668612788163993,1.2325133094991864e-05,Unknown,S,Function unknown
+BHE81_RS12750,sigma-E factor regulatory protein RseB,1.056075560600689,0.0148187790900967,Transcription,K,Transcription
+BHE81_RS12755,anti-sigma-E factor RseA,1.521781485892827,1.5275757044868968e-05,Transcription,K,Transcription
+BHE81_RS12760,RNA polymerase sigma factor RpoE,1.6706664348713849,1.791243283026962e-07,Transcription,K,Transcription
+BHE81_RS12785,autonomous glycyl radical cofactor GrcA,-5.093576496983265,2.01153115162935e-30,Unknown,S,Function unknown
+BHE81_RS12890,bifunctional chorismate mutase/prephenate dehydrogenase,-1.4291126367903402,0.0068180414637856,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS12895,3-deoxy-7-phosphoheptulonate synthase AroF,-1.5344343699338976,0.0005026923709599,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS12960,nucleotide exchange factor GrpE,1.457057189075917,0.0139324851334926,Unknown,S,Function unknown
+BHE81_RS12970,DNA repair protein RecN,1.4918081398018668,1.5921301200101438e-06,DNA_Repair,L,"Replication, recombination and repair"
+BHE81_RS13170,aldehyde dehydrogenase family protein,1.415603439371247,0.0042865768183936,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS13200,lipid A hydroxylase LpxO,2.173025844116459,1.3532821245888816e-05,Unknown,S,Function unknown
+BHE81_RS13225,DUF2002 family protein,2.9962410726875106,0.0020471221325122,Unknown,S,Function unknown
+BHE81_RS13230,DUF883 domain-containing protein,1.678849135264772,0.009882209149738,Unknown,S,Function unknown
+BHE81_RS13240,carboxymuconolactone decarboxylase family protein,2.7786190560781976,0.0194947266248253,Unknown,S,Function unknown
+BHE81_RS13255,class 1b ribonucleoside-diphosphate reductase subunit alpha,3.732153586107697,5.168432376927434e-10,Energy,C,Energy production and conversion
+BHE81_RS13260,class 1b ribonucleoside-diphosphate reductase subunit beta,2.6851138942990795,0.0030078162543571,Energy,C,Energy production and conversion
+BHE81_RS13265,glycine betaine/L-proline ABC transporter ATP-binding protein ProV,1.991660608211828,0.0426960439728895,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS13370,recombinase RecA,1.2905305597526284,5.523600548130027e-05,DNA_Repair,L,"Replication, recombination and repair"
+BHE81_RS13405,PTS glucitol/sorbitol transporter subunit IIC,-2.5356927259660043,0.0244437106213359,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS13410,PTS glucitol/sorbitol transporter subunit IIB,-2.7782403456434888,1.7211131840881517e-06,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS13420,sorbitol-6-phosphate dehydrogenase,-2.575312482719208,6.536582422968921e-07,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS13435,arabinose-5-phosphate isomerase GutQ,-1.8466715215580247,4.253457249302664e-06,Unknown,S,Function unknown
+BHE81_RS13440,nitric oxide reductase transcriptional regulator NorR,-1.1047376766609582,0.0415775820285388,Transcription,K,Transcription
+BHE81_RS13560,hydrogenase formation protein HypD,-4.024023924257944,1.1738707104658524e-06,Unknown,S,Function unknown
+BHE81_RS13565,hydrogenase expression/formation protein HypE,-4.337499328465071,8.172257104126721e-16,Unknown,S,Function unknown
+BHE81_RS13625,metal ABC transporter substrate-binding protein,3.909521301450063,1.8084831938694492e-19,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS13630,manganese/iron ABC transporter ATP-binding protein,4.551376151636683,4.572525588577699e-13,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS13635,iron/manganese ABC transporter permease subunit SitC,7.517500894247882,0.0010257203082537,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS13640,metal ABC transporter permease,3.862570125050952,3.6736701920814415e-08,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS13660,thiamine pyrophosphate-requiring protein,2.6226120467090106,0.0055901031018218,Unknown,S,Function unknown
+BHE81_RS13665,SelT/SelW/SelH family protein,5.494735959404639,0.0365746548877575,Unknown,S,Function unknown
+BHE81_RS13670,TonB-dependent receptor domain-containing protein,3.9229715448472966,6.271898238740982e-10,Unknown,S,Function unknown
+BHE81_RS13675,hemin-degrading factor,4.069312622996592,4.295880259421471e-06,Unknown,S,Function unknown
+BHE81_RS13680,heme/hemin ABC transporter substrate-binding protein,4.178309288416688,0.0003987001914295,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS13685,FecCD family ABC transporter permease,3.843678297953407,7.888869771741357e-05,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS13690,heme ABC transporter ATP-binding protein,4.397134015584138,0.0025948784735983,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS13850,7-carboxy-7-deazaguanine synthase QueE,-1.587851344368002,0.005450326584277,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS13855,SDR family oxidoreductase,2.264054202824456,0.0158576799865963,Energy,C,Energy production and conversion
+BHE81_RS13885,two-component sensor histidine kinase BarA,-1.21479152750397,0.031502136525418,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS13945,HAAAP family serine/threonine permease,-1.300581083132225,0.0003151225175416,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS13950,L-serine ammonia-lyase,-2.166130591071107,5.499665953954282e-11,Unknown,S,Function unknown
+BHE81_RS13955,aliphatic sulfonate ABC transporter substrate-binding protein,-1.1838231636619827,0.0350950562771954,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS13990,LLM class flavin-dependent oxidoreductase,2.446229706344734,0.0376782855814626,Energy,C,Energy production and conversion
+BHE81_RS14000,FMNH2-dependent alkanesulfonate monooxygenase,3.2587193498534286,0.0055838777827194,Unknown,S,Function unknown
+BHE81_RS14005,sigma-54-dependent Fis family transcriptional regulator,4.315956281375204,7.274016313086205e-15,Transcription,K,Transcription
+BHE81_RS14010,flap endonuclease Xni,-1.3241584835541151,0.0021561653672099,DNA_Repair,L,"Replication, recombination and repair"
+BHE81_RS14015,lactaldehyde reductase,-2.142192502471287,0.0009827605274545,Energy,C,Energy production and conversion
+BHE81_RS14065,YgdI/YgdR family lipoprotein,3.198497753780863,1.688556444643707e-07,Membrane,M,Cell wall/membrane/envelope biogenesis
+BHE81_RS14100,bifunctional adenosylcobinamide kinase/adenosylcobinamide-phosphate guanylyltransferase,-2.647411533797388,0.0026729176120434,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS14105,cobyric acid synthase,-1.8734267581685309,0.0191526140266837,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS14115,energy-coupling factor ABC transporter transmembrane protein,-3.454234252598724,0.0049860385394005,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS14125,cobalt ECF transporter S component CbiM,-4.0095275728417406,3.603772135120001e-06,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS14130,cobalt-factor II C(20)-methyltransferase,-3.46240673607136,0.0003115523815566,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS14135,sirohydrochlorin cobaltochelatase,-2.9505385342405166,0.0138890826599219,Unknown,S,Function unknown
+BHE81_RS14140,cobalt-precorrin-6A reductase,-4.19974379995193,9.270179185916682e-06,Energy,C,Energy production and conversion
+BHE81_RS14145,precorrin-3B C(17)-methyltransferase,-4.929167587074634,2.695916567698959e-11,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS28770,cobalamin biosynthesis protein,-5.239301562918378,1.934470382526863e-11,Unknown,S,Function unknown
+BHE81_RS28775,cobalt-precorrin 5A hydrolase,-5.441827136896311,1.0387596494806698e-07,Unknown,S,Function unknown
+BHE81_RS14155,cobalt-precorrin-4 methyltransferase,-6.427869661957287,3.995072922878027e-08,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS28780,cobalt-precorrin-6Y C(15)-methyltransferase,-5.571835317901789,0.0025264708589006,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS28785,precorrin-6Y C5%2C15-methyltransferase (decarboxylating) subunit CbiT,-5.69721521329245,1.591225971258429e-05,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS14165,cobalt-precorrin-7 (C(5))-methyltransferase,-4.502433407645669,2.7481065598942364e-07,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS14170,cobalt-precorrin-5B (C(1))-methyltransferase CbiD,-6.2841544827281615,2.170810767296076e-19,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS14175,cobalt-precorrin-8 methylmutase,-5.589347415538845,2.071469507146993e-17,Unknown,S,Function unknown
+BHE81_RS14180,adenosylcobinamide-phosphate synthase CbiB,-4.9247322110779965,2.8952206740796684e-24,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS14185,cobyrinate a%2Cc-diamide synthase,-4.364579269302667,7.831366577249935e-21,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS14300,L-threonine kinase,-1.210570990048206,0.025751614264926,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS14370,prolipoprotein diacylglyceryl transferase,1.61691785765151,0.0051468453954892,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS14425,HTH-type transcriptional regulator GalR,-1.6716565816633036,0.0025757395979753,Transcription,K,Transcription
+BHE81_RS14430,GNAT family N-acetyltransferase,-1.4225648399011186,0.0358087039591617,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS14535,acetyl-CoA C-acetyltransferase,1.964581086250388,0.0069948692706545,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS14580,type 3 fimbria adhesin subunit MrkD,-1.3971760265550044,0.0350950562771954,Unknown,S,Function unknown
+BHE81_RS14630,type 1 fimbria switch DNA invertase FimE,-1.7978772879316187,0.0307507608831272,Unknown,S,Function unknown
+BHE81_RS14635,type 1 fimbrial major subunit FimA,-4.214123029290352,1.4401378276387892e-19,Unknown,S,Function unknown
+BHE81_RS14640,fimbrial protein,-2.6845565516310987,0.0126902494126747,Unknown,S,Function unknown
+BHE81_RS14650,fimbrial biogenesis usher protein,-1.787818064860714,0.0367321789791447,Unknown,S,Function unknown
+BHE81_RS14705,DUF1889 family protein,-2.420621045914654,4.483762079002622e-05,Unknown,S,Function unknown
+BHE81_RS29035,hypothetical protein,-1.978248476672501,0.0031675672711909,Unknown,S,Function unknown
+BHE81_RS14745,LysR family transcriptional regulator,-1.406359389143084,0.03343920877627,Transcription,K,Transcription
+BHE81_RS14770,LysR family transcriptional regulator,-1.703507479563735,0.0297707384306173,Transcription,K,Transcription
+BHE81_RS14890,hypothetical protein,3.558680896316474,3.5786643224461146e-07,Unknown,S,Function unknown
+BHE81_RS14960,5-formyltetrahydrofolate cyclo-ligase,-1.517493117149202,0.009082441358169,Unknown,S,Function unknown
+BHE81_RS14985,arginine exporter ArgO,-1.3678436462131411,0.004416202001028,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS14990,small-conductance mechanosensitive channel MscS,1.273104319266019,0.0046953534023598,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS15015,M48 family metallopeptidase,2.053310417636653,5.661470426923846e-06,Unknown,S,Function unknown
+BHE81_RS15045,methionine adenosyltransferase,1.2388437643631325,0.0099022719938281,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS15085,LuxR family transcriptional regulator,-2.570864748248516,0.006046856013184,Transcription,K,Transcription
+BHE81_RS15135,DUF2884 domain-containing protein,1.0561823002009052,0.0187159194845815,Unknown,S,Function unknown
+BHE81_RS15150,A/G-specific adenine glycosylase,1.2149424457855305,0.0282601053454399,Unknown,S,Function unknown
+BHE81_RS15190,pyridoxal-phosphate dependent enzyme,3.2640466852002303,9.607814023475403e-10,Unknown,S,Function unknown
+BHE81_RS15195,trans-sulfuration enzyme family protein,3.67357707377466,4.538831947380753e-09,Unknown,S,Function unknown
+BHE81_RS15200,LysR family transcriptional regulator,2.429230828239618,1.3284487268931964e-05,Transcription,K,Transcription
+BHE81_RS15265,TonB system transport protein ExbD,2.407486603310722,0.0002216248336195,Unknown,S,Function unknown
+BHE81_RS15270,tol-pal system-associated acyl-CoA thioesterase,1.992496795659858,0.0001681027400305,Unknown,S,Function unknown
+BHE81_RS15285,DedA family general envelope maintenance protein YghB,-1.4285344647197689,0.0041973836307008,Unknown,S,Function unknown
+BHE81_RS15345,quorum sensing histidine kinase QseC,-1.423911165999751,0.0227785913438309,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS15410,3%2C4-dihydroxy-2-butanone-4-phosphate synthase,-1.946238472764648,2.7348396670558813e-05,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS15420,cell surface composition regulator GlgS,-5.099864143272377,0.0016196878479687,Transcription,K,Transcription
+BHE81_RS15440,TIGR04211 family SH3 domain-containing protein,3.1255894982834413,0.0006098571265617,Unknown,S,Function unknown
+BHE81_RS15460,glycerol-3-phosphate 1-O-acyltransferase PlsY,-1.5764163322703608,0.0040079455165453,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS15515,30S ribosomal protein S21,2.5722875199768067,0.0006247157610396,Translation,J,"Translation, ribosomal structure and biogenesis"
+BHE81_RS15570,phage major tail tube protein,-3.753269327480985,7.757403645489893e-07,Unknown,S,Function unknown
+BHE81_RS15575,phage tail sheath protein,-4.486555249702598,1.9680314445404694e-11,Unknown,S,Function unknown
+BHE81_RS15580,phage tail protein,-1.8123477416124687,0.0230331368840812,Unknown,S,Function unknown
+BHE81_RS15585,SGNH/GDSL hydrolase family protein,-2.4987117315276515,0.0008015436587729,Unknown,S,Function unknown
+BHE81_RS15595,baseplate assembly protein,-3.3964583169289027,0.0153550488166126,Unknown,S,Function unknown
+BHE81_RS15610,phage virion morphogenesis protein,-3.1651259929706903,0.0301772142121871,Unknown,S,Function unknown
+BHE81_RS15645,head completion/stabilization protein,-3.7598374340497607,0.004021704874195,Unknown,S,Function unknown
+BHE81_RS15650,terminase endonuclease subunit,-4.298692235916019,8.652228711128769e-05,DNA_Repair,L,"Replication, recombination and repair"
+BHE81_RS15655,phage major capsid protein%2C P2 family,-4.01174407614965,1.791243283026962e-07,Unknown,S,Function unknown
+BHE81_RS15660,GPO family capsid scaffolding protein,-3.248829721254824,1.8290026415344289e-07,Unknown,S,Function unknown
+BHE81_RS15665,terminase ATPase subunit family protein,-2.401912650127864,0.0494338900523289,Unknown,S,Function unknown
+BHE81_RS15760,acid-sensing system DNA-binding response regulator EvgA,-2.9402430997608,0.0005997047632373,Transcription,K,Transcription
+BHE81_RS15830,dihydroxyacetone kinase operon transcriptional regulator DhaR,-1.3203181231851049,0.0185857531362952,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS15835,glycerol dehydrogenase,-1.5967439662237857,0.0265706939729605,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS15845,dihydroxyacetone kinase subunit DhaK,-3.0945858902545686,0.0007951401015663,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS15850,dihydroxyacetone kinase subunit DhaL,-3.756870350299649,4.126191533996826e-07,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS15855,dihydroxyacetone kinase phosphoryl donor subunit DhaM,-2.404030735017485,0.0099522077935911,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS15860,glycerone kinase,-1.2868455700321089,0.0185593234384633,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS15865,siderophore-interacting protein,2.2847156097879604,1.7201800552435415e-05,Unknown,S,Function unknown
+BHE81_RS15945,Gfo/Idh/MocA family protein,-1.493175382816893,0.0045039799352295,Unknown,S,Function unknown
+BHE81_RS15955,serine/threonine transporter SstT,-1.4092817318724915,0.0034690279746967,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS15975,MFS transporter,-2.4249162795214905,0.0008184732976945,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS16070,MFS transporter,-2.747989204477764,0.0231755391908881,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS16080,galactarate dehydratase,-3.051790116529967,2.601655643651351e-10,Unknown,S,Function unknown
+BHE81_RS16100,DnaA initiator-associating protein DiaA,1.3016563593938837,0.022176456470819,Unknown,S,Function unknown
+BHE81_RS16145,ubiquinone anaerobic biosynthesis protein UbiU,-4.852824930105659,2.9081639574709267e-11,Unknown,S,Function unknown
+BHE81_RS16150,U32 family peptidase,-4.84640474815564,3.277423371661331e-14,Unknown,S,Function unknown
+BHE81_RS16330,23S rRNA (uridine(2552)-2'-O)-methyltransferase RlmE,1.2398443674446065,0.0461948925960669,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS16335,ribosome assembly RNA-binding protein YhbY,1.70026281310301,1.2325133094991864e-05,Unknown,S,Function unknown
+BHE81_RS16360,50S ribosomal protein L27,2.0411219059417216,0.0015500161053337,Translation,J,"Translation, ribosomal structure and biogenesis"
+BHE81_RS16365,50S ribosomal protein L21,2.918165172063932,0.0002082354333607,Translation,J,"Translation, ribosomal structure and biogenesis"
+BHE81_RS16535,30S ribosomal protein S9,1.7296965406498084,0.0078618910494907,Translation,J,"Translation, ribosomal structure and biogenesis"
+BHE81_RS16540,50S ribosomal protein L13,1.8216061038088869,0.0030551994507431,Translation,J,"Translation, ribosomal structure and biogenesis"
+BHE81_RS16575,peroxide/acid stress response protein YhcN,2.7881918324686024,0.0112025515492494,Stress_Response,O,"Posttranslational modification, protein turnover, chaperones"
+BHE81_RS16580,DUF1471 family stress response protein YhcN-B,2.6132751493595885,0.0003201628856465,Stress_Response,O,"Posttranslational modification, protein turnover, chaperones"
+BHE81_RS16630,rod shape-determining protein MreD,2.213226399149661,0.022601594198091,Unknown,S,Function unknown
+BHE81_RS16645,RNase E specificity factor CsrD,1.0511993411816,0.0286046916051734,Unknown,S,Function unknown
+BHE81_RS16660,protein-methionine-sulfoxide reductase heme-binding subunit MsrQ,2.007261699264069,0.011627772947632,Energy,C,Energy production and conversion
+BHE81_RS16665,type II 3-dehydroquinate dehydratase,2.8470706680347817,1.2988541490965308e-06,Unknown,S,Function unknown
+BHE81_RS16670,acetyl-CoA carboxylase biotin carboxyl carrier protein,1.3187529921898296,0.0191822289122124,Unknown,S,Function unknown
+BHE81_RS16700,tRNA dihydrouridine synthase DusB,2.047532137251449,0.000142340386375,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS16705,DNA-binding transcriptional regulator Fis,4.479731056035699,0.0492961610020158,Transcription,K,Transcription
+BHE81_RS17095,bifunctional acetylornithine/succinyldiaminopimelate transaminase,-1.2806291789860154,0.0174640571224798,Unknown,S,Function unknown
+BHE81_RS17115,peptidylprolyl isomerase A,2.3317115408442857,8.296580993637069e-09,Unknown,S,Function unknown
+BHE81_RS17130,nitrite reductase large subunit NirB,-6.520099616031177,2.965180917514753e-17,Energy,C,Energy production and conversion
+BHE81_RS17135,nitrite reductase small subunit NirD,-4.166339097729213,0.0106197815590942,Energy,C,Energy production and conversion
+BHE81_RS17140,siroheme synthase CysG,-2.239570652706268,1.0244096113890434e-05,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS17155,ribulose-phosphate 3-epimerase,-1.0830678259248108,0.007343930422515,Unknown,S,Function unknown
+BHE81_RS17265,Fe(2+) transporter permease subunit FeoB,-2.063686806958141,1.6473403136906418e-06,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS17270,[Fe-S]-dependent transcriptional repressor FeoC,-2.539468071391558,0.0108323186038787,Transcription,K,Transcription
+BHE81_RS17290,Fe-S biogenesis protein NfuA,1.2255982669105816,0.0118813596965902,Unknown,S,Function unknown
+BHE81_RS17310,HTH-type transcriptional regulator MalT,-1.6373349596656055,3.594974606605963e-07,Transcription,K,Transcription
+BHE81_RS17330,glycerol-3-phosphate dehydrogenase,-3.2395646114190733,2.677901796656176e-23,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS17335,helix-turn-helix domain-containing protein,-2.356061747739999,0.0008414707023842,Unknown,S,Function unknown
+BHE81_RS17390,gluconate operon transcriptional repressor GntR,-1.3417009900064547,0.016233548994669,Transcription,K,Transcription
+BHE81_RS17510,4-aminobutyrate--2-oxoglutarate transaminase,2.504847962693824,0.0134550292195457,Unknown,S,Function unknown
+BHE81_RS17635,nickel ABC transporter substrate-binding protein,-2.972825587175485,0.0013989509470757,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS17640,nickel ABC transporter permease subunit NikB,-2.08866971669698,0.0436708418894627,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS17645,ABC transporter permease subunit,-3.2956154406979143,0.0108924346696951,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS17650,ABC transporter permease subunit,-5.386843473420292,0.014075638087322,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS17655,nickel import ATP-binding protein NikD,-2.7365016786792995,0.0003115523815566,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS17660,nickel import ATP-binding protein NikE,-2.525479956210549,0.0075984688094469,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS17690,universal stress protein UspA,-1.5108548613179786,0.0001561419326963,Stress_Response,O,"Posttranslational modification, protein turnover, chaperones"
+BHE81_RS17695,dipeptide/tripeptide permease DtpB,-1.4382721648584682,0.0191526140266837,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS17785,dicarboxylate/amino acid:cation symporter,2.3272014260177345,2.3356686238342323e-06,Unknown,S,Function unknown
+BHE81_RS17805,cellulose biosynthesis cyclic di-GMP-binding regulatory protein BcsB,-1.34252407469131,0.0006774257992276,Transcription,K,Transcription
+BHE81_RS17835,cellulose biosynthesis protein BcsG,-1.2799094125640178,0.0442219554113786,Unknown,S,Function unknown
+BHE81_RS17995,HTH-type transcriptional regulator,2.7987778911425,9.163661569997127e-05,Transcription,K,Transcription
+BHE81_RS18090,4Fe-4S dicluster domain-containing protein,-3.5902777319713355,3.2489947947574123e-06,Unknown,S,Function unknown
+BHE81_RS18100,selenocysteine-specific translation elongation factor,-1.2849506299577471,0.0169301174678295,Translation,J,"Translation, ribosomal structure and biogenesis"
+BHE81_RS18105,L-seryl-tRNA(Sec) selenium transferase,-1.3404592849159065,0.0346782479011277,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS18195,2%2C3-bisphosphoglycerate-independent phosphoglycerate mutase,-2.355063990661361,0.000745953281156,Unknown,S,Function unknown
+BHE81_RS18305,50S ribosomal protein L28,2.145517571468461,1.581118816312526e-08,Translation,J,"Translation, ribosomal structure and biogenesis"
+BHE81_RS18330,SMP-30/gluconolactonase/LRE family protein,-1.496493212764351,0.015993303266816,Unknown,S,Function unknown
+BHE81_RS18465,MIP/aquaporin family protein,-1.8038583857992936,4.282662138390016e-05,Membrane,M,Cell wall/membrane/envelope biogenesis
+BHE81_RS18470,glycerol kinase GlpK,-2.0885017626524283,8.356290697139392e-10,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS18625,MDR family MFS transporter,1.8249393488071213,0.0301772142121871,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS18690,TetR/AcrR family transcriptional regulator,-1.95629058748482,1.1174551744455872e-05,Transcription,K,Transcription
+BHE81_RS18715,cation-transporting P-type ATPase,1.1430014929756558,0.0176099078056752,Unknown,S,Function unknown
+BHE81_RS18835,ABC transporter permease,-1.5447201484873725,0.0082882525561494,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS18855,betaine-aldehyde dehydrogenase,1.0162324194181611,0.0274986482143175,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS18860,transcriptional regulator BetI,2.40436615152306,0.0002465191836902,Transcription,K,Transcription
+BHE81_RS18945,siderophore enterobactin receptor FepA,4.037415978271795,2.8018634791711545e-11,Unknown,S,Function unknown
+BHE81_RS18950,enterochelin esterase,3.676866758983366,1.3223164332940416e-08,Unknown,S,Function unknown
+BHE81_RS18960,enterobactin non-ribosomal peptide synthetase EntF,2.543543095800985,4.768065225444557e-06,Translation,J,"Translation, ribosomal structure and biogenesis"
+BHE81_RS18965,iron-enterobactin ABC transporter ATP-binding protein,4.459325827827775,2.069697425575216e-05,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS18980,enterobactin transporter EntS,4.65112138801532,1.1793291400752e-06,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS18990,isochorismate synthase EntC,3.763038618827995,9.607814023475403e-10,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS18995,(2%2C3-dihydroxybenzoyl)adenylate synthase EntE,5.145908205204864,3.8387872988353343e-16,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS19000,enterobactin biosynthesis bifunctional isochorismatase/aryl carrier protein EntB,4.507765552368723,3.220289577627093e-08,Unknown,S,Function unknown
+BHE81_RS19005,2%2C3-dihydro-2%2C3-dihydroxybenzoate dehydrogenase EntA,3.269792912447796,0.0001976027347274,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS19010,proofreading thioesterase EntH,2.5094003158653666,1.0377704535776132e-05,Unknown,S,Function unknown
+BHE81_RS19185,sugar ABC transporter ATP-binding protein,3.38730963243067,0.0036742005246345,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS19190,sugar ABC transporter substrate-binding protein,4.021187027044035,0.009882209149738,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS19200,1%2C2-dihydroxy-3-keto-5-methylthiopentene dioxygenase,1.6094493837368318,0.028829949701681,Unknown,S,Function unknown
+BHE81_RS19245,universal stress protein UspG,-1.7941972460911468,0.0007197341383899,Stress_Response,O,"Posttranslational modification, protein turnover, chaperones"
+BHE81_RS19260,anaerobic C4-dicarboxylate transporter DcuC,-3.063656983706118,6.008857925890281e-06,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS19285,twin-arginine translocase subunit TatE,1.3916019960236554,0.0237384842194399,Unknown,S,Function unknown
+BHE81_RS19305,DUF493 family protein YbeD,-2.078456482038583,0.0012075797570796,Unknown,S,Function unknown
+BHE81_RS19395,amino acid ABC transporter substrate-binding protein,2.124030442932207,0.0001305445880211,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS19475,PTS N-acetyl glucosamine transporter subunit IIABC,-1.3530248556289617,0.0005982476066424,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS19490,chitoporin ChiP,-2.187546164783494,0.0008132966386431,Membrane,M,Cell wall/membrane/envelope biogenesis
+BHE81_RS19570,DUF2517 family protein,-2.425618451792694,0.0312917645929274,Unknown,S,Function unknown
+BHE81_RS19625,citrate synthase,1.4482941503660316,1.9445876055150973e-05,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS19635,succinate dehydrogenase membrane anchor subunit,1.405035126964033,0.0109880512760606,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS19640,succinate dehydrogenase flavoprotein subunit,1.4873130968623502,0.0060585805705736,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS19650,2-oxoglutarate dehydrogenase E1 component,1.0433749110837018,0.0050331458358992,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS19675,cytochrome ubiquinol oxidase subunit I,-2.6544460681824646,6.990808448430971e-11,Energy,C,Energy production and conversion
+BHE81_RS19680,cytochrome d ubiquinol oxidase subunit II,-2.699160364068447,7.593741634129216e-16,Energy,C,Energy production and conversion
+BHE81_RS19685,cytochrome bd-I oxidase subunit CydX,-2.534807990203129,0.0230120091212827,Energy,C,Energy production and conversion
+BHE81_RS19690,cyd operon protein YbgE,-1.778118027245884,0.0187298416200496,Unknown,S,Function unknown
+BHE81_RS19695,tol-pal system-associated acyl-CoA thioesterase,1.4589957634863686,0.049353010089106,Unknown,S,Function unknown
+BHE81_RS19760,YbgS-like family protein,1.2226495136394795,0.0447027551996113,Unknown,S,Function unknown
+BHE81_RS19775,galactose-1-epimerase,-1.4665046027733082,0.0038706871089316,Unknown,S,Function unknown
+BHE81_RS19810,molybdate ABC transporter substrate-binding protein,1.6202019550363111,0.0053349135484982,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS19815,molybdate ABC transporter permease subunit,1.980369257426924,4.167998291601232e-05,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS19855,MerR family transcriptional regulator,-1.646430922310247,1.0377704535776132e-05,Transcription,K,Transcription
+BHE81_RS19925,histidine utilization repressor,1.1706726857998215,0.0021741957522958,Transcription,K,Transcription
+BHE81_RS28835,urocanate hydratase,1.534987850886119,2.1986857827843903e-10,Unknown,S,Function unknown
+BHE81_RS19940,amino acid permease,2.9323018093184525,3.0923646745300387e-06,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS19990,excinuclease ABC subunit UvrB,1.3445627848201258,1.660719972255367e-05,DNA_Repair,L,"Replication, recombination and repair"
+BHE81_RS20025,GTP 3'%2C8-cyclase MoaA,-1.5900074313448271,0.0024144001405373,Unknown,S,Function unknown
+BHE81_RS20030,molybdenum cofactor biosynthesis protein B,-1.9043637474989228,0.0196448477424514,Unknown,S,Function unknown
+BHE81_RS20140,DUF1471 family protein YbiJ,3.2931104458907723,1.3270818399437193e-06,Unknown,S,Function unknown
+BHE81_RS20175,glutamine ABC transporter permease GlnP,2.0222276604649285,0.0433696772208486,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS20180,glutamine ABC transporter substrate-binding protein GlnH,1.245784563441836,0.0020689908509939,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS20185,DNA starvation/stationary phase protection protein Dps,1.285153494961872,0.0360912924668212,Unknown,S,Function unknown
+BHE81_RS20270,formate C-acetyltransferase/glycerol dehydratase family glycyl radical enzyme,-2.232862669618142,0.0057972345793475,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS20325,biofilm formation regulator BssR,-2.2260546266451167,0.0019271006997711,Transcription,K,Transcription
+BHE81_RS20385,inner membrane protein YbjM,-1.8359090815933063,0.0108924346696951,Membrane,M,Cell wall/membrane/envelope biogenesis
+BHE81_RS20530,hydroxylamine reductase,-1.911020954284854,0.0270244543303509,Energy,C,Energy production and conversion
+BHE81_RS20545,ATP-dependent endonuclease,-1.190794805076537,0.0019216249132817,DNA_Repair,L,"Replication, recombination and repair"
+BHE81_RS20610,outer membrane lipoprotein chaperone LolA,1.1488683314005457,0.0091812975863618,Membrane,M,Cell wall/membrane/envelope biogenesis
+BHE81_RS20615,replication-associated recombination protein RarA,1.4416818593393508,0.0027179903500423,Unknown,S,Function unknown
+BHE81_RS20625,dimethylsulfoxide reductase subunit A,-4.591089284931807,5.2723710572244184e-14,Energy,C,Energy production and conversion
+BHE81_RS20630,DMSO/selenate family reductase complex B subunit,-3.137121222722393,0.0021873081826167,Energy,C,Energy production and conversion
+BHE81_RS20635,dimethyl sulfoxide reductase anchor subunit family protein,-2.944093814900953,0.0021850387193798,Energy,C,Energy production and conversion
+BHE81_RS20655,formate C-acetyltransferase,-1.75370588592364,5.097452861852349e-06,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS20730,YcbJ family phosphotransferase,-2.487691350452046,7.196478348391531e-05,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS20735,envelope biogenesis factor ElyC,-3.3456931101841803,0.0004403388813074,Unknown,S,Function unknown
+BHE81_RS20765,YcbK family protein,1.911831369441664,0.0003788870339169,Unknown,S,Function unknown
+BHE81_RS20780,porin OmpK35,-3.62570144543616,3.4653003564282413e-18,Membrane,M,Cell wall/membrane/envelope biogenesis
+BHE81_RS20825,aliphatic sulfonates ABC transporter ATP-binding protein,3.727535038556078,5.484184869245389e-15,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS20830,aliphatic sulfonate ABC transporter permease SsuC,3.660649642469632,1.4461126182193055e-09,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS20835,FMNH2-dependent alkanesulfonate monooxygenase,3.8957677090882346,3.155559092365654e-11,Unknown,S,Function unknown
+BHE81_RS20840,sulfonate ABC transporter substrate-binding protein,5.190979066927426,0.025891468242748,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS20845,NADPH-dependent FMN reductase,4.141663867647974,1.61960264252983e-06,Energy,C,Energy production and conversion
+BHE81_RS20985,FtsH protease modulator YccA,2.1410762387529183,8.296580993637069e-09,Unknown,S,Function unknown
+BHE81_RS21030,tartrate dehydrogenase,2.107444168668047,0.0114603038218921,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS21050,HTH-type transcriptional regulator PuuR,2.017318166414766,0.0314107825576489,Transcription,K,Transcription
+BHE81_RS21060,glutamine synthetase family protein,3.336217457234794,0.000370419703749,Unknown,S,Function unknown
+BHE81_RS21095,bifunctional glucose-1-phosphatase/inositol phosphatase,-1.2462022583512766,0.0038485553669287,Unknown,S,Function unknown
+BHE81_RS21100,YccJ family protein,-1.4123899608197794,0.0113194235717109,Unknown,S,Function unknown
+BHE81_RS21105,NAD(P)H:quinone oxidoreductase,-1.624135385867716,0.0001335641196732,Energy,C,Energy production and conversion
+BHE81_RS21110,general stress protein,4.403228133080969,3.0717089271368503e-10,Stress_Response,O,"Posttranslational modification, protein turnover, chaperones"
+BHE81_RS21200,phosphate starvation-inducible protein PhoH,2.532798218824368,5.485442850845256e-11,Unknown,S,Function unknown
+BHE81_RS21290,MysB family protein,3.9113404574653936,2.674474807464377e-05,Unknown,S,Function unknown
+BHE81_RS21315,N-methyl-L-tryptophan oxidase,-1.2144252921043748,0.0132049118824117,Energy,C,Energy production and conversion
+BHE81_RS21320,biofilm formation regulator BssS,-2.196477611172051,1.807421517026671e-13,Transcription,K,Transcription
+BHE81_RS21330,DNA damage-inducible protein I,2.267800358302514,6.125191494762605e-06,Unknown,S,Function unknown
+BHE81_RS21425,acyl carrier protein,1.355084422051268,0.0132049118824117,Unknown,S,Function unknown
+BHE81_RS21440,cell division protein YceG,2.1461993010551983,0.0114959038726461,Unknown,S,Function unknown
+BHE81_RS21490,alpha/beta hydrolase YcfP,-1.2398505496867616,0.0054130963306982,Unknown,S,Function unknown
+BHE81_RS21500,glycine zipper 2TM domain-containing protein,2.684066823482326,3.645654701125064e-06,Unknown,S,Function unknown
+BHE81_RS21520,L%2CD-transpeptidase LdtC,2.7212128316254227,8.312587399222491e-12,Unknown,S,Function unknown
+BHE81_RS21540,lipoprotein-releasing ABC transporter permease subunit LolE,-1.3279804403344844,0.0346698837271665,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS21570,4-hydroxythreonine-4-phosphate dehydrogenase PdxA,-2.072797766673865,0.0132049118824117,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS21575,four-carbon acid sugar kinase family protein,-1.2548811429307036,0.0228793377165945,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS21595,transaldolase,-4.058308411257627,0.0137720411273329,Unknown,S,Function unknown
+BHE81_RS21635,peptidase T,-3.786631875398149,6.026117147153028e-15,Unknown,S,Function unknown
+BHE81_RS21640,cupin domain-containing protein,-1.132885834137893,0.0117093403013508,Unknown,S,Function unknown
+BHE81_RS21645,two-component system sensor histidine kinase PhoQ,1.4691771790911368,0.0034281020828836,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS21705,exonuclease,-2.448155566769567,0.0009408701477116,DNA_Repair,L,"Replication, recombination and repair"
+BHE81_RS21720,hypothetical protein,-2.7294106655748567,0.0223480272736824,Unknown,S,Function unknown
+BHE81_RS21875,phage portal protein,-3.1212850318059524,0.0054220519492298,Unknown,S,Function unknown
+BHE81_RS21880,S49 family peptidase,-4.937882351490032,0.0043574012605179,Unknown,S,Function unknown
+BHE81_RS21885,phage major capsid protein,-2.8049571354670344,0.0354409097070723,Unknown,S,Function unknown
+BHE81_RS22015,general stress protein,2.099664083180166,0.0205928576827098,Stress_Response,O,"Posttranslational modification, protein turnover, chaperones"
+BHE81_RS22090,kdo(2)-lipid IV(A) palmitoleoyltransferase,2.3128935444424807,0.0489244508106021,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS22095,leucine efflux protein LeuE,2.7390693371080395,0.0280521287278921,Unknown,S,Function unknown
+BHE81_RS22105,hypothetical protein,3.6290144630073735,0.0005997047632373,Unknown,S,Function unknown
+BHE81_RS22170,DinI family protein,4.564374755360036,0.0012673725039968,Unknown,S,Function unknown
+BHE81_RS22240,D-hexose-6-phosphate mutarotase,-1.4982623992435489,3.1154875083476805e-05,Unknown,S,Function unknown
+BHE81_RS22245,glyceraldehyde-3-phosphate dehydrogenase,-1.5158158696695534,0.0086140183427875,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS22435,carbohydrate porin,-4.324833750909079,0.0298800716795034,Membrane,M,Cell wall/membrane/envelope biogenesis
+BHE81_RS22555,DNA-binding transcriptional regulator DsdC,-1.3361868965623418,0.038461221511297,Transcription,K,Transcription
+BHE81_RS22560,D-serine transporter DsdX,3.083376615643324,0.0109251455327333,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS22600,putative transporter,-2.314814881166261,0.0003196620999237,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS22795,phosphate ABC transporter substrate-binding protein PstS,2.921435474785263,5.499665953954282e-11,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS22835,F0F1 ATP synthase subunit delta,1.7385004382359963,1.603879913011958e-06,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS22840,F0F1 ATP synthase subunit B,1.6952601306494166,5.477009781529473e-05,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS22845,F0F1 ATP synthase subunit C,1.9037409480619136,0.0003421614262372,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS22850,F0F1 ATP synthase subunit A,1.299374264997576,0.0060585805705736,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS22855,F0F1 ATP synthase subunit I,1.786272047257316,0.0081634663782817,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS22930,multidrug transporter subunit MdtD,-1.5368904329856117,0.0230570949238409,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS22935,FadR/GntR family transcriptional regulator,-1.7044485306327548,5.8269369946623175e-05,Transcription,K,Transcription
+BHE81_RS22980,thiol:disulfide interchange protein DsbA,1.4280789712435489,0.0033719930214843,Unknown,S,Function unknown
+BHE81_RS23080,formate dehydrogenase cytochrome b556 subunit,-1.3033631791544689,0.0378045704856516,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS23085,formate dehydrogenase subunit beta,-1.0970756556717518,0.0015283481136279,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS23090,formate dehydrogenase-N subunit alpha,-1.2929759788868913,0.0001360590122113,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS23125,alpha-galactosidase,-2.523790154743339,6.317969561478813e-05,Unknown,S,Function unknown
+BHE81_RS23130,MFS transporter,-2.8908746576301843,0.0009870166779698,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS23155,sugar ABC transporter ATP-binding protein,-1.5529995076957968,0.0284593396079559,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS23200,superoxide dismutase [Mn],1.7847395646362438,0.0001406436716524,Stress_Response,O,"Posttranslational modification, protein turnover, chaperones"
+BHE81_RS23210,envelope stress sensor histidine kinase CpxA,1.1106896253199638,0.0373422316015938,Stress_Response,O,"Posttranslational modification, protein turnover, chaperones"
+BHE81_RS23215,envelope stress response regulator transcription factor CpxR,1.3215383886252687,0.0004109424557693,Stress_Response,O,"Posttranslational modification, protein turnover, chaperones"
+BHE81_RS23220,cell-envelope stress modulator CpxP,2.053832928188572,7.878592570759196e-05,Stress_Response,O,"Posttranslational modification, protein turnover, chaperones"
+BHE81_RS23235,ribonuclease E activity regulator RraA,-1.39470244688873,0.0008713157259699,DNA_Repair,L,"Replication, recombination and repair"
+BHE81_RS23250,ATP-dependent protease subunit HslV,1.4433885908045878,0.0019217690473405,Unknown,S,Function unknown
+BHE81_RS23290,IS1 family transposase,-1.9951812374602271,0.0279940803124789,Unknown,S,Function unknown
+BHE81_RS23310,methylenetetrahydrofolate reductase,-1.6189739521431563,0.0479709151726272,Energy,C,Energy production and conversion
+BHE81_RS23315,bifunctional L-1%2C2-propanediol dehydrogenase/glycerol dehydrogenase,-3.359294483134951,1.7176549797172552e-12,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS23320,fructose-6-phosphate aldolase,-3.621276225592228,0.0154554335861979,Unknown,S,Function unknown
+BHE81_RS23325,helix-turn-helix transcriptional regulator,-1.6616654990694153,0.0004204572332166,Transcription,K,Transcription
+BHE81_RS23450,ketol-acid reductoisomerase,-1.6590187184162537,0.0020796376063346,Unknown,S,Function unknown
+BHE81_RS23490,ATP-dependent RNA helicase RhlB,1.2763130893260393,0.0004803107558502,Unknown,S,Function unknown
+BHE81_RS23650,DNA helicase II,1.3200707368153186,0.0015943792431678,Unknown,S,Function unknown
+BHE81_RS23685,Rpn family recombination-promoting nuclease/putative transposase,-1.1428854648472655,0.0030876832692601,DNA_Repair,L,"Replication, recombination and repair"
+BHE81_RS23760,DNA recombination protein RmuC,1.1979263619465987,0.0301772142121871,Unknown,S,Function unknown
+BHE81_RS23765,bifunctional demethylmenaquinone methyltransferase/2-methoxy-6-polyprenyl-1%2C4-benzoquinol methylase UbiE,1.2511644410414489,0.0439813471426662,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS23815,acetyl-CoA C-acyltransferase FadA,2.6244048991946585,1.4052516870986746e-06,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS23910,anaerobic C4-dicarboxylate transporter DcuB,-5.172781679180046,3.517459427738512e-13,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS23915,PTS lactose/cellobiose transporter subunit IIA,-2.107962557291638,1.2988541490965308e-06,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS23920,PTS sugar transporter subunit IIB,-1.8269114229687264,0.0006098571265617,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS24000,two-component system sensor histidine kinase ZraS,-2.729919766431123,1.3365427461919768e-10,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS24005,sigma-54-dependent response regulator transcription factor ZraR,-1.935487442659234,0.0042306267002832,Transcription,K,Transcription
+BHE81_RS24080,dipeptidase PepE,-1.5919831182883653,0.0131049556544054,Unknown,S,Function unknown
+BHE81_RS24165,maltoporin,-1.3750201862635327,0.0015611664062293,Membrane,M,Cell wall/membrane/envelope biogenesis
+BHE81_RS24205,CsbD family protein,2.7634701463730176,8.095953540579234e-05,Unknown,S,Function unknown
+BHE81_RS24415,fimbria/pilus outer membrane usher protein,-1.6043244163038846,0.049598257068671,Membrane,M,Cell wall/membrane/envelope biogenesis
+BHE81_RS24440,acetate--CoA ligase,2.4767430979077645,4.3496203324743914e-13,Unknown,S,Function unknown
+BHE81_RS24460,formate dehydrogenase H subunit alpha%2C selenocysteine-containing,-4.219171695275744,3.4653003564282413e-18,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS24500,ATP-binding protein,-1.6318595360342862,0.0351569815486092,Unknown,S,Function unknown
+BHE81_RS24505,DDRRRQL repeat protein YjdP,2.351194067376867,0.0291536631646893,Unknown,S,Function unknown
+BHE81_RS24585,alpha-glucosidase/alpha-galactosidase,-1.4512024600916031,0.0103046523342968,Unknown,S,Function unknown
+BHE81_RS24625,DsbA family protein,2.6435089643950733,0.0004971354650184,Unknown,S,Function unknown
+BHE81_RS24655,PerC family transcriptional regulator,3.793955157870641,0.0005932019073985,Transcription,K,Transcription
+BHE81_RS24690,anaerobic C4-dicarboxylate transporter,-1.693261446900736,0.0069134005944892,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS24695,aspartate ammonia-lyase,-1.3478030911580068,0.0034065397292362,Unknown,S,Function unknown
+BHE81_RS24805,fumarate reductase subunit FrdD,-4.000863643584473,2.131548265805929e-08,Energy,C,Energy production and conversion
+BHE81_RS24810,fumarate reductase subunit FrdC,-4.330618217137657,2.0633637602110004e-08,Energy,C,Energy production and conversion
+BHE81_RS24815,fumarate reductase iron-sulfur protein,-4.149052074632291,7.457033058162135e-13,Energy,C,Energy production and conversion
+BHE81_RS24820,fumarate reductase (quinol) flavoprotein subunit,-4.4125311757232994,1.3283617915524483e-25,Energy,C,Energy production and conversion
+BHE81_RS24825,elongation factor P--(R)-beta-lysine ligase,-1.4343507413782246,0.0204448378748714,Translation,J,"Translation, ribosomal structure and biogenesis"
+BHE81_RS24830,glutamate/gamma-aminobutyrate family transporter YjeM,-2.6118971958828454,0.014075638087322,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS24840,archaetidylserine decarboxylase,1.58518694018115,0.0001404605775473,Unknown,S,Function unknown
+BHE81_RS24865,tRNA epoxyqueuosine(34) reductase QueG,-1.2864777690647664,0.0015652408632727,Energy,C,Energy production and conversion
+BHE81_RS24885,DNA mismatch repair endonuclease MutL,1.0238486956546633,0.0191526140266837,DNA_Repair,L,"Replication, recombination and repair"
+BHE81_RS24890,tRNA (adenosine(37)-N6)-dimethylallyltransferase MiaA,1.138777553254358,8.385173740506605e-05,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS24945,isovaleryl-CoA dehydrogenase,-1.780386365253876,0.002430123839338,Metabolism,E,Amino acid transport and metabolism
+BHE81_RS24955,biofilm peroxide resistance protein BsmA,-1.8840106749926897,4.6315519539673e-05,Unknown,S,Function unknown
+BHE81_RS25045,D-serine/D-alanine/glycine transporter,1.97953967260702,0.0015407892847879,Transport,G,Carbohydrate transport and metabolism
+BHE81_RS25090,DUF1107 domain-containing protein,2.445725224265632,2.3200124798296576e-05,Unknown,S,Function unknown
+BHE81_RS25200,cytochrome b562,1.4023259121230052,0.0034281020828836,Energy,C,Energy production and conversion
+BHE81_RS25210,SFCGS family glycine-rich protein,-3.7025522458967743,0.0102876460090874,Unknown,S,Function unknown
+BHE81_RS25230,amidohydrolase/deacetylase family metallohydrolase,-2.284737357671794,0.0129643005099444,Unknown,S,Function unknown
+BHE81_RS25265,anaerobic ribonucleoside-triphosphate reductase-activating protein,-4.806842548351968,1.1079612374729257e-07,Energy,C,Energy production and conversion
+BHE81_RS25270,anaerobic ribonucleoside-triphosphate reductase,-4.832748366012162,1.4119498346037716e-35,Energy,C,Energy production and conversion
+BHE81_RS25295,alpha%2Calpha-phosphotrehalase,1.293200149734285,0.0077695101679312,Unknown,S,Function unknown

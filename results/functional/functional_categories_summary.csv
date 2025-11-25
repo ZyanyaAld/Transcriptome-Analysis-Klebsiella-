@@ -1,0 +1,10 @@
+functional_category,gene_count,mean_log2fc,std_log2fc
+Unknown,276,0.276,2.77
+Metabolism,124,-0.805,2.912
+Transport,120,0.757,3.264
+Transcription,52,-0.042,2.353
+Energy,49,-1.885,3.327
+Membrane,22,-0.581,2.507
+Stress_Response,18,0.288,2.648
+DNA_Repair,13,-0.296,1.935
+Translation,9,1.45,1.638

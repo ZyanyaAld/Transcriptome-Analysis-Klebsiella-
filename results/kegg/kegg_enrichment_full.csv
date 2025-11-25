@@ -1,0 +1,6 @@
+KEGG_Pathway,Pathway_Name,DEG_Count,Total_Genes,Odds_Ratio,P_Value,P_Adj
+ko02020,Two-component system,344,344,,1.0,1.0
+ko01200,Carbon metabolism,339,339,,1.0,1.0
+ko00190,Oxidative phosphorylation,343,343,,1.0,1.0
+ko02010,ABC transporters,339,339,,1.0,1.0
+ko03410,Base excision repair,343,343,,1.0,1.0

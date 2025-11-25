@@ -1,0 +1,7 @@
+Pathway_ID,Pathway_Name,Total_Genes,Up_Regulated,Down_Regulated,Paper_Genes
+ko02020,Two-component system,344,344,0,1
+ko03410,Base excision repair,343,343,0,0
+ko00190,Oxidative phosphorylation,343,343,0,0
+ko00920,Sulfur metabolism,0,0,0,0
+ko02010,ABC transporters,339,0,339,0
+ko01060,Biosynthesis of unsaturated fatty acids,0,0,0,0

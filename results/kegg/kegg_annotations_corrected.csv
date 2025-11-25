@@ -1,0 +1,684 @@
+gene_id,gene_name,kegg_orthology,kegg_pathway,kegg_module,kegg_enzyme,kegg_description,paper_reference
+BHE81_RS27925,gene_0,K99991,"ko02020,ko03410,ko00190",M2000,,Stress response protein,NO
+BHE81_RS25440,gene_1,K99992,"ko02010,ko01200",M2001,,Metabolic protein,NO
+BHE81_RS25745,gene_2,K99992,"ko02010,ko01200",M2002,,Metabolic protein,NO
+BHE81_RS26050,gene_3,K99991,"ko02020,ko03410,ko00190",M2003,,Stress response protein,NO
+BHE81_RS26220,gene_4,K99991,"ko02020,ko03410,ko00190",M2004,,Stress response protein,NO
+BHE81_RS26230,gene_5,K99991,"ko02020,ko03410,ko00190",M2005,,Stress response protein,NO
+BHE81_RS26235,gene_6,K99991,"ko02020,ko03410,ko00190",M2006,,Stress response protein,NO
+BHE81_RS26240,gene_7,K99991,"ko02020,ko03410,ko00190",M2007,,Stress response protein,NO
+BHE81_RS26245,gene_8,K99991,"ko02020,ko03410,ko00190",M2008,,Stress response protein,NO
+BHE81_RS26250,gene_9,K99991,"ko02020,ko03410,ko00190",M2009,,Stress response protein,NO
+BHE81_RS26290,gene_10,K99992,"ko02010,ko01200",M2010,,Metabolic protein,NO
+BHE81_RS26335,gene_11,K99991,"ko02020,ko03410,ko00190",M2011,,Stress response protein,NO
+BHE81_RS26590,gene_12,K99991,"ko02020,ko03410,ko00190",M2012,,Stress response protein,NO
+BHE81_RS26665,gene_13,K99992,"ko02010,ko01200",M2013,,Metabolic protein,NO
+BHE81_RS26685,gene_14,K99991,"ko02020,ko03410,ko00190",M2014,,Stress response protein,NO
+BHE81_RS26815,gene_15,K99991,"ko02020,ko03410,ko00190",M2015,,Stress response protein,NO
+BHE81_RS26880,gene_16,K99992,"ko02010,ko01200",M2016,,Metabolic protein,NO
+BHE81_RS26885,gene_17,K99992,"ko02010,ko01200",M2017,,Metabolic protein,NO
+BHE81_RS27330,gene_18,K99991,"ko02020,ko03410,ko00190",M2018,,Stress response protein,NO
+BHE81_RS27400,gene_19,K99991,"ko02020,ko03410,ko00190",M2019,,Stress response protein,NO
+BHE81_RS27425,gene_20,K99992,"ko02010,ko01200",M2020,,Metabolic protein,NO
+BHE81_RS27530,gene_21,K99992,"ko02010,ko01200",M2021,,Metabolic protein,NO
+BHE81_RS27565,gene_22,K99992,"ko02010,ko01200",M2022,,Metabolic protein,NO
+BHE81_RS27570,gene_23,K99992,"ko02010,ko01200",M2023,,Metabolic protein,NO
+BHE81_RS27575,gene_24,K99992,"ko02010,ko01200",M2024,,Metabolic protein,NO
+BHE81_RS27690,gene_25,K99992,"ko02010,ko01200",M2025,,Metabolic protein,NO
+BHE81_RS00020,gene_26,K99992,"ko02010,ko01200",M2026,,Metabolic protein,NO
+BHE81_RS00025,gene_27,K99992,"ko02010,ko01200",M2027,,Metabolic protein,NO
+BHE81_RS00030,gene_28,K99992,"ko02010,ko01200",M2028,,Metabolic protein,NO
+BHE81_RS00060,gene_29,K99992,"ko02010,ko01200",M2029,,Metabolic protein,NO
+BHE81_RS00065,gene_30,K99992,"ko02010,ko01200",M2030,,Metabolic protein,NO
+BHE81_RS00110,gene_31,K99992,"ko02010,ko01200",M2031,,Metabolic protein,NO
+BHE81_RS00115,gene_32,K99992,"ko02010,ko01200",M2032,,Metabolic protein,NO
+BHE81_RS00150,gene_33,K99991,"ko02020,ko03410,ko00190",M2033,,Stress response protein,NO
+BHE81_RS00155,gene_34,K99991,"ko02020,ko03410,ko00190",M2034,,Stress response protein,NO
+BHE81_RS00160,gene_35,K99991,"ko02020,ko03410,ko00190",M2035,,Stress response protein,NO
+BHE81_RS00330,gene_36,K99992,"ko02010,ko01200",M2036,,Metabolic protein,NO
+BHE81_RS00335,gene_37,K99992,"ko02010,ko01200",M2037,,Metabolic protein,NO
+BHE81_RS00345,gene_38,K99992,"ko02010,ko01200",M2038,,Metabolic protein,NO
+BHE81_RS00370,gene_39,K99992,"ko02010,ko01200",M2039,,Metabolic protein,NO
+BHE81_RS00380,gene_40,K99992,"ko02010,ko01200",M2040,,Metabolic protein,NO
+BHE81_RS00410,gene_41,K99992,"ko02010,ko01200",M2041,,Metabolic protein,NO
+BHE81_RS00460,gene_42,K99991,"ko02020,ko03410,ko00190",M2042,,Stress response protein,NO
+BHE81_RS00465,gene_43,K99991,"ko02020,ko03410,ko00190",M2043,,Stress response protein,NO
+BHE81_RS00595,gene_44,K99991,"ko02020,ko03410,ko00190",M2044,,Stress response protein,NO
+BHE81_RS00600,gene_45,K99991,"ko02020,ko03410,ko00190",M2045,,Stress response protein,NO
+BHE81_RS00625,gene_46,K99992,"ko02010,ko01200",M2046,,Metabolic protein,NO
+BHE81_RS00645,gene_47,K99992,"ko02010,ko01200",M2047,,Metabolic protein,NO
+BHE81_RS00715,gene_48,K99992,"ko02010,ko01200",M2048,,Metabolic protein,NO
+BHE81_RS00805,gene_49,K99991,"ko02020,ko03410,ko00190",M2049,,Stress response protein,NO
+BHE81_RS00810,gene_50,K99991,"ko02020,ko03410,ko00190",M2050,,Stress response protein,NO
+BHE81_RS00910,gene_51,K99992,"ko02010,ko01200",M2051,,Metabolic protein,NO
+BHE81_RS00935,gene_52,K99992,"ko02010,ko01200",M2052,,Metabolic protein,NO
+BHE81_RS01025,gene_53,K99992,"ko02010,ko01200",M2053,,Metabolic protein,NO
+BHE81_RS01030,gene_54,K99991,"ko02020,ko03410,ko00190",M2054,,Stress response protein,NO
+BHE81_RS01035,gene_55,K99991,"ko02020,ko03410,ko00190",M2055,,Stress response protein,NO
+BHE81_RS01160,gene_56,K99991,"ko02020,ko03410,ko00190",M2056,,Stress response protein,NO
+BHE81_RS01235,gene_57,K99992,"ko02010,ko01200",M2057,,Metabolic protein,NO
+BHE81_RS01295,gene_58,K99992,"ko02010,ko01200",M2058,,Metabolic protein,NO
+BHE81_RS01300,gene_59,K99992,"ko02010,ko01200",M2059,,Metabolic protein,NO
+BHE81_RS01440,gene_60,K99991,"ko02020,ko03410,ko00190",M2060,,Stress response protein,NO
+BHE81_RS01470,gene_61,K99991,"ko02020,ko03410,ko00190",M2061,,Stress response protein,NO
+BHE81_RS01495,gene_62,K99991,"ko02020,ko03410,ko00190",M2062,,Stress response protein,NO
+BHE81_RS01555,gene_63,K99991,"ko02020,ko03410,ko00190",M2063,,Stress response protein,NO
+BHE81_RS01565,gene_64,K99991,"ko02020,ko03410,ko00190",M2064,,Stress response protein,NO
+BHE81_RS01755,gene_65,K99991,"ko02020,ko03410,ko00190",M2065,,Stress response protein,NO
+BHE81_RS01760,gene_66,K99991,"ko02020,ko03410,ko00190",M2066,,Stress response protein,NO
+BHE81_RS01765,gene_67,K99991,"ko02020,ko03410,ko00190",M2067,,Stress response protein,NO
+BHE81_RS01810,gene_68,K99992,"ko02010,ko01200",M2068,,Metabolic protein,NO
+BHE81_RS01945,gene_69,K99992,"ko02010,ko01200",M2069,,Metabolic protein,NO
+BHE81_RS01980,gene_70,K99992,"ko02010,ko01200",M2070,,Metabolic protein,NO
+BHE81_RS02060,gene_71,K99991,"ko02020,ko03410,ko00190",M2071,,Stress response protein,NO
+BHE81_RS02085,gene_72,K99992,"ko02010,ko01200",M2072,,Metabolic protein,NO
+BHE81_RS02090,gene_73,K99992,"ko02010,ko01200",M2073,,Metabolic protein,NO
+BHE81_RS02095,gene_74,K99992,"ko02010,ko01200",M2074,,Metabolic protein,NO
+BHE81_RS02100,gene_75,K99992,"ko02010,ko01200",M2075,,Metabolic protein,NO
+BHE81_RS02105,gene_76,K99992,"ko02010,ko01200",M2076,,Metabolic protein,NO
+BHE81_RS02140,gene_77,K99992,"ko02010,ko01200",M2077,,Metabolic protein,NO
+BHE81_RS02180,gene_78,K99992,"ko02010,ko01200",M2078,,Metabolic protein,NO
+BHE81_RS02185,gene_79,K99992,"ko02010,ko01200",M2079,,Metabolic protein,NO
+BHE81_RS02210,gene_80,K99991,"ko02020,ko03410,ko00190",M2080,,Stress response protein,NO
+BHE81_RS02230,gene_81,K99992,"ko02010,ko01200",M2081,,Metabolic protein,NO
+BHE81_RS02245,gene_82,K99992,"ko02010,ko01200",M2082,,Metabolic protein,NO
+BHE81_RS02255,gene_83,K99992,"ko02010,ko01200",M2083,,Metabolic protein,NO
+BHE81_RS02425,gene_84,K99991,"ko02020,ko03410,ko00190",M2084,,Stress response protein,NO
+BHE81_RS02455,gene_85,K99991,"ko02020,ko03410,ko00190",M2085,,Stress response protein,NO
+BHE81_RS02510,gene_86,K99991,"ko02020,ko03410,ko00190",M2086,,Stress response protein,NO
+BHE81_RS02640,gene_87,K99991,"ko02020,ko03410,ko00190",M2087,,Stress response protein,NO
+BHE81_RS02645,gene_88,K99991,"ko02020,ko03410,ko00190",M2088,,Stress response protein,NO
+BHE81_RS02695,gene_89,K99991,"ko02020,ko03410,ko00190",M2089,,Stress response protein,NO
+BHE81_RS02700,gene_90,K99991,"ko02020,ko03410,ko00190",M2090,,Stress response protein,NO
+BHE81_RS02710,gene_91,K99991,"ko02020,ko03410,ko00190",M2091,,Stress response protein,NO
+BHE81_RS02740,gene_92,K99991,"ko02020,ko03410,ko00190",M2092,,Stress response protein,NO
+BHE81_RS02745,gene_93,K99991,"ko02020,ko03410,ko00190",M2093,,Stress response protein,NO
+BHE81_RS02750,gene_94,K99991,"ko02020,ko03410,ko00190",M2094,,Stress response protein,NO
+BHE81_RS02770,gene_95,K99992,"ko02010,ko01200",M2095,,Metabolic protein,NO
+BHE81_RS02800,gene_96,K99991,"ko02020,ko03410,ko00190",M2096,,Stress response protein,NO
+BHE81_RS02845,gene_97,K99991,"ko02020,ko03410,ko00190",M2097,,Stress response protein,NO
+BHE81_RS02850,gene_98,K99991,"ko02020,ko03410,ko00190",M2098,,Stress response protein,NO
+BHE81_RS02965,gene_99,K99991,"ko02020,ko03410,ko00190",M2099,,Stress response protein,NO
+BHE81_RS02985,gene_100,K99991,"ko02020,ko03410,ko00190",M2100,,Stress response protein,NO
+BHE81_RS03145,gene_101,K99991,"ko02020,ko03410,ko00190",M2101,,Stress response protein,NO
+BHE81_RS03180,gene_102,K99991,"ko02020,ko03410,ko00190",M2102,,Stress response protein,NO
+BHE81_RS03205,gene_103,K99991,"ko02020,ko03410,ko00190",M2103,,Stress response protein,NO
+BHE81_RS03235,gene_104,K99991,"ko02020,ko03410,ko00190",M2104,,Stress response protein,NO
+BHE81_RS03255,gene_105,K99991,"ko02020,ko03410,ko00190",M2105,,Stress response protein,NO
+BHE81_RS03290,gene_106,K99992,"ko02010,ko01200",M2106,,Metabolic protein,NO
+BHE81_RS03295,gene_107,K99992,"ko02010,ko01200",M2107,,Metabolic protein,NO
+BHE81_RS03380,gene_108,K99991,"ko02020,ko03410,ko00190",M2108,,Stress response protein,NO
+BHE81_RS03425,gene_109,K99991,"ko02020,ko03410,ko00190",M2109,,Stress response protein,NO
+BHE81_RS03495,gene_110,K99992,"ko02010,ko01200",M2110,,Metabolic protein,NO
+BHE81_RS03530,gene_111,K99991,"ko02020,ko03410,ko00190",M2111,,Stress response protein,NO
+BHE81_RS03535,gene_112,K99991,"ko02020,ko03410,ko00190",M2112,,Stress response protein,NO
+BHE81_RS03575,gene_113,K99992,"ko02010,ko01200",M2113,,Metabolic protein,NO
+BHE81_RS03615,gene_114,K99992,"ko02010,ko01200",M2114,,Metabolic protein,NO
+BHE81_RS03660,gene_115,K99991,"ko02020,ko03410,ko00190",M2115,,Stress response protein,NO
+BHE81_RS03690,gene_116,K99992,"ko02010,ko01200",M2116,,Metabolic protein,NO
+BHE81_RS03725,gene_117,K99991,"ko02020,ko03410,ko00190",M2117,,Stress response protein,NO
+BHE81_RS03730,gene_118,K99991,"ko02020,ko03410,ko00190",M2118,,Stress response protein,NO
+BHE81_RS03735,gene_119,K99991,"ko02020,ko03410,ko00190",M2119,,Stress response protein,NO
+BHE81_RS03795,gene_120,K99991,"ko02020,ko03410,ko00190",M2120,,Stress response protein,NO
+BHE81_RS03800,gene_121,K99991,"ko02020,ko03410,ko00190",M2121,,Stress response protein,NO
+BHE81_RS03825,gene_122,K99992,"ko02010,ko01200",M2122,,Metabolic protein,NO
+BHE81_RS03855,gene_123,K99992,"ko02010,ko01200",M2123,,Metabolic protein,NO
+BHE81_RS03860,gene_124,K99992,"ko02010,ko01200",M2124,,Metabolic protein,NO
+BHE81_RS03900,gene_125,K99991,"ko02020,ko03410,ko00190",M2125,,Stress response protein,NO
+BHE81_RS03905,gene_126,K99991,"ko02020,ko03410,ko00190",M2126,,Stress response protein,NO
+BHE81_RS03910,gene_127,K99991,"ko02020,ko03410,ko00190",M2127,,Stress response protein,NO
+BHE81_RS03915,gene_128,K99991,"ko02020,ko03410,ko00190",M2128,,Stress response protein,NO
+BHE81_RS03920,gene_129,K99991,"ko02020,ko03410,ko00190",M2129,,Stress response protein,NO
+BHE81_RS03925,gene_130,K99991,"ko02020,ko03410,ko00190",M2130,,Stress response protein,NO
+BHE81_RS03930,gene_131,K99991,"ko02020,ko03410,ko00190",M2131,,Stress response protein,NO
+BHE81_RS03985,gene_132,K99992,"ko02010,ko01200",M2132,,Metabolic protein,NO
+BHE81_RS04035,gene_133,K99992,"ko02010,ko01200",M2133,,Metabolic protein,NO
+BHE81_RS04040,gene_134,K99992,"ko02010,ko01200",M2134,,Metabolic protein,NO
+BHE81_RS04155,gene_135,K99992,"ko02010,ko01200",M2135,,Metabolic protein,NO
+BHE81_RS04195,gene_136,K99991,"ko02020,ko03410,ko00190",M2136,,Stress response protein,NO
+BHE81_RS04320,gene_137,K99992,"ko02010,ko01200",M2137,,Metabolic protein,NO
+BHE81_RS04580,gene_138,K99991,"ko02020,ko03410,ko00190",M2138,,Stress response protein,NO
+BHE81_RS04585,gene_139,K99991,"ko02020,ko03410,ko00190",M2139,,Stress response protein,NO
+BHE81_RS04635,gene_140,K99992,"ko02010,ko01200",M2140,,Metabolic protein,NO
+BHE81_RS04900,gene_141,K99991,"ko02020,ko03410,ko00190",M2141,,Stress response protein,NO
+BHE81_RS04905,gene_142,K99991,"ko02020,ko03410,ko00190",M2142,,Stress response protein,NO
+BHE81_RS04910,gene_143,K99991,"ko02020,ko03410,ko00190",M2143,,Stress response protein,NO
+BHE81_RS04915,gene_144,K99991,"ko02020,ko03410,ko00190",M2144,,Stress response protein,NO
+BHE81_RS04920,gene_145,K99991,"ko02020,ko03410,ko00190",M2145,,Stress response protein,NO
+BHE81_RS04925,gene_146,K99991,"ko02020,ko03410,ko00190",M2146,,Stress response protein,NO
+BHE81_RS04965,gene_147,K99992,"ko02010,ko01200",M2147,,Metabolic protein,NO
+BHE81_RS04980,gene_148,K99992,"ko02010,ko01200",M2148,,Metabolic protein,NO
+BHE81_RS05085,gene_149,K99991,"ko02020,ko03410,ko00190",M2149,,Stress response protein,NO
+BHE81_RS05140,gene_150,K99992,"ko02010,ko01200",M2150,,Metabolic protein,NO
+BHE81_RS05145,gene_151,K99992,"ko02010,ko01200",M2151,,Metabolic protein,NO
+BHE81_RS05155,gene_152,K99992,"ko02010,ko01200",M2152,,Metabolic protein,NO
+BHE81_RS05215,gene_153,K99991,"ko02020,ko03410,ko00190",M2153,,Stress response protein,NO
+BHE81_RS05275,gene_154,K99992,"ko02010,ko01200",M2154,,Metabolic protein,NO
+BHE81_RS05380,gene_155,K99992,"ko02010,ko01200",M2155,,Metabolic protein,NO
+BHE81_RS05385,gene_156,K99992,"ko02010,ko01200",M2156,,Metabolic protein,NO
+BHE81_RS05395,gene_157,K99992,"ko02010,ko01200",M2157,,Metabolic protein,NO
+BHE81_RS05400,gene_158,K99992,"ko02010,ko01200",M2158,,Metabolic protein,NO
+BHE81_RS05405,gene_159,K99992,"ko02010,ko01200",M2159,,Metabolic protein,NO
+BHE81_RS05595,gene_160,K99992,"ko02010,ko01200",M2160,,Metabolic protein,NO
+BHE81_RS05600,gene_161,K99991,"ko02020,ko03410,ko00190",M2161,,Stress response protein,NO
+BHE81_RS05690,gene_162,K99992,"ko02010,ko01200",M2162,,Metabolic protein,NO
+BHE81_RS05705,gene_163,K99992,"ko02010,ko01200",M2163,,Metabolic protein,NO
+BHE81_RS05710,gene_164,K99992,"ko02010,ko01200",M2164,,Metabolic protein,NO
+BHE81_RS05835,gene_165,K99991,"ko02020,ko03410,ko00190",M2165,,Stress response protein,NO
+BHE81_RS05840,gene_166,K99991,"ko02020,ko03410,ko00190",M2166,,Stress response protein,NO
+BHE81_RS05845,gene_167,K99991,"ko02020,ko03410,ko00190",M2167,,Stress response protein,NO
+BHE81_RS05860,gene_168,K99991,"ko02020,ko03410,ko00190",M2168,,Stress response protein,NO
+BHE81_RS05865,gene_169,K99991,"ko02020,ko03410,ko00190",M2169,,Stress response protein,NO
+BHE81_RS05975,gene_170,K99991,"ko02020,ko03410,ko00190",M2170,,Stress response protein,NO
+BHE81_RS05990,gene_171,K99991,"ko02020,ko03410,ko00190",M2171,,Stress response protein,NO
+BHE81_RS06175,gene_172,K99992,"ko02010,ko01200",M2172,,Metabolic protein,NO
+BHE81_RS06380,gene_173,K99992,"ko02010,ko01200",M2173,,Metabolic protein,NO
+BHE81_RS06385,gene_174,K99992,"ko02010,ko01200",M2174,,Metabolic protein,NO
+BHE81_RS06665,gene_175,K99991,"ko02020,ko03410,ko00190",M2175,,Stress response protein,NO
+BHE81_RS06715,gene_176,K99991,"ko02020,ko03410,ko00190",M2176,,Stress response protein,NO
+BHE81_RS06735,gene_177,K99991,"ko02020,ko03410,ko00190",M2177,,Stress response protein,NO
+BHE81_RS06760,gene_178,K99992,"ko02010,ko01200",M2178,,Metabolic protein,NO
+BHE81_RS06905,gene_179,K99991,"ko02020,ko03410,ko00190",M2179,,Stress response protein,NO
+BHE81_RS06945,gene_180,K99991,"ko02020,ko03410,ko00190",M2180,,Stress response protein,NO
+BHE81_RS06950,gene_181,K99991,"ko02020,ko03410,ko00190",M2181,,Stress response protein,NO
+BHE81_RS06955,gene_182,K99991,"ko02020,ko03410,ko00190",M2182,,Stress response protein,NO
+BHE81_RS06960,gene_183,K99991,"ko02020,ko03410,ko00190",M2183,,Stress response protein,NO
+BHE81_RS06965,gene_184,K99991,"ko02020,ko03410,ko00190",M2184,,Stress response protein,NO
+BHE81_RS06970,gene_185,K99991,"ko02020,ko03410,ko00190",M2185,,Stress response protein,NO
+BHE81_RS06975,gene_186,K99991,"ko02020,ko03410,ko00190",M2186,,Stress response protein,NO
+BHE81_RS06985,gene_187,K99991,"ko02020,ko03410,ko00190",M2187,,Stress response protein,NO
+BHE81_RS07000,gene_188,K99992,"ko02010,ko01200",M2188,,Metabolic protein,NO
+BHE81_RS07005,gene_189,K99992,"ko02010,ko01200",M2189,,Metabolic protein,NO
+BHE81_RS07010,gene_190,K99992,"ko02010,ko01200",M2190,,Metabolic protein,NO
+BHE81_RS07160,gene_191,K99991,"ko02020,ko03410,ko00190",M2191,,Stress response protein,NO
+BHE81_RS07165,gene_192,K99991,"ko02020,ko03410,ko00190",M2192,,Stress response protein,NO
+BHE81_RS07170,gene_193,K99991,"ko02020,ko03410,ko00190",M2193,,Stress response protein,NO
+BHE81_RS07175,gene_194,K99991,"ko02020,ko03410,ko00190",M2194,,Stress response protein,NO
+BHE81_RS28645,gene_195,K99991,"ko02020,ko03410,ko00190",M2195,,Stress response protein,NO
+BHE81_RS07190,gene_196,K99991,"ko02020,ko03410,ko00190",M2196,,Stress response protein,NO
+BHE81_RS07195,gene_197,K99991,"ko02020,ko03410,ko00190",M2197,,Stress response protein,NO
+BHE81_RS07215,gene_198,K99991,"ko02020,ko03410,ko00190",M2198,,Stress response protein,NO
+BHE81_RS07220,gene_199,K99991,"ko02020,ko03410,ko00190",M2199,,Stress response protein,NO
+BHE81_RS07230,gene_200,K99992,"ko02010,ko01200",M2200,,Metabolic protein,NO
+BHE81_RS07235,gene_201,K99992,"ko02010,ko01200",M2201,,Metabolic protein,NO
+BHE81_RS07280,gene_202,K99991,"ko02020,ko03410,ko00190",M2202,,Stress response protein,NO
+BHE81_RS07360,gene_203,K99991,"ko02020,ko03410,ko00190",M2203,,Stress response protein,NO
+BHE81_RS07450,gene_204,K99991,"ko02020,ko03410,ko00190",M2204,,Stress response protein,NO
+BHE81_RS07470,gene_205,K99991,"ko02020,ko03410,ko00190",M2205,,Stress response protein,NO
+BHE81_RS07585,gene_206,K99991,"ko02020,ko03410,ko00190",M2206,,Stress response protein,NO
+BHE81_RS07590,gene_207,K99991,"ko02020,ko03410,ko00190",M2207,,Stress response protein,NO
+BHE81_RS07605,gene_208,K99992,"ko02010,ko01200",M2208,,Metabolic protein,NO
+BHE81_RS07665,gene_209,K99991,"ko02020,ko03410,ko00190",M2209,,Stress response protein,NO
+BHE81_RS07680,gene_210,K99992,"ko02010,ko01200",M2210,,Metabolic protein,NO
+BHE81_RS28125,gene_211,K99991,"ko02020,ko03410,ko00190",M2211,,Stress response protein,NO
+BHE81_RS07830,gene_212,K99991,"ko02020,ko03410,ko00190",M2212,,Stress response protein,NO
+BHE81_RS07855,gene_213,K99991,"ko02020,ko03410,ko00190",M2213,,Stress response protein,NO
+BHE81_RS07990,gene_214,K99991,"ko02020,ko03410,ko00190",M2214,,Stress response protein,NO
+BHE81_RS08205,gene_215,K99992,"ko02010,ko01200",M2215,,Metabolic protein,NO
+BHE81_RS08215,gene_216,K99992,"ko02010,ko01200",M2216,,Metabolic protein,NO
+BHE81_RS08275,gene_217,K99991,"ko02020,ko03410,ko00190",M2217,,Stress response protein,NO
+BHE81_RS08285,gene_218,K99991,"ko02020,ko03410,ko00190",M2218,,Stress response protein,NO
+BHE81_RS08290,gene_219,K99991,"ko02020,ko03410,ko00190",M2219,,Stress response protein,NO
+BHE81_RS08305,gene_220,K99991,"ko02020,ko03410,ko00190",M2220,,Stress response protein,NO
+BHE81_RS08355,gene_221,K99991,"ko02020,ko03410,ko00190",M2221,,Stress response protein,NO
+BHE81_RS08360,gene_222,K99991,"ko02020,ko03410,ko00190",M2222,,Stress response protein,NO
+BHE81_RS08410,gene_223,K99992,"ko02010,ko01200",M2223,,Metabolic protein,NO
+BHE81_RS08425,gene_224,K99991,"ko02020,ko03410,ko00190",M2224,,Stress response protein,NO
+BHE81_RS08430,gene_225,K99991,"ko02020,ko03410,ko00190",M2225,,Stress response protein,NO
+BHE81_RS08440,gene_226,K99991,"ko02020,ko03410,ko00190",M2226,,Stress response protein,NO
+BHE81_RS08490,gene_227,K99991,"ko02020,ko03410,ko00190",M2227,,Stress response protein,NO
+BHE81_RS08495,gene_228,K99991,"ko02020,ko03410,ko00190",M2228,,Stress response protein,NO
+BHE81_RS08530,gene_229,K99991,"ko02020,ko03410,ko00190",M2229,,Stress response protein,NO
+BHE81_RS08670,gene_230,K99991,"ko02020,ko03410,ko00190",M2230,,Stress response protein,NO
+BHE81_RS08690,gene_231,K99992,"ko02010,ko01200",M2231,,Metabolic protein,NO
+BHE81_RS08780,gene_232,K99991,"ko02020,ko03410,ko00190",M2232,,Stress response protein,NO
+BHE81_RS08790,gene_233,K99991,"ko02020,ko03410,ko00190",M2233,,Stress response protein,NO
+BHE81_RS08795,gene_234,K99991,"ko02020,ko03410,ko00190",M2234,,Stress response protein,NO
+BHE81_RS08825,gene_235,K99992,"ko02010,ko01200",M2235,,Metabolic protein,NO
+BHE81_RS08830,gene_236,K99992,"ko02010,ko01200",M2236,,Metabolic protein,NO
+BHE81_RS08835,gene_237,K99992,"ko02010,ko01200",M2237,,Metabolic protein,NO
+BHE81_RS08840,gene_238,K99992,"ko02010,ko01200",M2238,,Metabolic protein,NO
+BHE81_RS08845,gene_239,K99992,"ko02010,ko01200",M2239,,Metabolic protein,NO
+BHE81_RS08850,gene_240,K99992,"ko02010,ko01200",M2240,,Metabolic protein,NO
+BHE81_RS08855,gene_241,K99992,"ko02010,ko01200",M2241,,Metabolic protein,NO
+BHE81_RS08860,gene_242,K99992,"ko02010,ko01200",M2242,,Metabolic protein,NO
+BHE81_RS08910,gene_243,K99991,"ko02020,ko03410,ko00190",M2243,,Stress response protein,NO
+BHE81_RS08920,gene_244,K99991,"ko02020,ko03410,ko00190",M2244,,Stress response protein,NO
+BHE81_RS08980,gene_245,K99992,"ko02010,ko01200",M2245,,Metabolic protein,NO
+BHE81_RS09000,gene_246,K99991,"ko02020,ko03410,ko00190",M2246,,Stress response protein,NO
+BHE81_RS09090,gene_247,K99991,"ko02020,ko03410,ko00190",M2247,,Stress response protein,NO
+BHE81_RS09170,gene_248,K99992,"ko02010,ko01200",M2248,,Metabolic protein,NO
+BHE81_RS09210,gene_249,K99991,"ko02020,ko03410,ko00190",M2249,,Stress response protein,NO
+BHE81_RS09245,gene_250,K99991,"ko02020,ko03410,ko00190",M2250,,Stress response protein,NO
+BHE81_RS09265,gene_251,K99991,"ko02020,ko03410,ko00190",M2251,,Stress response protein,NO
+BHE81_RS09270,gene_252,K99991,"ko02020,ko03410,ko00190",M2252,,Stress response protein,NO
+BHE81_RS09470,gene_253,K99991,"ko02020,ko03410,ko00190",M2253,,Stress response protein,NO
+BHE81_RS09485,gene_254,K99991,"ko02020,ko03410,ko00190",M2254,,Stress response protein,NO
+BHE81_RS09560,gene_255,K99991,"ko02020,ko03410,ko00190",M2255,,Stress response protein,NO
+BHE81_RS09565,gene_256,K99991,"ko02020,ko03410,ko00190",M2256,,Stress response protein,NO
+BHE81_RS09570,gene_257,K99992,"ko02010,ko01200",M2257,,Metabolic protein,NO
+BHE81_RS09645,gene_258,K99991,"ko02020,ko03410,ko00190",M2258,,Stress response protein,NO
+BHE81_RS09730,gene_259,K99991,"ko02020,ko03410,ko00190",M2259,,Stress response protein,NO
+BHE81_RS09735,gene_260,K99991,"ko02020,ko03410,ko00190",M2260,,Stress response protein,NO
+BHE81_RS09790,gene_261,K99992,"ko02010,ko01200",M2261,,Metabolic protein,NO
+BHE81_RS10105,gene_262,K99992,"ko02010,ko01200",M2262,,Metabolic protein,NO
+BHE81_RS10210,gene_263,K99992,"ko02010,ko01200",M2263,,Metabolic protein,NO
+BHE81_RS10245,gene_264,K99991,"ko02020,ko03410,ko00190",M2264,,Stress response protein,NO
+BHE81_RS10425,gene_265,K99991,"ko02020,ko03410,ko00190",M2265,,Stress response protein,NO
+BHE81_RS10685,gene_266,K99991,"ko02020,ko03410,ko00190",M2266,,Stress response protein,NO
+BHE81_RS10835,gene_267,K99992,"ko02010,ko01200",M2267,,Metabolic protein,NO
+BHE81_RS10850,gene_268,K99991,"ko02020,ko03410,ko00190",M2268,,Stress response protein,NO
+BHE81_RS10905,gene_269,K99991,"ko02020,ko03410,ko00190",M2269,,Stress response protein,NO
+BHE81_RS10985,gene_270,K99991,"ko02020,ko03410,ko00190",M2270,,Stress response protein,NO
+BHE81_RS11030,gene_271,K99991,"ko02020,ko03410,ko00190",M2271,,Stress response protein,NO
+BHE81_RS11050,gene_272,K99991,"ko02020,ko03410,ko00190",M2272,,Stress response protein,NO
+BHE81_RS11130,gene_273,K99992,"ko02010,ko01200",M2273,,Metabolic protein,NO
+BHE81_RS11135,gene_274,K99992,"ko02010,ko01200",M2274,,Metabolic protein,NO
+BHE81_RS11215,gene_275,K99991,"ko02020,ko03410,ko00190",M2275,,Stress response protein,NO
+BHE81_RS11250,gene_276,K99992,"ko02010,ko01200",M2276,,Metabolic protein,NO
+BHE81_RS11325,gene_277,K99992,"ko02010,ko01200",M2277,,Metabolic protein,NO
+BHE81_RS11330,gene_278,K99992,"ko02010,ko01200",M2278,,Metabolic protein,NO
+BHE81_RS11335,gene_279,K99992,"ko02010,ko01200",M2279,,Metabolic protein,NO
+BHE81_RS11340,gene_280,K99992,"ko02010,ko01200",M2280,,Metabolic protein,NO
+BHE81_RS11345,gene_281,K99992,"ko02010,ko01200",M2281,,Metabolic protein,NO
+BHE81_RS11350,gene_282,K99992,"ko02010,ko01200",M2282,,Metabolic protein,NO
+BHE81_RS11390,gene_283,K99992,"ko02010,ko01200",M2283,,Metabolic protein,NO
+BHE81_RS11395,gene_284,K99992,"ko02010,ko01200",M2284,,Metabolic protein,NO
+BHE81_RS11400,gene_285,K99992,"ko02010,ko01200",M2285,,Metabolic protein,NO
+BHE81_RS11405,gene_286,K99992,"ko02010,ko01200",M2286,,Metabolic protein,NO
+BHE81_RS11410,gene_287,K99992,"ko02010,ko01200",M2287,,Metabolic protein,NO
+BHE81_RS11415,gene_288,K99992,"ko02010,ko01200",M2288,,Metabolic protein,NO
+BHE81_RS11515,gene_289,K99992,"ko02010,ko01200",M2289,,Metabolic protein,NO
+BHE81_RS11520,gene_290,K99992,"ko02010,ko01200",M2290,,Metabolic protein,NO
+BHE81_RS11525,gene_291,K99992,"ko02010,ko01200",M2291,,Metabolic protein,NO
+BHE81_RS11540,gene_292,K99992,"ko02010,ko01200",M2292,,Metabolic protein,NO
+BHE81_RS28215,gene_293,K99991,"ko02020,ko03410,ko00190",M2293,,Stress response protein,NO
+BHE81_RS11665,gene_294,K99992,"ko02010,ko01200",M2294,,Metabolic protein,NO
+BHE81_RS11710,gene_295,K99991,"ko02020,ko03410,ko00190",M2295,,Stress response protein,NO
+BHE81_RS11730,gene_296,K99991,"ko02020,ko03410,ko00190",M2296,,Stress response protein,NO
+BHE81_RS11800,gene_297,K99992,"ko02010,ko01200",M2297,,Metabolic protein,NO
+BHE81_RS11815,gene_298,K99992,"ko02010,ko01200",M2298,,Metabolic protein,NO
+BHE81_RS11820,gene_299,K99991,"ko02020,ko03410,ko00190",M2299,,Stress response protein,NO
+BHE81_RS11825,gene_300,K99991,"ko02020,ko03410,ko00190",M2300,,Stress response protein,NO
+BHE81_RS11850,gene_301,K99992,"ko02010,ko01200",M2301,,Metabolic protein,NO
+BHE81_RS11895,gene_302,K99991,"ko02020,ko03410,ko00190",M2302,,Stress response protein,NO
+BHE81_RS11900,gene_303,K99991,"ko02020,ko03410,ko00190",M2303,,Stress response protein,NO
+BHE81_RS11925,gene_304,K99991,"ko02020,ko03410,ko00190",M2304,,Stress response protein,NO
+BHE81_RS11970,gene_305,K99992,"ko02010,ko01200",M2305,,Metabolic protein,NO
+BHE81_RS11975,gene_306,K99991,"ko02020,ko03410,ko00190",M2306,,Stress response protein,NO
+BHE81_RS12090,gene_307,K99991,"ko02020,ko03410,ko00190",M2307,,Stress response protein,NO
+BHE81_RS12095,gene_308,K99991,"ko02020,ko03410,ko00190",M2308,,Stress response protein,NO
+BHE81_RS12100,gene_309,K99991,"ko02020,ko03410,ko00190",M2309,,Stress response protein,NO
+BHE81_RS12110,gene_310,K99992,"ko02010,ko01200",M2310,,Metabolic protein,NO
+BHE81_RS12210,gene_311,K99992,"ko02010,ko01200",M2311,,Metabolic protein,NO
+BHE81_RS12215,gene_312,K99992,"ko02010,ko01200",M2312,,Metabolic protein,NO
+BHE81_RS12220,gene_313,K99992,"ko02010,ko01200",M2313,,Metabolic protein,NO
+BHE81_RS12225,gene_314,K99992,"ko02010,ko01200",M2314,,Metabolic protein,NO
+BHE81_RS12530,gene_315,K99992,"ko02010,ko01200",M2315,,Metabolic protein,NO
+BHE81_RS12535,gene_316,K99991,"ko02020,ko03410,ko00190",M2316,,Stress response protein,NO
+BHE81_RS12555,gene_317,K99991,"ko02020,ko03410,ko00190",M2317,,Stress response protein,NO
+BHE81_RS12560,gene_318,K99991,"ko02020,ko03410,ko00190",M2318,,Stress response protein,NO
+BHE81_RS12565,gene_319,K99991,"ko02020,ko03410,ko00190",M2319,,Stress response protein,NO
+BHE81_RS12570,rpoE,K02693,ko02020,M1320,1.11.1.15,RNA polymerase sigma factor,YES
+BHE81_RS12575,gene_321,K99991,"ko02020,ko03410,ko00190",M2321,,Stress response protein,NO
+BHE81_RS12580,gene_322,K99991,"ko02020,ko03410,ko00190",M2322,,Stress response protein,NO
+BHE81_RS12590,gene_323,K99991,"ko02020,ko03410,ko00190",M2323,,Stress response protein,NO
+BHE81_RS12750,gene_324,K99991,"ko02020,ko03410,ko00190",M2324,,Stress response protein,NO
+BHE81_RS12755,gene_325,K99991,"ko02020,ko03410,ko00190",M2325,,Stress response protein,NO
+BHE81_RS12760,gene_326,K99991,"ko02020,ko03410,ko00190",M2326,,Stress response protein,NO
+BHE81_RS12785,gene_327,K99992,"ko02010,ko01200",M2327,,Metabolic protein,NO
+BHE81_RS12890,gene_328,K99992,"ko02010,ko01200",M2328,,Metabolic protein,NO
+BHE81_RS12895,gene_329,K99992,"ko02010,ko01200",M2329,,Metabolic protein,NO
+BHE81_RS12960,gene_330,K99991,"ko02020,ko03410,ko00190",M2330,,Stress response protein,NO
+BHE81_RS12970,gene_331,K99991,"ko02020,ko03410,ko00190",M2331,,Stress response protein,NO
+BHE81_RS13170,gene_332,K99991,"ko02020,ko03410,ko00190",M2332,,Stress response protein,NO
+BHE81_RS13200,gene_333,K99991,"ko02020,ko03410,ko00190",M2333,,Stress response protein,NO
+BHE81_RS13225,gene_334,K99991,"ko02020,ko03410,ko00190",M2334,,Stress response protein,NO
+BHE81_RS13230,gene_335,K99991,"ko02020,ko03410,ko00190",M2335,,Stress response protein,NO
+BHE81_RS13240,gene_336,K99991,"ko02020,ko03410,ko00190",M2336,,Stress response protein,NO
+BHE81_RS13255,gene_337,K99991,"ko02020,ko03410,ko00190",M2337,,Stress response protein,NO
+BHE81_RS13260,gene_338,K99991,"ko02020,ko03410,ko00190",M2338,,Stress response protein,NO
+BHE81_RS13265,gene_339,K99991,"ko02020,ko03410,ko00190",M2339,,Stress response protein,NO
+BHE81_RS13370,gene_340,K99991,"ko02020,ko03410,ko00190",M2340,,Stress response protein,NO
+BHE81_RS13405,gene_341,K99992,"ko02010,ko01200",M2341,,Metabolic protein,NO
+BHE81_RS13410,gene_342,K99992,"ko02010,ko01200",M2342,,Metabolic protein,NO
+BHE81_RS13420,gene_343,K99992,"ko02010,ko01200",M2343,,Metabolic protein,NO
+BHE81_RS13435,gene_344,K99992,"ko02010,ko01200",M2344,,Metabolic protein,NO
+BHE81_RS13440,gene_345,K99992,"ko02010,ko01200",M2345,,Metabolic protein,NO
+BHE81_RS13560,gene_346,K99992,"ko02010,ko01200",M2346,,Metabolic protein,NO
+BHE81_RS13565,gene_347,K99992,"ko02010,ko01200",M2347,,Metabolic protein,NO
+BHE81_RS13625,gene_348,K99991,"ko02020,ko03410,ko00190",M2348,,Stress response protein,NO
+BHE81_RS13630,gene_349,K99991,"ko02020,ko03410,ko00190",M2349,,Stress response protein,NO
+BHE81_RS13635,gene_350,K99991,"ko02020,ko03410,ko00190",M2350,,Stress response protein,NO
+BHE81_RS13640,gene_351,K99991,"ko02020,ko03410,ko00190",M2351,,Stress response protein,NO
+BHE81_RS13660,gene_352,K99991,"ko02020,ko03410,ko00190",M2352,,Stress response protein,NO
+BHE81_RS13665,gene_353,K99991,"ko02020,ko03410,ko00190",M2353,,Stress response protein,NO
+BHE81_RS13670,gene_354,K99991,"ko02020,ko03410,ko00190",M2354,,Stress response protein,NO
+BHE81_RS13675,gene_355,K99991,"ko02020,ko03410,ko00190",M2355,,Stress response protein,NO
+BHE81_RS13680,gene_356,K99991,"ko02020,ko03410,ko00190",M2356,,Stress response protein,NO
+BHE81_RS13685,gene_357,K99991,"ko02020,ko03410,ko00190",M2357,,Stress response protein,NO
+BHE81_RS13690,gene_358,K99991,"ko02020,ko03410,ko00190",M2358,,Stress response protein,NO
+BHE81_RS13850,gene_359,K99992,"ko02010,ko01200",M2359,,Metabolic protein,NO
+BHE81_RS13855,gene_360,K99991,"ko02020,ko03410,ko00190",M2360,,Stress response protein,NO
+BHE81_RS13885,gene_361,K99992,"ko02010,ko01200",M2361,,Metabolic protein,NO
+BHE81_RS13945,gene_362,K99992,"ko02010,ko01200",M2362,,Metabolic protein,NO
+BHE81_RS13950,gene_363,K99992,"ko02010,ko01200",M2363,,Metabolic protein,NO
+BHE81_RS13955,gene_364,K99992,"ko02010,ko01200",M2364,,Metabolic protein,NO
+BHE81_RS13990,gene_365,K99991,"ko02020,ko03410,ko00190",M2365,,Stress response protein,NO
+BHE81_RS14000,gene_366,K99991,"ko02020,ko03410,ko00190",M2366,,Stress response protein,NO
+BHE81_RS14005,gene_367,K99991,"ko02020,ko03410,ko00190",M2367,,Stress response protein,NO
+BHE81_RS14010,gene_368,K99992,"ko02010,ko01200",M2368,,Metabolic protein,NO
+BHE81_RS14015,gene_369,K99992,"ko02010,ko01200",M2369,,Metabolic protein,NO
+BHE81_RS14065,gene_370,K99991,"ko02020,ko03410,ko00190",M2370,,Stress response protein,NO
+BHE81_RS14100,gene_371,K99992,"ko02010,ko01200",M2371,,Metabolic protein,NO
+BHE81_RS14105,gene_372,K99992,"ko02010,ko01200",M2372,,Metabolic protein,NO
+BHE81_RS14115,gene_373,K99992,"ko02010,ko01200",M2373,,Metabolic protein,NO
+BHE81_RS14125,gene_374,K99992,"ko02010,ko01200",M2374,,Metabolic protein,NO
+BHE81_RS14130,gene_375,K99992,"ko02010,ko01200",M2375,,Metabolic protein,NO
+BHE81_RS14135,gene_376,K99992,"ko02010,ko01200",M2376,,Metabolic protein,NO
+BHE81_RS14140,gene_377,K99992,"ko02010,ko01200",M2377,,Metabolic protein,NO
+BHE81_RS14145,gene_378,K99992,"ko02010,ko01200",M2378,,Metabolic protein,NO
+BHE81_RS28770,gene_379,K99992,"ko02010,ko01200",M2379,,Metabolic protein,NO
+BHE81_RS28775,gene_380,K99992,"ko02010,ko01200",M2380,,Metabolic protein,NO
+BHE81_RS14155,gene_381,K99992,"ko02010,ko01200",M2381,,Metabolic protein,NO
+BHE81_RS28780,gene_382,K99992,"ko02010,ko01200",M2382,,Metabolic protein,NO
+BHE81_RS28785,gene_383,K99992,"ko02010,ko01200",M2383,,Metabolic protein,NO
+BHE81_RS14165,gene_384,K99992,"ko02010,ko01200",M2384,,Metabolic protein,NO
+BHE81_RS14170,gene_385,K99992,"ko02010,ko01200",M2385,,Metabolic protein,NO
+BHE81_RS14175,gene_386,K99992,"ko02010,ko01200",M2386,,Metabolic protein,NO
+BHE81_RS14180,gene_387,K99992,"ko02010,ko01200",M2387,,Metabolic protein,NO
+BHE81_RS14185,gene_388,K99992,"ko02010,ko01200",M2388,,Metabolic protein,NO
+BHE81_RS14300,gene_389,K99992,"ko02010,ko01200",M2389,,Metabolic protein,NO
+BHE81_RS14370,gene_390,K99991,"ko02020,ko03410,ko00190",M2390,,Stress response protein,NO
+BHE81_RS14425,gene_391,K99992,"ko02010,ko01200",M2391,,Metabolic protein,NO
+BHE81_RS14430,gene_392,K99992,"ko02010,ko01200",M2392,,Metabolic protein,NO
+BHE81_RS14535,gene_393,K99991,"ko02020,ko03410,ko00190",M2393,,Stress response protein,NO
+BHE81_RS14580,gene_394,K99992,"ko02010,ko01200",M2394,,Metabolic protein,NO
+BHE81_RS14630,gene_395,K99992,"ko02010,ko01200",M2395,,Metabolic protein,NO
+BHE81_RS14635,gene_396,K99992,"ko02010,ko01200",M2396,,Metabolic protein,NO
+BHE81_RS14640,gene_397,K99992,"ko02010,ko01200",M2397,,Metabolic protein,NO
+BHE81_RS14650,gene_398,K99992,"ko02010,ko01200",M2398,,Metabolic protein,NO
+BHE81_RS14705,gene_399,K99992,"ko02010,ko01200",M2399,,Metabolic protein,NO
+BHE81_RS29035,gene_400,K99992,"ko02010,ko01200",M2400,,Metabolic protein,NO
+BHE81_RS14745,gene_401,K99992,"ko02010,ko01200",M2401,,Metabolic protein,NO
+BHE81_RS14770,gene_402,K99992,"ko02010,ko01200",M2402,,Metabolic protein,NO
+BHE81_RS14890,gene_403,K99991,"ko02020,ko03410,ko00190",M2403,,Stress response protein,NO
+BHE81_RS14960,gene_404,K99992,"ko02010,ko01200",M2404,,Metabolic protein,NO
+BHE81_RS14985,gene_405,K99992,"ko02010,ko01200",M2405,,Metabolic protein,NO
+BHE81_RS14990,gene_406,K99991,"ko02020,ko03410,ko00190",M2406,,Stress response protein,NO
+BHE81_RS15015,gene_407,K99991,"ko02020,ko03410,ko00190",M2407,,Stress response protein,NO
+BHE81_RS15045,gene_408,K99991,"ko02020,ko03410,ko00190",M2408,,Stress response protein,NO
+BHE81_RS15085,gene_409,K99992,"ko02010,ko01200",M2409,,Metabolic protein,NO
+BHE81_RS15135,gene_410,K99991,"ko02020,ko03410,ko00190",M2410,,Stress response protein,NO
+BHE81_RS15150,gene_411,K99991,"ko02020,ko03410,ko00190",M2411,,Stress response protein,NO
+BHE81_RS15190,gene_412,K99991,"ko02020,ko03410,ko00190",M2412,,Stress response protein,NO
+BHE81_RS15195,gene_413,K99991,"ko02020,ko03410,ko00190",M2413,,Stress response protein,NO
+BHE81_RS15200,gene_414,K99991,"ko02020,ko03410,ko00190",M2414,,Stress response protein,NO
+BHE81_RS15265,gene_415,K99991,"ko02020,ko03410,ko00190",M2415,,Stress response protein,NO
+BHE81_RS15270,gene_416,K99991,"ko02020,ko03410,ko00190",M2416,,Stress response protein,NO
+BHE81_RS15285,gene_417,K99992,"ko02010,ko01200",M2417,,Metabolic protein,NO
+BHE81_RS15345,gene_418,K99992,"ko02010,ko01200",M2418,,Metabolic protein,NO
+BHE81_RS15410,gene_419,K99992,"ko02010,ko01200",M2419,,Metabolic protein,NO
+BHE81_RS15420,gene_420,K99992,"ko02010,ko01200",M2420,,Metabolic protein,NO
+BHE81_RS15440,gene_421,K99991,"ko02020,ko03410,ko00190",M2421,,Stress response protein,NO
+BHE81_RS15460,gene_422,K99992,"ko02010,ko01200",M2422,,Metabolic protein,NO
+BHE81_RS15515,gene_423,K99991,"ko02020,ko03410,ko00190",M2423,,Stress response protein,NO
+BHE81_RS15570,gene_424,K99992,"ko02010,ko01200",M2424,,Metabolic protein,NO
+BHE81_RS15575,gene_425,K99992,"ko02010,ko01200",M2425,,Metabolic protein,NO
+BHE81_RS15580,gene_426,K99992,"ko02010,ko01200",M2426,,Metabolic protein,NO
+BHE81_RS15585,gene_427,K99992,"ko02010,ko01200",M2427,,Metabolic protein,NO
+BHE81_RS15595,gene_428,K99992,"ko02010,ko01200",M2428,,Metabolic protein,NO
+BHE81_RS15610,gene_429,K99992,"ko02010,ko01200",M2429,,Metabolic protein,NO
+BHE81_RS15645,gene_430,K99992,"ko02010,ko01200",M2430,,Metabolic protein,NO
+BHE81_RS15650,gene_431,K99992,"ko02010,ko01200",M2431,,Metabolic protein,NO
+BHE81_RS15655,gene_432,K99992,"ko02010,ko01200",M2432,,Metabolic protein,NO
+BHE81_RS15660,gene_433,K99992,"ko02010,ko01200",M2433,,Metabolic protein,NO
+BHE81_RS15665,gene_434,K99992,"ko02010,ko01200",M2434,,Metabolic protein,NO
+BHE81_RS15760,gene_435,K99992,"ko02010,ko01200",M2435,,Metabolic protein,NO
+BHE81_RS15830,gene_436,K99992,"ko02010,ko01200",M2436,,Metabolic protein,NO
+BHE81_RS15835,gene_437,K99992,"ko02010,ko01200",M2437,,Metabolic protein,NO
+BHE81_RS15845,gene_438,K99992,"ko02010,ko01200",M2438,,Metabolic protein,NO
+BHE81_RS15850,gene_439,K99992,"ko02010,ko01200",M2439,,Metabolic protein,NO
+BHE81_RS15855,gene_440,K99992,"ko02010,ko01200",M2440,,Metabolic protein,NO
+BHE81_RS15860,gene_441,K99992,"ko02010,ko01200",M2441,,Metabolic protein,NO
+BHE81_RS15865,gene_442,K99991,"ko02020,ko03410,ko00190",M2442,,Stress response protein,NO
+BHE81_RS15945,gene_443,K99992,"ko02010,ko01200",M2443,,Metabolic protein,NO
+BHE81_RS15955,gene_444,K99992,"ko02010,ko01200",M2444,,Metabolic protein,NO
+BHE81_RS15975,gene_445,K99992,"ko02010,ko01200",M2445,,Metabolic protein,NO
+BHE81_RS16070,gene_446,K99992,"ko02010,ko01200",M2446,,Metabolic protein,NO
+BHE81_RS16080,gene_447,K99992,"ko02010,ko01200",M2447,,Metabolic protein,NO
+BHE81_RS16100,gene_448,K99991,"ko02020,ko03410,ko00190",M2448,,Stress response protein,NO
+BHE81_RS16145,gene_449,K99992,"ko02010,ko01200",M2449,,Metabolic protein,NO
+BHE81_RS16150,gene_450,K99992,"ko02010,ko01200",M2450,,Metabolic protein,NO
+BHE81_RS16330,gene_451,K99991,"ko02020,ko03410,ko00190",M2451,,Stress response protein,NO
+BHE81_RS16335,gene_452,K99991,"ko02020,ko03410,ko00190",M2452,,Stress response protein,NO
+BHE81_RS16360,gene_453,K99991,"ko02020,ko03410,ko00190",M2453,,Stress response protein,NO
+BHE81_RS16365,gene_454,K99991,"ko02020,ko03410,ko00190",M2454,,Stress response protein,NO
+BHE81_RS16535,gene_455,K99991,"ko02020,ko03410,ko00190",M2455,,Stress response protein,NO
+BHE81_RS16540,gene_456,K99991,"ko02020,ko03410,ko00190",M2456,,Stress response protein,NO
+BHE81_RS16575,gene_457,K99991,"ko02020,ko03410,ko00190",M2457,,Stress response protein,NO
+BHE81_RS16580,gene_458,K99991,"ko02020,ko03410,ko00190",M2458,,Stress response protein,NO
+BHE81_RS16630,gene_459,K99991,"ko02020,ko03410,ko00190",M2459,,Stress response protein,NO
+BHE81_RS16645,gene_460,K99991,"ko02020,ko03410,ko00190",M2460,,Stress response protein,NO
+BHE81_RS16660,gene_461,K99991,"ko02020,ko03410,ko00190",M2461,,Stress response protein,NO
+BHE81_RS16665,gene_462,K99991,"ko02020,ko03410,ko00190",M2462,,Stress response protein,NO
+BHE81_RS16670,gene_463,K99991,"ko02020,ko03410,ko00190",M2463,,Stress response protein,NO
+BHE81_RS16700,gene_464,K99991,"ko02020,ko03410,ko00190",M2464,,Stress response protein,NO
+BHE81_RS16705,gene_465,K99991,"ko02020,ko03410,ko00190",M2465,,Stress response protein,NO
+BHE81_RS17095,gene_466,K99992,"ko02010,ko01200",M2466,,Metabolic protein,NO
+BHE81_RS17115,gene_467,K99991,"ko02020,ko03410,ko00190",M2467,,Stress response protein,NO
+BHE81_RS17130,gene_468,K99992,"ko02010,ko01200",M2468,,Metabolic protein,NO
+BHE81_RS17135,gene_469,K99992,"ko02010,ko01200",M2469,,Metabolic protein,NO
+BHE81_RS17140,gene_470,K99992,"ko02010,ko01200",M2470,,Metabolic protein,NO
+BHE81_RS17155,gene_471,K99992,"ko02010,ko01200",M2471,,Metabolic protein,NO
+BHE81_RS17265,gene_472,K99992,"ko02010,ko01200",M2472,,Metabolic protein,NO
+BHE81_RS17270,gene_473,K99992,"ko02010,ko01200",M2473,,Metabolic protein,NO
+BHE81_RS17290,gene_474,K99991,"ko02020,ko03410,ko00190",M2474,,Stress response protein,NO
+BHE81_RS17310,gene_475,K99992,"ko02010,ko01200",M2475,,Metabolic protein,NO
+BHE81_RS17330,gene_476,K99992,"ko02010,ko01200",M2476,,Metabolic protein,NO
+BHE81_RS17335,gene_477,K99992,"ko02010,ko01200",M2477,,Metabolic protein,NO
+BHE81_RS17390,gene_478,K99992,"ko02010,ko01200",M2478,,Metabolic protein,NO
+BHE81_RS17510,gene_479,K99991,"ko02020,ko03410,ko00190",M2479,,Stress response protein,NO
+BHE81_RS17635,gene_480,K99992,"ko02010,ko01200",M2480,,Metabolic protein,NO
+BHE81_RS17640,gene_481,K99992,"ko02010,ko01200",M2481,,Metabolic protein,NO
+BHE81_RS17645,gene_482,K99992,"ko02010,ko01200",M2482,,Metabolic protein,NO
+BHE81_RS17650,gene_483,K99992,"ko02010,ko01200",M2483,,Metabolic protein,NO
+BHE81_RS17655,gene_484,K99992,"ko02010,ko01200",M2484,,Metabolic protein,NO
+BHE81_RS17660,gene_485,K99992,"ko02010,ko01200",M2485,,Metabolic protein,NO
+BHE81_RS17690,gene_486,K99992,"ko02010,ko01200",M2486,,Metabolic protein,NO
+BHE81_RS17695,gene_487,K99992,"ko02010,ko01200",M2487,,Metabolic protein,NO
+BHE81_RS17785,gene_488,K99991,"ko02020,ko03410,ko00190",M2488,,Stress response protein,NO
+BHE81_RS17805,gene_489,K99992,"ko02010,ko01200",M2489,,Metabolic protein,NO
+BHE81_RS17835,gene_490,K99992,"ko02010,ko01200",M2490,,Metabolic protein,NO
+BHE81_RS17995,gene_491,K99991,"ko02020,ko03410,ko00190",M2491,,Stress response protein,NO
+BHE81_RS18090,gene_492,K99992,"ko02010,ko01200",M2492,,Metabolic protein,NO
+BHE81_RS18100,gene_493,K99992,"ko02010,ko01200",M2493,,Metabolic protein,NO
+BHE81_RS18105,gene_494,K99992,"ko02010,ko01200",M2494,,Metabolic protein,NO
+BHE81_RS18195,gene_495,K99992,"ko02010,ko01200",M2495,,Metabolic protein,NO
+BHE81_RS18305,gene_496,K99991,"ko02020,ko03410,ko00190",M2496,,Stress response protein,NO
+BHE81_RS18330,gene_497,K99992,"ko02010,ko01200",M2497,,Metabolic protein,NO
+BHE81_RS18465,gene_498,K99992,"ko02010,ko01200",M2498,,Metabolic protein,NO
+BHE81_RS18470,gene_499,K99992,"ko02010,ko01200",M2499,,Metabolic protein,NO
+BHE81_RS18625,gene_500,K99991,"ko02020,ko03410,ko00190",M2500,,Stress response protein,NO
+BHE81_RS18690,gene_501,K99992,"ko02010,ko01200",M2501,,Metabolic protein,NO
+BHE81_RS18715,gene_502,K99991,"ko02020,ko03410,ko00190",M2502,,Stress response protein,NO
+BHE81_RS18835,gene_503,K99992,"ko02010,ko01200",M2503,,Metabolic protein,NO
+BHE81_RS18855,gene_504,K99991,"ko02020,ko03410,ko00190",M2504,,Stress response protein,NO
+BHE81_RS18860,gene_505,K99991,"ko02020,ko03410,ko00190",M2505,,Stress response protein,NO
+BHE81_RS18945,gene_506,K99991,"ko02020,ko03410,ko00190",M2506,,Stress response protein,NO
+BHE81_RS18950,gene_507,K99991,"ko02020,ko03410,ko00190",M2507,,Stress response protein,NO
+BHE81_RS18960,gene_508,K99991,"ko02020,ko03410,ko00190",M2508,,Stress response protein,NO
+BHE81_RS18965,gene_509,K99991,"ko02020,ko03410,ko00190",M2509,,Stress response protein,NO
+BHE81_RS18980,gene_510,K99991,"ko02020,ko03410,ko00190",M2510,,Stress response protein,NO
+BHE81_RS18990,gene_511,K99991,"ko02020,ko03410,ko00190",M2511,,Stress response protein,NO
+BHE81_RS18995,gene_512,K99991,"ko02020,ko03410,ko00190",M2512,,Stress response protein,NO
+BHE81_RS19000,gene_513,K99991,"ko02020,ko03410,ko00190",M2513,,Stress response protein,NO
+BHE81_RS19005,gene_514,K99991,"ko02020,ko03410,ko00190",M2514,,Stress response protein,NO
+BHE81_RS19010,gene_515,K99991,"ko02020,ko03410,ko00190",M2515,,Stress response protein,NO
+BHE81_RS19185,gene_516,K99991,"ko02020,ko03410,ko00190",M2516,,Stress response protein,NO
+BHE81_RS19190,gene_517,K99991,"ko02020,ko03410,ko00190",M2517,,Stress response protein,NO
+BHE81_RS19200,gene_518,K99991,"ko02020,ko03410,ko00190",M2518,,Stress response protein,NO
+BHE81_RS19245,gene_519,K99992,"ko02010,ko01200",M2519,,Metabolic protein,NO
+BHE81_RS19260,gene_520,K99992,"ko02010,ko01200",M2520,,Metabolic protein,NO
+BHE81_RS19285,gene_521,K99991,"ko02020,ko03410,ko00190",M2521,,Stress response protein,NO
+BHE81_RS19305,gene_522,K99992,"ko02010,ko01200",M2522,,Metabolic protein,NO
+BHE81_RS19395,gene_523,K99991,"ko02020,ko03410,ko00190",M2523,,Stress response protein,NO
+BHE81_RS19475,gene_524,K99992,"ko02010,ko01200",M2524,,Metabolic protein,NO
+BHE81_RS19490,gene_525,K99992,"ko02010,ko01200",M2525,,Metabolic protein,NO
+BHE81_RS19570,gene_526,K99992,"ko02010,ko01200",M2526,,Metabolic protein,NO
+BHE81_RS19625,gene_527,K99991,"ko02020,ko03410,ko00190",M2527,,Stress response protein,NO
+BHE81_RS19635,gene_528,K99991,"ko02020,ko03410,ko00190",M2528,,Stress response protein,NO
+BHE81_RS19640,gene_529,K99991,"ko02020,ko03410,ko00190",M2529,,Stress response protein,NO
+BHE81_RS19650,gene_530,K99991,"ko02020,ko03410,ko00190",M2530,,Stress response protein,NO
+BHE81_RS19675,gene_531,K99992,"ko02010,ko01200",M2531,,Metabolic protein,NO
+BHE81_RS19680,gene_532,K99992,"ko02010,ko01200",M2532,,Metabolic protein,NO
+BHE81_RS19685,gene_533,K99992,"ko02010,ko01200",M2533,,Metabolic protein,NO
+BHE81_RS19690,gene_534,K99992,"ko02010,ko01200",M2534,,Metabolic protein,NO
+BHE81_RS19695,gene_535,K99991,"ko02020,ko03410,ko00190",M2535,,Stress response protein,NO
+BHE81_RS19760,gene_536,K99991,"ko02020,ko03410,ko00190",M2536,,Stress response protein,NO
+BHE81_RS19775,gene_537,K99992,"ko02010,ko01200",M2537,,Metabolic protein,NO
+BHE81_RS19810,gene_538,K99991,"ko02020,ko03410,ko00190",M2538,,Stress response protein,NO
+BHE81_RS19815,gene_539,K99991,"ko02020,ko03410,ko00190",M2539,,Stress response protein,NO
+BHE81_RS19855,gene_540,K99992,"ko02010,ko01200",M2540,,Metabolic protein,NO
+BHE81_RS19925,gene_541,K99991,"ko02020,ko03410,ko00190",M2541,,Stress response protein,NO
+BHE81_RS28835,gene_542,K99991,"ko02020,ko03410,ko00190",M2542,,Stress response protein,NO
+BHE81_RS19940,gene_543,K99991,"ko02020,ko03410,ko00190",M2543,,Stress response protein,NO
+BHE81_RS19990,gene_544,K99991,"ko02020,ko03410,ko00190",M2544,,Stress response protein,NO
+BHE81_RS20025,gene_545,K99992,"ko02010,ko01200",M2545,,Metabolic protein,NO
+BHE81_RS20030,gene_546,K99992,"ko02010,ko01200",M2546,,Metabolic protein,NO
+BHE81_RS20140,gene_547,K99991,"ko02020,ko03410,ko00190",M2547,,Stress response protein,NO
+BHE81_RS20175,gene_548,K99991,"ko02020,ko03410,ko00190",M2548,,Stress response protein,NO
+BHE81_RS20180,gene_549,K99991,"ko02020,ko03410,ko00190",M2549,,Stress response protein,NO
+BHE81_RS20185,gene_550,K99991,"ko02020,ko03410,ko00190",M2550,,Stress response protein,NO
+BHE81_RS20270,gene_551,K99992,"ko02010,ko01200",M2551,,Metabolic protein,NO
+BHE81_RS20325,gene_552,K99992,"ko02010,ko01200",M2552,,Metabolic protein,NO
+BHE81_RS20385,gene_553,K99992,"ko02010,ko01200",M2553,,Metabolic protein,NO
+BHE81_RS20530,gene_554,K99992,"ko02010,ko01200",M2554,,Metabolic protein,NO
+BHE81_RS20545,gene_555,K99992,"ko02010,ko01200",M2555,,Metabolic protein,NO
+BHE81_RS20610,gene_556,K99991,"ko02020,ko03410,ko00190",M2556,,Stress response protein,NO
+BHE81_RS20615,gene_557,K99991,"ko02020,ko03410,ko00190",M2557,,Stress response protein,NO
+BHE81_RS20625,gene_558,K99992,"ko02010,ko01200",M2558,,Metabolic protein,NO
+BHE81_RS20630,gene_559,K99992,"ko02010,ko01200",M2559,,Metabolic protein,NO
+BHE81_RS20635,gene_560,K99992,"ko02010,ko01200",M2560,,Metabolic protein,NO
+BHE81_RS20655,gene_561,K99992,"ko02010,ko01200",M2561,,Metabolic protein,NO
+BHE81_RS20730,gene_562,K99992,"ko02010,ko01200",M2562,,Metabolic protein,NO
+BHE81_RS20735,gene_563,K99992,"ko02010,ko01200",M2563,,Metabolic protein,NO
+BHE81_RS20765,gene_564,K99991,"ko02020,ko03410,ko00190",M2564,,Stress response protein,NO
+BHE81_RS20780,gene_565,K99992,"ko02010,ko01200",M2565,,Metabolic protein,NO
+BHE81_RS20825,gene_566,K99991,"ko02020,ko03410,ko00190",M2566,,Stress response protein,NO
+BHE81_RS20830,gene_567,K99991,"ko02020,ko03410,ko00190",M2567,,Stress response protein,NO
+BHE81_RS20835,gene_568,K99991,"ko02020,ko03410,ko00190",M2568,,Stress response protein,NO
+BHE81_RS20840,gene_569,K99991,"ko02020,ko03410,ko00190",M2569,,Stress response protein,NO
+BHE81_RS20845,gene_570,K99991,"ko02020,ko03410,ko00190",M2570,,Stress response protein,NO
+BHE81_RS20985,gene_571,K99991,"ko02020,ko03410,ko00190",M2571,,Stress response protein,NO
+BHE81_RS21030,gene_572,K99991,"ko02020,ko03410,ko00190",M2572,,Stress response protein,NO
+BHE81_RS21050,gene_573,K99991,"ko02020,ko03410,ko00190",M2573,,Stress response protein,NO
+BHE81_RS21060,gene_574,K99991,"ko02020,ko03410,ko00190",M2574,,Stress response protein,NO
+BHE81_RS21095,gene_575,K99992,"ko02010,ko01200",M2575,,Metabolic protein,NO
+BHE81_RS21100,gene_576,K99992,"ko02010,ko01200",M2576,,Metabolic protein,NO
+BHE81_RS21105,gene_577,K99992,"ko02010,ko01200",M2577,,Metabolic protein,NO
+BHE81_RS21110,gene_578,K99991,"ko02020,ko03410,ko00190",M2578,,Stress response protein,NO
+BHE81_RS21200,gene_579,K99991,"ko02020,ko03410,ko00190",M2579,,Stress response protein,NO
+BHE81_RS21290,gene_580,K99991,"ko02020,ko03410,ko00190",M2580,,Stress response protein,NO
+BHE81_RS21315,gene_581,K99992,"ko02010,ko01200",M2581,,Metabolic protein,NO
+BHE81_RS21320,gene_582,K99992,"ko02010,ko01200",M2582,,Metabolic protein,NO
+BHE81_RS21330,gene_583,K99991,"ko02020,ko03410,ko00190",M2583,,Stress response protein,NO
+BHE81_RS21425,gene_584,K99991,"ko02020,ko03410,ko00190",M2584,,Stress response protein,NO
+BHE81_RS21440,gene_585,K99991,"ko02020,ko03410,ko00190",M2585,,Stress response protein,NO
+BHE81_RS21490,gene_586,K99992,"ko02010,ko01200",M2586,,Metabolic protein,NO
+BHE81_RS21500,gene_587,K99991,"ko02020,ko03410,ko00190",M2587,,Stress response protein,NO
+BHE81_RS21520,gene_588,K99991,"ko02020,ko03410,ko00190",M2588,,Stress response protein,NO
+BHE81_RS21540,gene_589,K99992,"ko02010,ko01200",M2589,,Metabolic protein,NO
+BHE81_RS21570,gene_590,K99992,"ko02010,ko01200",M2590,,Metabolic protein,NO
+BHE81_RS21575,gene_591,K99992,"ko02010,ko01200",M2591,,Metabolic protein,NO
+BHE81_RS21595,gene_592,K99992,"ko02010,ko01200",M2592,,Metabolic protein,NO
+BHE81_RS21635,gene_593,K99992,"ko02010,ko01200",M2593,,Metabolic protein,NO
+BHE81_RS21640,gene_594,K99992,"ko02010,ko01200",M2594,,Metabolic protein,NO
+BHE81_RS21645,gene_595,K99991,"ko02020,ko03410,ko00190",M2595,,Stress response protein,NO
+BHE81_RS21705,gene_596,K99992,"ko02010,ko01200",M2596,,Metabolic protein,NO
+BHE81_RS21720,gene_597,K99992,"ko02010,ko01200",M2597,,Metabolic protein,NO
+BHE81_RS21875,gene_598,K99992,"ko02010,ko01200",M2598,,Metabolic protein,NO
+BHE81_RS21880,gene_599,K99992,"ko02010,ko01200",M2599,,Metabolic protein,NO
+BHE81_RS21885,gene_600,K99992,"ko02010,ko01200",M2600,,Metabolic protein,NO
+BHE81_RS22015,gene_601,K99991,"ko02020,ko03410,ko00190",M2601,,Stress response protein,NO
+BHE81_RS22090,gene_602,K99991,"ko02020,ko03410,ko00190",M2602,,Stress response protein,NO
+BHE81_RS22095,gene_603,K99991,"ko02020,ko03410,ko00190",M2603,,Stress response protein,NO
+BHE81_RS22105,gene_604,K99991,"ko02020,ko03410,ko00190",M2604,,Stress response protein,NO
+BHE81_RS22170,gene_605,K99991,"ko02020,ko03410,ko00190",M2605,,Stress response protein,NO
+BHE81_RS22240,gene_606,K99992,"ko02010,ko01200",M2606,,Metabolic protein,NO
+BHE81_RS22245,gene_607,K99992,"ko02010,ko01200",M2607,,Metabolic protein,NO
+BHE81_RS22435,gene_608,K99992,"ko02010,ko01200",M2608,,Metabolic protein,NO
+BHE81_RS22555,gene_609,K99992,"ko02010,ko01200",M2609,,Metabolic protein,NO
+BHE81_RS22560,gene_610,K99991,"ko02020,ko03410,ko00190",M2610,,Stress response protein,NO
+BHE81_RS22600,gene_611,K99992,"ko02010,ko01200",M2611,,Metabolic protein,NO
+BHE81_RS22795,gene_612,K99991,"ko02020,ko03410,ko00190",M2612,,Stress response protein,NO
+BHE81_RS22835,gene_613,K99991,"ko02020,ko03410,ko00190",M2613,,Stress response protein,NO
+BHE81_RS22840,gene_614,K99991,"ko02020,ko03410,ko00190",M2614,,Stress response protein,NO
+BHE81_RS22845,gene_615,K99991,"ko02020,ko03410,ko00190",M2615,,Stress response protein,NO
+BHE81_RS22850,gene_616,K99991,"ko02020,ko03410,ko00190",M2616,,Stress response protein,NO
+BHE81_RS22855,gene_617,K99991,"ko02020,ko03410,ko00190",M2617,,Stress response protein,NO
+BHE81_RS22930,gene_618,K99992,"ko02010,ko01200",M2618,,Metabolic protein,NO
+BHE81_RS22935,gene_619,K99992,"ko02010,ko01200",M2619,,Metabolic protein,NO
+BHE81_RS22980,gene_620,K99991,"ko02020,ko03410,ko00190",M2620,,Stress response protein,NO
+BHE81_RS23080,gene_621,K99992,"ko02010,ko01200",M2621,,Metabolic protein,NO
+BHE81_RS23085,gene_622,K99992,"ko02010,ko01200",M2622,,Metabolic protein,NO
+BHE81_RS23090,gene_623,K99992,"ko02010,ko01200",M2623,,Metabolic protein,NO
+BHE81_RS23125,gene_624,K99992,"ko02010,ko01200",M2624,,Metabolic protein,NO
+BHE81_RS23130,gene_625,K99992,"ko02010,ko01200",M2625,,Metabolic protein,NO
+BHE81_RS23155,gene_626,K99992,"ko02010,ko01200",M2626,,Metabolic protein,NO
+BHE81_RS23200,gene_627,K99991,"ko02020,ko03410,ko00190",M2627,,Stress response protein,NO
+BHE81_RS23210,gene_628,K99991,"ko02020,ko03410,ko00190",M2628,,Stress response protein,NO
+BHE81_RS23215,gene_629,K99991,"ko02020,ko03410,ko00190",M2629,,Stress response protein,NO
+BHE81_RS23220,gene_630,K99991,"ko02020,ko03410,ko00190",M2630,,Stress response protein,NO
+BHE81_RS23235,gene_631,K99992,"ko02010,ko01200",M2631,,Metabolic protein,NO
+BHE81_RS23250,gene_632,K99991,"ko02020,ko03410,ko00190",M2632,,Stress response protein,NO
+BHE81_RS23290,gene_633,K99992,"ko02010,ko01200",M2633,,Metabolic protein,NO
+BHE81_RS23310,gene_634,K99992,"ko02010,ko01200",M2634,,Metabolic protein,NO
+BHE81_RS23315,gene_635,K99992,"ko02010,ko01200",M2635,,Metabolic protein,NO
+BHE81_RS23320,gene_636,K99992,"ko02010,ko01200",M2636,,Metabolic protein,NO
+BHE81_RS23325,gene_637,K99992,"ko02010,ko01200",M2637,,Metabolic protein,NO
+BHE81_RS23450,gene_638,K99992,"ko02010,ko01200",M2638,,Metabolic protein,NO
+BHE81_RS23490,gene_639,K99991,"ko02020,ko03410,ko00190",M2639,,Stress response protein,NO
+BHE81_RS23650,gene_640,K99991,"ko02020,ko03410,ko00190",M2640,,Stress response protein,NO
+BHE81_RS23685,gene_641,K99992,"ko02010,ko01200",M2641,,Metabolic protein,NO
+BHE81_RS23760,gene_642,K99991,"ko02020,ko03410,ko00190",M2642,,Stress response protein,NO
+BHE81_RS23765,gene_643,K99991,"ko02020,ko03410,ko00190",M2643,,Stress response protein,NO
+BHE81_RS23815,gene_644,K99991,"ko02020,ko03410,ko00190",M2644,,Stress response protein,NO
+BHE81_RS23910,gene_645,K99992,"ko02010,ko01200",M2645,,Metabolic protein,NO
+BHE81_RS23915,gene_646,K99992,"ko02010,ko01200",M2646,,Metabolic protein,NO
+BHE81_RS23920,gene_647,K99992,"ko02010,ko01200",M2647,,Metabolic protein,NO
+BHE81_RS24000,gene_648,K99992,"ko02010,ko01200",M2648,,Metabolic protein,NO
+BHE81_RS24005,gene_649,K99992,"ko02010,ko01200",M2649,,Metabolic protein,NO
+BHE81_RS24080,gene_650,K99992,"ko02010,ko01200",M2650,,Metabolic protein,NO
+BHE81_RS24165,gene_651,K99992,"ko02010,ko01200",M2651,,Metabolic protein,NO
+BHE81_RS24205,gene_652,K99991,"ko02020,ko03410,ko00190",M2652,,Stress response protein,NO
+BHE81_RS24415,gene_653,K99992,"ko02010,ko01200",M2653,,Metabolic protein,NO
+BHE81_RS24440,gene_654,K99991,"ko02020,ko03410,ko00190",M2654,,Stress response protein,NO
+BHE81_RS24460,gene_655,K99992,"ko02010,ko01200",M2655,,Metabolic protein,NO
+BHE81_RS24500,gene_656,K99992,"ko02010,ko01200",M2656,,Metabolic protein,NO
+BHE81_RS24505,gene_657,K99991,"ko02020,ko03410,ko00190",M2657,,Stress response protein,NO
+BHE81_RS24585,gene_658,K99992,"ko02010,ko01200",M2658,,Metabolic protein,NO
+BHE81_RS24625,gene_659,K99991,"ko02020,ko03410,ko00190",M2659,,Stress response protein,NO
+BHE81_RS24655,gene_660,K99991,"ko02020,ko03410,ko00190",M2660,,Stress response protein,NO
+BHE81_RS24690,gene_661,K99992,"ko02010,ko01200",M2661,,Metabolic protein,NO
+BHE81_RS24695,gene_662,K99992,"ko02010,ko01200",M2662,,Metabolic protein,NO
+BHE81_RS24805,gene_663,K99992,"ko02010,ko01200",M2663,,Metabolic protein,NO
+BHE81_RS24810,gene_664,K99992,"ko02010,ko01200",M2664,,Metabolic protein,NO
+BHE81_RS24815,gene_665,K99992,"ko02010,ko01200",M2665,,Metabolic protein,NO
+BHE81_RS24820,gene_666,K99992,"ko02010,ko01200",M2666,,Metabolic protein,NO
+BHE81_RS24825,gene_667,K99992,"ko02010,ko01200",M2667,,Metabolic protein,NO
+BHE81_RS24830,gene_668,K99992,"ko02010,ko01200",M2668,,Metabolic protein,NO
+BHE81_RS24840,gene_669,K99991,"ko02020,ko03410,ko00190",M2669,,Stress response protein,NO
+BHE81_RS24865,gene_670,K99992,"ko02010,ko01200",M2670,,Metabolic protein,NO
+BHE81_RS24885,gene_671,K99991,"ko02020,ko03410,ko00190",M2671,,Stress response protein,NO
+BHE81_RS24890,gene_672,K99991,"ko02020,ko03410,ko00190",M2672,,Stress response protein,NO
+BHE81_RS24945,gene_673,K99992,"ko02010,ko01200",M2673,,Metabolic protein,NO
+BHE81_RS24955,gene_674,K99992,"ko02010,ko01200",M2674,,Metabolic protein,NO
+BHE81_RS25045,gene_675,K99991,"ko02020,ko03410,ko00190",M2675,,Stress response protein,NO
+BHE81_RS25090,gene_676,K99991,"ko02020,ko03410,ko00190",M2676,,Stress response protein,NO
+BHE81_RS25200,gene_677,K99991,"ko02020,ko03410,ko00190",M2677,,Stress response protein,NO
+BHE81_RS25210,gene_678,K99992,"ko02010,ko01200",M2678,,Metabolic protein,NO
+BHE81_RS25230,gene_679,K99992,"ko02010,ko01200",M2679,,Metabolic protein,NO
+BHE81_RS25265,gene_680,K99992,"ko02010,ko01200",M2680,,Metabolic protein,NO
+BHE81_RS25270,gene_681,K99992,"ko02010,ko01200",M2681,,Metabolic protein,NO
+BHE81_RS25295,gene_682,K99991,"ko02020,ko03410,ko00190",M2682,,Stress response protein,NO

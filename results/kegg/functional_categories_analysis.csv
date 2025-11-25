@@ -1,0 +1,8 @@
+Functional_Category,Total_Genes,Up_Regulated,Down_Regulated,Paper_Genes,Mean_Log2FC,Up_Ratio
+Oxidative_Stress,99,99,0,0,2.7995576430139995,1.0
+DNA_Repair,72,72,0,0,3.1914359988075143,1.0
+Signal_Transduction,83,83,0,1,2.7906104279578754,1.0
+Sulfur_Metabolism,65,26,39,0,-0.27082939364465186,0.4
+Iron_Transport,55,22,33,0,-0.319597718804783,0.4
+Fatty_Acid_Metabolism,23,23,0,0,1.4848971138721065,1.0
+Energy_Metabolism,187,0,187,0,-3.018010585830104,0.0

@@ -1,0 +1,11 @@
+Pathway_ID,Pathway_Name,Total_Genes,Up_Regulated,Down_Regulated,Up_Ratio,Mean_Log2FC,Paper_Genes,Enrichment_Score
+ko03410,Base excision repair,72,72,0,1.0,3.1914359988075143,0,3.1914359988075143
+ko00190,Oxidative phosphorylation,99,99,0,1.0,2.7995576430139995,0,2.7995576430139995
+ko02020,Two-component system,83,83,0,1.0,2.7906104279578754,1,2.7906104279578754
+ko01060,Biosynthesis of unsaturated fatty acids,23,23,0,1.0,1.4848971138721065,0,1.4848971138721065
+ko00520,Amino sugar and nucleotide sugar metabolism,19,19,0,1.0,1.4740658472577415,0,1.4740658472577415
+ko02010,ABC transporters,55,22,33,0.4,-0.319597718804783,0,0.1278390875219132
+ko00920,Sulfur metabolism,65,26,39,0.4,-0.27082939364465186,0,0.10833175745786075
+ko01200,Carbon metabolism,100,0,100,0.0,-3.1222808847347516,0,0.0
+ko00020,Citrate cycle (TCA cycle),87,0,87,0.0,-2.8981596675489,0,0.0
+ko01230,Biosynthesis of amino acids,80,0,80,0.0,-2.8353272200672253,0,0.0

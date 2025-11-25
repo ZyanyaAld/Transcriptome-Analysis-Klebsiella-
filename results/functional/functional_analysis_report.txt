@@ -1,0 +1,32 @@
+REPORTE DE ANÁLISIS FUNCIONAL - Klebsiella sp. AqSCr
+============================================================
+
+RESUMEN GENERAL:
+- Total DEGs analizados: 683
+- DEGs con anotación funcional: 683
+- DEGs up-regulados: 344
+- DEGs down-regulados: 339
+
+TOP 10 GENES UP-REGULADOS:
+- BHE81_RS07190: M20 peptidase aminoacylase family protein (FC: 7.61)
+- BHE81_RS13635: iron/manganese ABC transporter permease subunit SitC (FC: 7.52)
+- BHE81_RS01765: carbonic anhydrase (FC: 7.17)
+- BHE81_RS07160: transporter substrate-binding domain-containing protein (FC: 7.14)
+- BHE81_RS06965: putative FMN-dependent luciferase-like monooxygenase (FC: 7.03)
+- BHE81_RS07165: amino acid ABC transporter ATP-binding protein (FC: 6.80)
+- BHE81_RS07170: amino acid ABC transporter permease (FC: 6.77)
+- BHE81_RS05835: methionine ABC transporter ATP-binding protein (FC: 6.68)
+- BHE81_RS07175: GNAT family N-acetyltransferase (FC: 6.12)
+- BHE81_RS06960: dipeptide ABC transporter ATP-binding protein (FC: 6.02)
+
+TOP 10 GENES DOWN-REGULADOS:
+- BHE81_RS08830: respiratory nitrate reductase subunit gamma (FC: -8.89)
+- BHE81_RS07000: formate dehydrogenase-N subunit gamma (FC: -8.37)
+- BHE81_RS08845: nitrate reductase subunit alpha (FC: -8.09)
+- BHE81_RS08835: nitrate reductase molybdenum cofactor assembly chaperone (FC: -7.76)
+- BHE81_RS08840: nitrate reductase subunit beta (FC: -7.72)
+- BHE81_RS08850: NarK family nitrate/nitrite MFS transporter (FC: -7.63)
+- BHE81_RS07005: formate dehydrogenase subunit beta (FC: -7.53)
+- BHE81_RS07010: formate dehydrogenase-N subunit alpha (FC: -7.40)
+- BHE81_RS11335: anaerobic glycerol-3-phosphate dehydrogenase subunit A (FC: -7.00)
+- BHE81_RS08215: DUF1062 domain-containing protein (FC: -6.71)
