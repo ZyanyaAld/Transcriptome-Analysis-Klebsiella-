@@ -1,0 +1,26 @@
+[23:12:22] This is prokka 1.13
+[23:12:22] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[23:12:22] Homepage is https://github.com/tseemann/prokka
+[23:12:22] Local time is Mon Nov 24 23:12:22 2025
+[23:12:22] You are zyanyava
+[23:12:22] Operating system is linux
+[23:12:22] You have BioPerl 1.006924
+[23:12:22] System has 96 cores.
+[23:12:22] Will use maximum of 4 cores.
+[23:12:22] Annotating as >>> Bacteria <<<
+[23:12:22] Generating locus_tag from 'data/genome/GCF_008452795.1_ASM845279v1_genomic.fna' contents.
+[23:12:22] Setting --locustag NNECBCFI from MD5 77ecbcf2da5a67fd76ef2fd2d52227fe
+[23:12:22] Enabling options to ensure Genbank/ENA/DDJB submission compliance.
+[23:12:22] Re-using existing --outdir results/prokka
+[23:12:22] Using filename prefix: klebsiella.XXX
+[23:12:22] Setting HMMER_NCPU=1
+[23:12:22] Writing log to: results/prokka/klebsiella.log
+[23:12:22] Command: /export/apps/bioconda/bin/prokka --outdir results/prokka --prefix klebsiella --cpus 4 --force --compliant data/genome/GCF_008452795.1_ASM845279v1_genomic.fna
+[23:12:22] Appending to PATH: /export/apps/bioconda/bin
+[23:12:22] Looking for 'aragorn' - found /export/apps/bioconda/bin/aragorn
+[23:12:22] Determined aragorn version is 1.2
+[23:12:22] Looking for 'barrnap' - found /export/apps/bioconda/bin/barrnap
+[23:12:22] Determined barrnap version is 0.9
+[23:12:22] Looking for 'blastp' - found /export/apps/bioconda/bin/blastp
+[23:12:23] Determined blastp version is 2.16
+[23:12:23] Prokka needs blastp 2.2 or higher. Please upgrade and try again.

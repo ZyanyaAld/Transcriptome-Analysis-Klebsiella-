@@ -1,0 +1,11 @@
+functional_category,gene_count,mean_log2fc,std_log2fc,mean_padj
+Unknown,946,0.0559,2.8724,0.0094
+Energy_Metabolism,131,-1.138,3.0564,0.0089
+Metal_Resistance,118,0.863,3.2594,0.0091
+Signal_Transduction,46,0.0144,2.4219,0.0098
+DNA_Repair,30,-1.863,2.8437,0.005
+Membrane_Transport,30,-1.2045,2.0831,0.0102
+Sulfur_Metabolism,15,0.8069,2.7872,0.0053
+Fatty_Acid_Metabolism,15,1.9585,2.6352,0.0129
+Oxidative_Stress,13,-0.4936,2.4744,0.0107
+Iron_Homeostasis,12,1.0752,2.5961,0.0064

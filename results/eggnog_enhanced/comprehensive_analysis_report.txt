@@ -1,0 +1,12 @@
+REPORTE COMPRENSIVO - ANÁLISIS FUNCIONAL KLEBSIELLA AqSCr
+======================================================================
+
+RESUMEN EJECUTIVO:
+--------------------------------------------------
+Total DEGs analizados: 1356
+DEGs con anotación funcional: 1356
+DEGs up-regulados: 685
+DEGs down-regulados: 671
+
+DISTRIBUCIÓN POR CATEGORÍA FUNCIONAL:
+--------------------------------------------------

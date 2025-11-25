@@ -1,0 +1,60 @@
+gene_id,product,log2FoldChange,padj,metal_category,known_function
+BHE81_RS27925,TonB-dependent copper receptor,1.5603231414577663,0.0065126606350152,Iron_Transport,True
+BHE81_RS25440,conjugal transfer complement resistance protein TraT,-1.6173781325529266,0.0234339309391595,Iron_Transport,True
+BHE81_RS26230,TonB-dependent Fe(3+) dicitrate receptor FecA,2.538400963269346,1.991511546491129e-05,Iron_Transport,True
+BHE81_RS26815,tetracycline resistance transcriptional repressor TetR(D),2.224207063807908,0.0097405645455465,Putative_Metal_Resistance,False
+BHE81_RS27330,OsmC family protein,2.5771463813186526,0.0006867080004151,General_Stress,True
+BHE81_RS27425,IS4-like element ISApu1 family transposase,-2.4977439965575434,5.42066659556702e-05,Iron_Transport,True
+BHE81_RS00060,NAD(P)H-dependent oxidoreductase,-2.162495600450047,0.0447027551996113,Iron_Transport,True
+BHE81_RS00150,NAD-dependent succinate-semialdehyde dehydrogenase,1.936750422021972,0.000827882887257,Iron_Transport,True
+BHE81_RS00460,molecular chaperone OsmY,2.550437751630637,2.8287047882210876e-10,General_Stress,True
+BHE81_RS01755,NADPH-dependent aldehyde reductase Ahr,1.3994482476157453,0.0299679200742816,Iron_Transport,True
+BHE81_RS02185,SAM-dependent methyltransferase,-1.713961918337788,0.0424603552716603,Iron_Transport,True
+BHE81_RS03925,ATP-independent periplasmic protein-refolding chaperone Spy,4.407152436073443,8.886486488096127e-30,Iron_Transport,True
+BHE81_RS06965,putative FMN-dependent luciferase-like monooxygenase,7.034636772868892,0.0025757395979753,Iron_Transport,True
+BHE81_RS28645,NtaA/DmoA family FMN-dependent monooxygenase,5.379743130744387,8.296580993637069e-09,Iron_Transport,True
+BHE81_RS08290,LLM class flavin-dependent oxidoreductase,2.7708591554148057,0.0029343604249357,Iron_Transport,True
+BHE81_RS08790,two-component system response regulator RssB,1.757259075138596,0.0153550488166126,Iron_Transport,True
+BHE81_RS08855,nitrate/nitrite two-component system sensor histidine kinase NarX,-2.2949605334433727,6.766910816276514e-06,Iron_Transport,True
+BHE81_RS08860,two-component system response regulator NarL,-2.4900214438817527,6.553489558046405e-09,Iron_Transport,True
+BHE81_RS09245,TonB-dependent siderophore receptor,2.31871801229003,4.641534390554596e-06,Iron_Transport,True
+BHE81_RS09565,tellurite resistance TerB family protein,1.531131016315443,1.3728568981072588e-05,Putative_Metal_Resistance,False
+BHE81_RS10105,excinuclease ABC subunit UvrC,-1.036251594754194,0.0343706502279756,DNA_Repair,True
+BHE81_RS11825,Nramp family divalent metal transporter,2.7049932220687807,1.791243283026962e-07,Iron_Transport,True
+BHE81_RS11975,RpoE-regulated lipoprotein,1.3210512330266666,0.033534184538121,General_Stress,True
+BHE81_RS12110,formate-dependent uric acid utilization protein AegA,-3.6769241597294777,3.381789541055216e-13,Iron_Transport,True
+BHE81_RS12760,RNA polymerase sigma factor RpoE,1.6706664348713849,1.791243283026962e-07,General_Stress,True
+BHE81_RS12970,DNA repair protein RecN,1.4918081398018668,1.5921301200101438e-06,DNA_Repair,True
+BHE81_RS13370,recombinase RecA,1.2905305597526284,5.523600548130027e-05,DNA_Repair,True
+BHE81_RS13670,TonB-dependent receptor domain-containing protein,3.9229715448472966,6.271898238740983e-10,Iron_Transport,True
+BHE81_RS13885,two-component sensor histidine kinase BarA,-1.21479152750397,0.031502136525418,Iron_Transport,True
+BHE81_RS13990,LLM class flavin-dependent oxidoreductase,2.446229706344734,0.0376782855814626,Iron_Transport,True
+BHE81_RS14000,FMNH2-dependent alkanesulfonate monooxygenase,3.2587193498534286,0.0055838777827194,Iron_Transport,True
+BHE81_RS14005,sigma-54-dependent Fis family transcriptional regulator,4.315956281375204,7.274016313086205e-15,Iron_Transport,True
+BHE81_RS14125,cobalt ECF transporter S component CbiM,-4.0095275728417406,3.603772135120001e-06,Iron_Transport,True
+BHE81_RS15190,pyridoxal-phosphate dependent enzyme,3.2640466852002303,9.607814023475403e-10,Iron_Transport,True
+BHE81_RS15265,TonB system transport protein ExbD,2.407486603310722,0.0002216248336195,Iron_Transport,True
+BHE81_RS17270,[Fe-S]-dependent transcriptional repressor FeoC,-2.539468071391558,0.0108323186038787,Iron_Transport,True
+BHE81_RS18195,2%2C3-bisphosphoglycerate-independent phosphoglycerate mutase,-2.355063990661361,0.000745953281156,Iron_Transport,True
+BHE81_RS18945,siderophore enterobactin receptor FepA,4.037415978271795,2.8018634791711545e-11,Iron_Transport,True
+BHE81_RS18950,enterochelin esterase,3.676866758983366,1.3223164332940416e-08,Iron_Transport,True
+BHE81_RS18960,enterobactin non-ribosomal peptide synthetase EntF,2.543543095800985,4.768065225444557e-06,Iron_Transport,True
+BHE81_RS18965,iron-enterobactin ABC transporter ATP-binding protein,4.459325827827775,2.0696974255752156e-05,Iron_Transport,True
+BHE81_RS18980,enterobactin transporter EntS,4.65112138801532,1.1793291400752e-06,Iron_Transport,True
+BHE81_RS18990,isochorismate synthase EntC,3.763038618827995,9.607814023475403e-10,Iron_Transport,True
+BHE81_RS18995,(2%2C3-dihydroxybenzoyl)adenylate synthase EntE,5.145908205204864,3.8387872988353343e-16,Iron_Transport,True
+BHE81_RS19000,enterobactin biosynthesis bifunctional isochorismatase/aryl carrier protein EntB,4.507765552368723,3.220289577627093e-08,Iron_Transport,True
+BHE81_RS19005,2%2C3-dihydro-2%2C3-dihydroxybenzoate dehydrogenase EntA,3.269792912447796,0.0001976027347274,Iron_Transport,True
+BHE81_RS19010,proofreading thioesterase EntH,2.5094003158653666,1.0377704535776132e-05,Iron_Transport,True
+BHE81_RS19200,1%2C2-dihydroxy-3-keto-5-methylthiopentene dioxygenase,1.6094493837368318,0.028829949701681,Iron_Transport,True
+BHE81_RS19650,2-oxoglutarate dehydrogenase E1 component,1.0433749110837018,0.0050331458358992,Iron_Transport,True
+BHE81_RS19990,excinuclease ABC subunit UvrB,1.3445627848201258,1.660719972255367e-05,DNA_Repair,True
+BHE81_RS20545,ATP-dependent endonuclease,-1.190794805076537,0.0019216249132817,Iron_Transport,True
+BHE81_RS20835,FMNH2-dependent alkanesulfonate monooxygenase,3.8957677090882346,3.155559092365654e-11,Iron_Transport,True
+BHE81_RS20845,NADPH-dependent FMN reductase,4.141663867647974,1.61960264252983e-06,Iron_Transport,True
+BHE81_RS21645,two-component system sensor histidine kinase PhoQ,1.4691771790911368,0.0034281020828836,Iron_Transport,True
+BHE81_RS23250,ATP-dependent protease subunit HslV,1.4433885908045878,0.0019217690473405,Iron_Transport,True
+BHE81_RS23490,ATP-dependent RNA helicase RhlB,1.2763130893260393,0.0004803107558502,Iron_Transport,True
+BHE81_RS24000,two-component system sensor histidine kinase ZraS,-2.729919766431123,1.3365427461919768e-10,Iron_Transport,True
+BHE81_RS24005,sigma-54-dependent response regulator transcription factor ZraR,-1.935487442659234,0.0042306267002832,Iron_Transport,True
+BHE81_RS24955,biofilm peroxide resistance protein BsmA,-1.8840106749926897,4.6315519539673e-05,Putative_Metal_Resistance,False
